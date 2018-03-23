@@ -5,22 +5,20 @@ import android.graphics.Color;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v4.content.ContextCompat;
 import android.content.pm.PackageManager;
-import android.support.v4.app.ActivityCompat;
+import android.Manifest;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.location.Address;
-import android.location.Geocoder;
-import android.widget.Toast;
-
-import java.util.List;
-import java.util.Locale;
-import java.util.Timer;
-import java.util.TimerTask;
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.location.*;
+import com.google.android.gms.tasks.Task;
 
 public class Tracker extends AppCompatActivity implements LocationListener
 {
@@ -30,17 +28,16 @@ public class Tracker extends AppCompatActivity implements LocationListener
     TextView yLabel;    //TextView for Y coordinates
     int buttonStatus = 1;
 
-    LocationManager locationManager;
-    LocationListener locationListener;
-    double latitude;
-    double longitude;
+    FusedLocationProviderClient locationClient;
+    LocationCallback mLocationCallback;
+    LocationRequest mLocationRequest;
 
-    Timer t = new Timer();
+    double latitude = 0.0;   //lat
+    double longitude = 0.0;  //long
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tracker);
 
@@ -49,31 +46,50 @@ public class Tracker extends AppCompatActivity implements LocationListener
         xLabel = (TextView) findViewById(R.id.locationXtxt);
         yLabel = (TextView) findViewById(R.id.locationYtxt);
 
+        locationClient = LocationServices.getFusedLocationProviderClient(this);
 
-        if (buttonStatus == 1)
-        {
-            //Check permissions
-            if (ContextCompat.checkSelfPermission(getApplicationContext(),
-                    android.Manifest.permission.ACCESS_FINE_LOCATION)
-                    != PackageManager.PERMISSION_GRANTED &&
-                    ActivityCompat.checkSelfPermission(getApplicationContext(),
-                            android.Manifest.permission.ACCESS_COARSE_LOCATION)
-                            != PackageManager.PERMISSION_GRANTED)
-            {
-                ActivityCompat.requestPermissions(this,
-                        new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION,
-                                android.Manifest.permission.ACCESS_COARSE_LOCATION}, 101);
-
-
-            }
+        if (ContextCompat.checkSelfPermission(Tracker.this, Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+            // Permission is not granted
+            // Need to prompt user with Android dialog that asks to use GPS
         }
-        else
-        {
-            button.setText("Off");
-            button.setBackgroundColor(Color.RED);
-            text.setText("Idle");
-        }
-        getLocation();
+
+        locationClient.getLastLocation()
+                .addOnSuccessListener(this, new OnSuccessListener<Location>() {
+                    @Override
+                    public void onSuccess(Location location) {
+                        latitude = location.getLatitude();
+                        longitude = location.getLongitude();
+                        System.out.println("Location success!");
+                        if (location == null) {
+                            System.out.println("Location is null!");
+                        }
+                    }
+                });
+
+        //start asking for periodic location updates
+        createLocationRequest();
+
+
+        //anonymous class to do location callback
+        mLocationCallback = new LocationCallback() {
+            @Override
+            public void onLocationResult(LocationResult locationResult) {
+                if (locationResult == null) {
+                    return;
+                }
+                for (Location location : locationResult.getLocations()) {
+                    latitude = location.getLatitude();
+                    longitude = location.getLongitude();
+                    if(buttonStatus == 1) {
+                        xLabel.setText(Double.toString(latitude));
+                        yLabel.setText(Double.toString(longitude));
+                    }
+                }
+            };
+        };
+
+        locationClient.requestLocationUpdates(mLocationRequest,mLocationCallback, Looper.myLooper());
 
         //Turns location transmission off or on.
         button.setOnClickListener(new View.OnClickListener(){
@@ -82,23 +98,22 @@ public class Tracker extends AppCompatActivity implements LocationListener
             {
                 switch (buttonStatus) {
 
-                    //Turn on, if off
+                    //Turn off
                     case 0:
-                        text.setText("Tracking");
+                        text.setText("Location is being transmitted");
                         button.setText("On");
                         button.setBackgroundColor(Color.GREEN);
+                        //Supposedly printing location grabbed when tracker started in OnCreate listener
+                        //need some way to write the update, perhaps a handler
                         buttonStatus = 1;
-                        //getLocation();
-                        //xLabel.setText("" + longitude);
-                        //yLabel.setText("" + latitude);
                         break;
-                    //Turn off, if on
+                    //Turn on
                     case 1:
-                        text.setText("Idle");
+                        text.setText("Location is not being transmitted");
                         button.setText("Off");
-                        xLabel.setText("");
-                        yLabel.setText("");
                         button.setBackgroundColor(Color.RED);
+                        xLabel.setText("0.0");
+                        yLabel.setText("0.0");
                         buttonStatus = 0;
                         break;
                     default:
@@ -106,67 +121,45 @@ public class Tracker extends AppCompatActivity implements LocationListener
                 }
             }
         });
-
-        t.schedule(new TimerTask()
-        {
-            @Override
-            public void run()
-            {
-                getLocation();
-                xLabel.setText("" + longitude);
-                yLabel.setText("" + latitude);
-            }
-        }, 0 , 10000);
-    }
-
-
-    @Override
-    public void onLocationChanged(Location location) {
-        xLabel.setText("Longitude:\n" + location.getLongitude());
-        yLabel.setText("Latitude:\n" + location.getLatitude());
-        try {
-            Geocoder geocoder = new Geocoder(this, Locale.getDefault());
-            List<Address> addresses = geocoder.getFromLocation(location.getLatitude(), location.getLongitude(), 1);
-        }catch(Exception e)
-        {
-
-        }
-
-    }
-
-
-    @Override
-    public void onProviderDisabled(String provider) {
-        Toast.makeText(Tracker.this, "Please Enable GPS and Internet", Toast.LENGTH_SHORT).show();
     }
 
     @Override
-    public void onStatusChanged(String provider, int status, Bundle extras) {
-
-    }
-
-    @Override
-    public void onProviderEnabled(String provider) {
-
-    }
-
-
-    void getLocation()
+    public void onLocationChanged(Location location)
     {
-        try {
-            locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
-            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 50, 5, this);
-            //locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
-            longitude = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER).getLongitude();
-            latitude = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER).getLatitude();
-        }
-        catch(SecurityException e) {
-            e.printStackTrace();
-        }
-        catch(NullPointerException e) {
-            e.printStackTrace();
-            longitude = 0;
-            latitude = 0;
-        }
+
     }
+
+    @Override
+    public void onProviderDisabled(String provider)
+    {
+
+    }
+
+    @Override
+    public void onStatusChanged(String provider, int status, Bundle extras)
+    {
+
+    }
+
+    @Override
+    public void onProviderEnabled(String provider)
+    {
+
+    }
+
+    //asks for periodic updates
+    protected void createLocationRequest() {
+        mLocationRequest = new LocationRequest();
+        mLocationRequest.setInterval(500);
+        mLocationRequest.setFastestInterval(250);
+        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+
+        //creates location request
+        LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder()
+                .addLocationRequest(mLocationRequest);
+
+        SettingsClient client = LocationServices.getSettingsClient(this);
+        Task<LocationSettingsResponse> task = client.checkLocationSettings(builder.build());
+    }
+
 }
