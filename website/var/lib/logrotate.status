@@ -1,0 +1,16 @@
+logrotate state -- version 2
+"/var/log/yum.log" 2018-2-12
+"/var/log/httpd/ssl_access_log" 2018-3-18
+"/var/log/dracut.log" 2018-2-12
+"/var/log/httpd/error_log" 2018-3-18
+"/var/log/httpd/ssl_error_log" 2018-3-18
+"/var/log/wtmp" 2018-2-12
+"/var/log/spooler" 2018-3-18
+"/var/log/btmp" 2018-3-1
+"/var/log/maillog" 2018-3-18
+"/var/log/httpd/ssl_request_log" 2018-3-18
+"/var/log/secure" 2018-3-18
+"/var/log/messages" 2018-3-18
+"/var/log/httpd/access_log" 2018-3-18
+"/var/log/cron" 2018-3-18
+"/var/account/pacct" 2018-2-12

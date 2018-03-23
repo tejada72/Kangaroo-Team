@@ -1,0 +1,50 @@
+394:e01cafac82a012bc5464d3891fef7ed9d4b6e457
+0
+3
+amzn-main:5883:1506841597
+amzn-updates:1017:1518045287
+installed:399:aa6a2916641f5dd3d46c8be2f2a9d929a5ff7227
+5
+mbr: httpd-tools,x86_64,0,2.2.34,1.16.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.34,1.16.amzn1@a:dependson
+  depends_on: httpd,x86_64,0,2.2.34,1.16.amzn1@a
+mbr: apr-util,x86_64,0,1.5.4,6.18.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.34,1.16.amzn1@a:dependson apr-util-ldap,x86_64,0,1.5.4,6.18.amzn1@a:dependson httpd-tools,x86_64,0,2.2.34,1.16.amzn1@a:dependson
+  depends_on: httpd,x86_64,0,2.2.34,1.16.amzn1@a apr-util-ldap,x86_64,0,1.5.4,6.18.amzn1@a httpd-tools,x86_64,0,2.2.34,1.16.amzn1@a
+mbr: httpd,x86_64,0,2.2.34,1.16.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: apr,x86_64,0,1.5.2,5.13.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.34,1.16.amzn1@a:dependson apr-util,x86_64,0,1.5.4,6.18.amzn1@a:dependson httpd-tools,x86_64,0,2.2.34,1.16.amzn1@a:dependson
+  depends_on: httpd,x86_64,0,2.2.34,1.16.amzn1@a apr-util,x86_64,0,1.5.4,6.18.amzn1@a httpd-tools,x86_64,0,2.2.34,1.16.amzn1@a
+mbr: apr-util-ldap,x86_64,0,1.5.4,6.18.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.34,1.16.amzn1@a:dependson
+  depends_on: httpd,x86_64,0,2.2.34,1.16.amzn1@a

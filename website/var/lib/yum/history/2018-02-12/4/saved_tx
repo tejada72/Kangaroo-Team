@@ -1,0 +1,122 @@
+399:aa6a2916641f5dd3d46c8be2f2a9d929a5ff7227
+0
+3
+amzn-main:5883:1506841597
+amzn-updates:1017:1518045287
+installed:412:fee0b19a8ca69966fa549e6864c192a0c5df7427
+13
+mbr: perl-DBI,x86_64,0,1.627,4.8.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mysql55-server,x86_64,0,5.5.58,1.19.amzn1@a:dependson perl-DBD-MySQL55,x86_64,0,4.023,5.23.amzn1@a:dependson perl-DBD-MySQL55,x86_64,0,4.023,5.23.amzn1@a:dependson
+  depends_on: mysql55-server,x86_64,0,5.5.58,1.19.amzn1@a perl-DBD-MySQL55,x86_64,0,4.023,5.23.amzn1@a perl-DBD-MySQL55,x86_64,0,4.023,5.23.amzn1@a
+mbr: mysql55,x86_64,0,5.5.58,1.19.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mysql55-server,x86_64,0,5.5.58,1.19.amzn1@a:dependson
+  depends_on: mysql55-server,x86_64,0,5.5.58,1.19.amzn1@a
+mbr: perl-IO-Compress,noarch,0,2.061,2.12.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-PlRPC,noarch,0,0.2020,14.7.amzn1@a:dependson
+  depends_on: perl-PlRPC,noarch,0,0.2020,14.7.amzn1@a
+mbr: perl-PlRPC,noarch,0,0.2020,14.7.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-DBI,x86_64,0,1.627,4.8.amzn1@a:dependson
+  depends_on: perl-DBI,x86_64,0,1.627,4.8.amzn1@a
+mbr: perl-Compress-Raw-Zlib,x86_64,1,2.061,4.1.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-IO-Compress,noarch,0,2.061,2.12.amzn1@a:dependson
+  depends_on: perl-IO-Compress,noarch,0,2.061,2.12.amzn1@a
+mbr: perl-DBD-MySQL55,x86_64,0,4.023,5.23.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mysql55-server,x86_64,0,5.5.58,1.19.amzn1@a:dependson
+  depends_on: mysql55-server,x86_64,0,5.5.58,1.19.amzn1@a
+mbr: perl-Net-Daemon,noarch,0,0.48,5.5.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-PlRPC,noarch,0,0.2020,14.7.amzn1@a:dependson
+  depends_on: perl-PlRPC,noarch,0,0.2020,14.7.amzn1@a
+mbr: perl-Compress-Raw-Bzip2,x86_64,0,2.061,3.11.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-IO-Compress,noarch,0,2.061,2.12.amzn1@a:dependson
+  depends_on: perl-IO-Compress,noarch,0,2.061,2.12.amzn1@a
+mbr: mysql-config,x86_64,0,5.5.58,1.19.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mysql55-server,x86_64,0,5.5.58,1.19.amzn1@a:dependson mysql55,x86_64,0,5.5.58,1.19.amzn1@a:dependson
+  depends_on: mysql55-server,x86_64,0,5.5.58,1.19.amzn1@a mysql55,x86_64,0,5.5.58,1.19.amzn1@a
+mbr: mysql55-libs,x86_64,0,5.5.58,1.19.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mysql55-server,x86_64,0,5.5.58,1.19.amzn1@a:dependson mysql55,x86_64,0,5.5.58,1.19.amzn1@a:dependson perl-DBD-MySQL55,x86_64,0,4.023,5.23.amzn1@a:dependson perl-DBD-MySQL55,x86_64,0,4.023,5.23.amzn1@a:dependson
+  depends_on: mysql55-server,x86_64,0,5.5.58,1.19.amzn1@a mysql55,x86_64,0,5.5.58,1.19.amzn1@a perl-DBD-MySQL55,x86_64,0,4.023,5.23.amzn1@a perl-DBD-MySQL55,x86_64,0,4.023,5.23.amzn1@a
+mbr: perl-Data-Dumper,x86_64,0,2.145,3.5.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mysql55-server,x86_64,0,5.5.58,1.19.amzn1@a:dependson perl-DBI,x86_64,0,1.627,4.8.amzn1@a:dependson
+  depends_on: mysql55-server,x86_64,0,5.5.58,1.19.amzn1@a perl-DBI,x86_64,0,1.627,4.8.amzn1@a
+mbr: mysql-server,noarch,0,5.5,1.6.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: mysql55-server,x86_64,0,5.5.58,1.19.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mysql-server,noarch,0,5.5,1.6.amzn1@a:dependson
+  depends_on: mysql-server,noarch,0,5.5,1.6.amzn1@a

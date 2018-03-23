@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repomd xmlns="http://linux.duke.edu/metadata/repo" xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+ <revision>1521228663</revision>
+<data type="other_db">
+  <checksum type="sha256">452881918b03215900f70e2c90e4eb1533cf71e1f1013c1df9681dd886dc14f7</checksum>
+  <open-checksum type="sha256">5f162ee4f4fd0d682e1935e2889c4f47dec47dca07f3f0ba712f234775cbeae8</open-checksum>
+  <location href="repodata/other.sqlite.bz2"/>
+  <timestamp>1521228663</timestamp>
+  <database_version>10</database_version>
+  <size>475</size>
+  <open-size>24576</open-size>
+</data>
+<data type="group">
+  <checksum type="sha256">ed324d2d725edfde492b5db8061fff71720ba81751142c005011e96dd13b827c</checksum>
+  <location href="repodata/comps.xml"/>
+  <timestamp>1521228650</timestamp>
+  <database_version>10</database_version>
+  <size>34717</size>
+</data>
+<data type="filelists_db">
+  <checksum type="sha256">c0263e9a8bb406bf3c0b108e142ee4026d1ee838e630e3f184724dc77f97877e</checksum>
+  <open-checksum type="sha256">9e5f060fc3fa94a8550ef649e27f182cd1eefa491b4b32d9a3c151ec91ae1427</open-checksum>
+  <location href="repodata/filelists.sqlite.bz2"/>
+  <timestamp>1521228662</timestamp>
+  <database_version>10</database_version>
+  <size>4891149</size>
+  <open-size>27103232</open-size>
+</data>
+<data type="group_gz">
+  <checksum type="sha256">98634990afe7ac7ac5ff8c17dfa2a10dda89892d3a2ef56317d67a23640878c2</checksum>
+  <open-checksum type="sha256">ed324d2d725edfde492b5db8061fff71720ba81751142c005011e96dd13b827c</open-checksum>
+  <location href="repodata/comps.xml.gz"/>
+  <timestamp>1521228650</timestamp>
+  <database_version>10</database_version>
+  <size>4489</size>
+  <open-size>34717</open-size>
+</data>
+<data type="primary_db">
+  <checksum type="sha256">f65c4414b887164fe6f384e4e9177f84dac98dbb516ef03b6e99324758853720</checksum>
+  <open-checksum type="sha256">290190305320781f2fb59f20fe37d9739e97ece1987ffdf637fdb76c49c206ed</open-checksum>
+  <location href="repodata/primary.sqlite.bz2"/>
+  <timestamp>1521228654</timestamp>
+  <database_version>10</database_version>
+  <size>945942</size>
+  <open-size>4648960</open-size>
+</data>
+<data type="updateinfo">
+  <checksum type="sha256">061d1c8fc45945230e338fce72331347237f7fffd9221567adeeaf48ed774f95</checksum>
+  <open-checksum type="sha256">21793ca2937acf547f0b0be311c9e5056bdb5515596ad36575dac9f1ba17c73d</open-checksum>
+  <location href="repodata/updateinfo.xml.gz"/>
+  <timestamp>1521228651</timestamp>
+  <database_version>10</database_version>
+  <size>477440</size>
+  <open-size>4985547</open-size>
+</data>
+</repomd>

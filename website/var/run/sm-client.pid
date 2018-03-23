@@ -1,0 +1,2 @@
+2627
+/usr/sbin/sendmail -L sm-msp-queue -Ac -q1h

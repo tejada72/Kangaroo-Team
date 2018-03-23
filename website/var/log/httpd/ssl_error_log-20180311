@@ -1,0 +1,39 @@
+[Sun Mar 04 03:43:01 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Mar 04 03:43:01 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Sun Mar 04 11:36:29 2018] [error] [client 139.162.106.181] Directory index forbidden by Options directive: /var/www/html/
+[Sun Mar 04 12:26:54 2018] [error] [client 216.218.206.68] Directory index forbidden by Options directive: /var/www/html/
+[Sun Mar 04 16:56:03 2018] [error] [client 139.162.78.135] Directory index forbidden by Options directive: /var/www/html/
+[Mon Mar 05 04:55:17 2018] [error] [client 46.161.55.106] File does not exist: /var/www/html/a2billing
+[Mon Mar 05 13:26:49 2018] [error] [client 184.105.247.195] Directory index forbidden by Options directive: /var/www/html/
+[Mon Mar 05 16:52:32 2018] [error] [client 209.126.136.7] Directory index forbidden by Options directive: /var/www/html/
+[Tue Mar 06 11:18:43 2018] [error] [client 46.161.55.106] File does not exist: /var/www/html/a2billing
+[Tue Mar 06 14:00:28 2018] [error] [client 184.105.247.194] Directory index forbidden by Options directive: /var/www/html/
+[Tue Mar 06 21:39:58 2018] [error] [client 198.20.87.98] Directory index forbidden by Options directive: /var/www/html/
+[Tue Mar 06 21:40:04 2018] [error] [client 198.20.87.98] File does not exist: /var/www/html/robots.txt
+[Tue Mar 06 21:40:05 2018] [error] [client 198.20.87.98] File does not exist: /var/www/html/sitemap.xml
+[Tue Mar 06 21:40:05 2018] [error] [client 198.20.87.98] File does not exist: /var/www/html/.well-known
+[Wed Mar 07 01:28:02 2018] [error] [client 46.161.55.108] File does not exist: /var/www/html/a2billing
+[Wed Mar 07 02:01:26 2018] [error] [client 178.73.215.171] Directory index forbidden by Options directive: /var/www/html/
+[Wed Mar 07 06:26:09 2018] [error] [client 46.161.55.107] File does not exist: /var/www/html/webfig
+[Wed Mar 07 10:07:24 2018] [error] [client 46.161.55.106] File does not exist: /var/www/html/a2billing
+[Wed Mar 07 13:19:38 2018] [error] [client 164.132.91.13] Directory index forbidden by Options directive: /var/www/html/
+[Wed Mar 07 15:04:07 2018] [error] [client 74.82.47.2] Directory index forbidden by Options directive: /var/www/html/
+[Wed Mar 07 17:07:42 2018] [error] [client 107.170.232.227] Directory index forbidden by Options directive: /var/www/html/
+[Wed Mar 07 22:15:50 2018] [error] [client 123.160.175.201] File does not exist: /var/www/html/currentsetting.htm
+[Thu Mar 08 03:11:26 2018] [error] [client 46.161.55.108] File does not exist: /var/www/html/a2billing
+[Thu Mar 08 08:27:19 2018] [error] [client 139.162.78.135] Directory index forbidden by Options directive: /var/www/html/
+[Thu Mar 08 09:04:25 2018] [error] [client 139.162.106.181] Directory index forbidden by Options directive: /var/www/html/
+[Thu Mar 08 10:45:34 2018] [error] [client 107.6.150.243] Directory index forbidden by Options directive: /var/www/html/
+[Thu Mar 08 12:23:36 2018] [error] [client 74.82.47.2] Directory index forbidden by Options directive: /var/www/html/
+[Thu Mar 08 15:43:09 2018] [error] [client 46.161.55.106] File does not exist: /var/www/html/a2billing
+[Fri Mar 09 02:09:28 2018] [error] [client 46.101.245.23] File does not exist: /var/www/html/OWA-AUTODISCOVER-EWS
+[Fri Mar 09 04:05:02 2018] [error] [client 172.104.164.143] File does not exist: /var/www/html/.git
+[Fri Mar 09 04:31:22 2018] [error] [client 71.6.202.204] Directory index forbidden by Options directive: /var/www/html/
+[Fri Mar 09 14:36:41 2018] [error] [client 74.82.47.3] Directory index forbidden by Options directive: /var/www/html/
+[Fri Mar 09 21:04:52 2018] [error] [client 80.82.77.139] Directory index forbidden by Options directive: /var/www/html/
+[Fri Mar 09 21:05:05 2018] [error] [client 80.82.77.139] File does not exist: /var/www/html/robots.txt
+[Fri Mar 09 21:05:06 2018] [error] [client 80.82.77.139] File does not exist: /var/www/html/sitemap.xml
+[Fri Mar 09 21:05:09 2018] [error] [client 80.82.77.139] File does not exist: /var/www/html/.well-known
+[Sat Mar 10 11:09:01 2018] [error] [client 139.162.78.135] Directory index forbidden by Options directive: /var/www/html/
+[Sat Mar 10 11:43:37 2018] [error] [client 185.12.179.98] File does not exist: /var/www/html/a2billing
+[Sat Mar 10 14:28:27 2018] [error] [client 184.105.247.196] Directory index forbidden by Options directive: /var/www/html/

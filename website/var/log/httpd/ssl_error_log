@@ -1,0 +1,3 @@
+[Sun Mar 18 03:39:02 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Mar 18 03:39:02 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Sun Mar 18 10:46:55 2018] [error] [client 139.162.78.135] Directory index forbidden by Options directive: /var/www/html/

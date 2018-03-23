@@ -1,0 +1,37 @@
+[Sun Mar 11 03:22:02 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Mar 11 03:22:02 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Sun Mar 11 08:57:51 2018] [error] [client 139.162.106.181] Directory index forbidden by Options directive: /var/www/html/
+[Sun Mar 11 15:13:37 2018] [error] [client 184.105.139.67] Directory index forbidden by Options directive: /var/www/html/
+[Mon Mar 12 10:41:11 2018] [error] [client 183.129.160.229] File does not exist: /var/www/html/farm
+[Mon Mar 12 12:33:18 2018] [error] [client 184.105.247.194] Directory index forbidden by Options directive: /var/www/html/
+[Mon Mar 12 13:24:55 2018] [error] [client 107.170.224.43] Directory index forbidden by Options directive: /var/www/html/
+[Tue Mar 13 01:33:58 2018] [error] [client 13.57.32.102] Directory index forbidden by Options directive: /var/www/html/
+[Tue Mar 13 09:45:13 2018] [error] [client 183.129.160.229] File does not exist: /var/www/html/wp-includes
+[Tue Mar 13 09:45:14 2018] [error] [client 183.129.160.229] File does not exist: /var/www/html/wp-includes
+[Tue Mar 13 09:45:14 2018] [error] [client 183.129.160.229] File does not exist: /var/www/html/wp-includes
+[Tue Mar 13 11:02:45 2018] [error] [client 169.229.3.91] Directory index forbidden by Options directive: /var/www/html/
+[Tue Mar 13 14:35:57 2018] [error] [client 74.82.47.4] Directory index forbidden by Options directive: /var/www/html/
+[Tue Mar 13 17:33:44 2018] [error] [client 60.191.38.78] Directory index forbidden by Options directive: /var/www/html/
+[Tue Mar 13 18:59:50 2018] [error] [client 178.73.215.171] Directory index forbidden by Options directive: /var/www/html/
+[Tue Mar 13 22:31:10 2018] [error] [client 139.162.113.204] Directory index forbidden by Options directive: /var/www/html/
+[Wed Mar 14 00:04:08 2018] [error] [client 209.126.136.7] Directory index forbidden by Options directive: /var/www/html/
+[Wed Mar 14 10:57:02 2018] [error] [client 139.162.78.135] Directory index forbidden by Options directive: /var/www/html/
+[Wed Mar 14 13:51:13 2018] [error] [client 184.105.139.69] Directory index forbidden by Options directive: /var/www/html/
+[Wed Mar 14 23:27:23 2018] [error] [client 60.191.48.204] Directory index forbidden by Options directive: /var/www/html/
+[Thu Mar 15 02:04:21 2018] [error] [client 93.174.95.106] Directory index forbidden by Options directive: /var/www/html/
+[Thu Mar 15 02:04:35 2018] [error] [client 93.174.95.106] File does not exist: /var/www/html/robots.txt
+[Thu Mar 15 02:04:36 2018] [error] [client 93.174.95.106] File does not exist: /var/www/html/sitemap.xml
+[Thu Mar 15 02:04:38 2018] [error] [client 93.174.95.106] File does not exist: /var/www/html/.well-known
+[Thu Mar 15 02:58:21 2018] [error] [client 46.161.55.108] File does not exist: /var/www/html/a2billing
+[Thu Mar 15 14:17:57 2018] [error] [client 184.105.139.69] Directory index forbidden by Options directive: /var/www/html/
+[Thu Mar 15 18:05:17 2018] [error] [client 60.191.38.78] Directory index forbidden by Options directive: /var/www/html/
+[Thu Mar 15 22:58:17 2018] [error] [client 185.100.87.246] Directory index forbidden by Options directive: /var/www/html/
+[Thu Mar 15 22:58:40 2018] [error] [client 185.100.87.246] Directory index forbidden by Options directive: /var/www/html/
+[Thu Mar 15 22:58:40 2018] [error] [client 185.100.87.246] Directory index forbidden by Options directive: /var/www/html/
+[Thu Mar 15 22:58:40 2018] [error] [client 185.100.87.246] Directory index forbidden by Options directive: /var/www/html/
+[Thu Mar 15 22:58:40 2018] [error] [client 185.100.87.246] Directory index forbidden by Options directive: /var/www/html/
+[Fri Mar 16 00:25:31 2018] [error] [client 139.162.116.133] Directory index forbidden by Options directive: /var/www/html/
+[Fri Mar 16 04:08:49 2018] [error] [client 35.197.254.31] Directory index forbidden by Options directive: /var/www/html/
+[Fri Mar 16 14:13:02 2018] [error] [client 74.82.47.2] Directory index forbidden by Options directive: /var/www/html/
+[Fri Mar 16 20:00:20 2018] [error] [client 71.6.202.204] Directory index forbidden by Options directive: /var/www/html/
+[Sat Mar 17 09:06:16 2018] [error] [client 164.132.91.13] Directory index forbidden by Options directive: /var/www/html/

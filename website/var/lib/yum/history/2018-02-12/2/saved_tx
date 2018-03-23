@@ -1,0 +1,88 @@
+393:cf1fea05cfc88e312d58487471c11a51fc35d750
+0
+3
+amzn-main:5883:1506841597
+amzn-updates:1017:1518045287
+installed:394:e01cafac82a012bc5464d3891fef7ed9d4b6e457
+9
+mbr: python27-devel,x86_64,0,2.7.12,2.121.amzn1 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: python27-devel,x86_64,0,2.7.13,2.122.amzn1@a:updatedby
+  updated_by: python27-devel,x86_64,0,2.7.13,2.122.amzn1@a
+mbr: python27-devel,x86_64,0,2.7.13,2.122.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 10
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: python27-devel,x86_64,0,2.7.12,2.121.amzn1@i:updates
+  updates: python27-devel,x86_64,0,2.7.12,2.121.amzn1@i
+mbr: kernel,x86_64,0,4.9.77,31.58.amzn1 70
+  repo: amzn-updates
+  ts_state: i
+  output_state: 30
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: python27-libs,x86_64,0,2.7.13,2.122.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 10
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: python27-libs,x86_64,0,2.7.12,2.121.amzn1@i:updates python27,x86_64,0,2.7.13,2.122.amzn1@a:dependson python27,x86_64,0,2.7.13,2.122.amzn1@a:dependson python27-devel,x86_64,0,2.7.13,2.122.amzn1@a:dependson
+  depends_on: python27,x86_64,0,2.7.13,2.122.amzn1@a python27,x86_64,0,2.7.13,2.122.amzn1@a python27-devel,x86_64,0,2.7.13,2.122.amzn1@a
+  updates: python27-libs,x86_64,0,2.7.12,2.121.amzn1@i
+mbr: python27-libs,x86_64,0,2.7.12,2.121.amzn1 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: python27-libs,x86_64,0,2.7.13,2.122.amzn1@a:updatedby
+  updated_by: python27-libs,x86_64,0,2.7.13,2.122.amzn1@a
+mbr: python27,x86_64,0,2.7.12,2.121.amzn1 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: python27,x86_64,0,2.7.13,2.122.amzn1@a:updatedby
+  updated_by: python27,x86_64,0,2.7.13,2.122.amzn1@a
+mbr: python27,x86_64,0,2.7.13,2.122.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 10
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: python27,x86_64,0,2.7.12,2.121.amzn1@i:updates python27-devel,x86_64,0,2.7.13,2.122.amzn1@a:dependson python27-devel,x86_64,0,2.7.13,2.122.amzn1@a:dependson python27-devel,x86_64,0,2.7.13,2.122.amzn1@a:dependson python27-devel,x86_64,0,2.7.13,2.122.amzn1@a:dependson python27-devel,x86_64,0,2.7.13,2.122.amzn1@a:dependson python27-libs,x86_64,0,2.7.13,2.122.amzn1@a:dependson
+  depends_on: python27-devel,x86_64,0,2.7.13,2.122.amzn1@a python27-devel,x86_64,0,2.7.13,2.122.amzn1@a python27-devel,x86_64,0,2.7.13,2.122.amzn1@a python27-devel,x86_64,0,2.7.13,2.122.amzn1@a python27-devel,x86_64,0,2.7.13,2.122.amzn1@a python27-libs,x86_64,0,2.7.13,2.122.amzn1@a
+  updates: python27,x86_64,0,2.7.12,2.121.amzn1@i
+mbr: elfutils-libelf,x86_64,0,0.163,3.18.amzn1 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: elfutils-libelf,x86_64,0,0.168,8.19.amzn1@a:updatedby
+  updated_by: elfutils-libelf,x86_64,0,0.168,8.19.amzn1@a
+mbr: elfutils-libelf,x86_64,0,0.168,8.19.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 10
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: elfutils-libelf,x86_64,0,0.163,3.18.amzn1@i:updates
+  updates: elfutils-libelf,x86_64,0,0.163,3.18.amzn1@i

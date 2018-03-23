@@ -1,0 +1,60 @@
+[Sun Feb 18 03:39:01 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Feb 18 03:39:01 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Sun Feb 18 12:06:45 2018] [error] [client 35.198.77.85] File does not exist: /var/www/html/wls-wsat
+[Sun Feb 18 14:38:16 2018] [error] [client 184.105.139.68] Directory index forbidden by Options directive: /var/www/html/
+[Sun Feb 18 15:26:13 2018] [error] [client 60.191.38.77] Directory index forbidden by Options directive: /var/www/html/
+[Sun Feb 18 17:21:27 2018] [error] [client 139.162.113.204] Directory index forbidden by Options directive: /var/www/html/
+[Sun Feb 18 22:55:05 2018] [error] [client 71.6.202.204] Directory index forbidden by Options directive: /var/www/html/
+[Mon Feb 19 05:37:21 2018] [error] [client 108.24.126.238] Directory index forbidden by Options directive: /var/www/html/
+[Mon Feb 19 05:37:22 2018] [error] [client 108.24.126.238] File does not exist: /var/www/html/favicon.ico, referer: https://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Mon Feb 19 05:47:27 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Feb 19 05:47:27 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Mon Feb 19 05:47:27 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Feb 19 05:47:27 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Mon Feb 19 06:27:51 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Feb 19 06:27:51 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Mon Feb 19 06:27:51 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Feb 19 06:27:51 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Mon Feb 19 06:34:05 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Feb 19 06:34:05 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Mon Feb 19 06:34:05 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Feb 19 06:34:05 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Mon Feb 19 06:35:05 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Feb 19 06:35:05 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Mon Feb 19 06:35:05 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Feb 19 06:35:05 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Mon Feb 19 07:27:26 2018] [error] [client 60.191.38.77] Directory index forbidden by Options directive: /var/www/html/
+[Mon Feb 19 07:27:27 2018] [error] [client 60.191.38.77] Directory index forbidden by Options directive: /var/www/html/
+[Mon Feb 19 12:16:37 2018] [error] [client 35.198.73.122] File does not exist: /var/www/html/wls-wsat
+[Mon Feb 19 12:33:40 2018] [error] [client 184.105.247.194] Directory index forbidden by Options directive: /var/www/html/
+[Tue Feb 20 01:59:14 2018] [error] [client 107.170.253.219] Directory index forbidden by Options directive: /var/www/html/
+[Tue Feb 20 02:24:23 2018] [error] [client 139.162.78.135] Directory index forbidden by Options directive: /var/www/html/
+[Tue Feb 20 03:54:44 2018] [error] [client 209.126.136.7] Directory index forbidden by Options directive: /var/www/html/
+[Tue Feb 20 12:40:57 2018] [error] [client 74.82.47.2] Directory index forbidden by Options directive: /var/www/html/
+[Tue Feb 20 14:22:00 2018] [error] [client 60.191.38.77] Directory index forbidden by Options directive: /var/www/html/
+[Tue Feb 20 22:50:27 2018] [error] [client 164.132.91.13] Directory index forbidden by Options directive: /var/www/html/
+[Wed Feb 21 04:13:07 2018] [error] [client 178.73.215.171] Directory index forbidden by Options directive: /var/www/html/
+[Wed Feb 21 13:07:08 2018] [error] [client 184.105.139.67] Directory index forbidden by Options directive: /var/www/html/
+[Wed Feb 21 22:16:24 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 21 22:16:24 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Wed Feb 21 22:16:24 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 21 22:16:24 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Wed Feb 21 22:16:51 2018] [error] [client 150.250.191.64] (13)Permission denied: access to / denied (filesystem path '/var/www') because search permissions are missing on a component of the path
+[Wed Feb 21 22:16:52 2018] [error] [client 150.250.191.64] (13)Permission denied: access to /favicon.ico denied (filesystem path '/var/www') because search permissions are missing on a component of the path, referer: https://54.157.62.1/
+[Wed Feb 21 22:57:57 2018] [error] [client 150.250.191.64] Directory index forbidden by Options directive: /var/www/html/
+[Wed Feb 21 22:57:57 2018] [error] [client 150.250.191.64] File does not exist: /var/www/html/favicon.ico, referer: https://54.157.62.1/
+[Thu Feb 22 08:05:15 2018] [error] [client 178.73.215.171] Directory index forbidden by Options directive: /var/www/html/
+[Thu Feb 22 12:07:36 2018] [error] [client 216.218.206.69] Directory index forbidden by Options directive: /var/www/html/
+[Thu Feb 22 12:49:45 2018] [error] [client 60.191.38.77] Directory index forbidden by Options directive: /var/www/html/
+[Thu Feb 22 12:49:46 2018] [error] [client 60.191.38.77] Directory index forbidden by Options directive: /var/www/html/
+[Thu Feb 22 14:44:21 2018] [error] [client 139.162.78.135] Directory index forbidden by Options directive: /var/www/html/
+[Thu Feb 22 19:40:08 2018] [error] [client 139.162.106.181] Directory index forbidden by Options directive: /var/www/html/
+[Fri Feb 23 00:32:33 2018] [error] [client 164.52.6.150] Directory index forbidden by Options directive: /var/www/html/
+[Fri Feb 23 05:06:57 2018] [error] [client 107.170.225.65] Directory index forbidden by Options directive: /var/www/html/
+[Fri Feb 23 11:55:24 2018] [error] [client 71.6.202.204] Directory index forbidden by Options directive: /var/www/html/
+[Fri Feb 23 13:00:46 2018] [error] [client 184.105.247.196] Directory index forbidden by Options directive: /var/www/html/
+[Sat Feb 24 00:05:28 2018] [error] [client 169.229.3.91] Directory index forbidden by Options directive: /var/www/html/
+[Sat Feb 24 14:44:06 2018] [error] [client 184.105.139.70] Directory index forbidden by Options directive: /var/www/html/
+[Sat Feb 24 15:31:06 2018] [error] [client 60.191.38.77] Directory index forbidden by Options directive: /var/www/html/
+[Sat Feb 24 22:19:22 2018] [error] [client 101.88.71.132] Attempt to serve directory: /var/www/html/
+[Sat Feb 24 23:32:54 2018] [error] [client 139.162.106.181] Directory index forbidden by Options directive: /var/www/html/

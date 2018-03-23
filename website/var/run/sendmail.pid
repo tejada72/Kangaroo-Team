@@ -1,0 +1,2 @@
+2618
+/usr/sbin/sendmail -bd -q1h

@@ -1,0 +1,37 @@
+[Sun Mar 18 03:39:02 2018] [notice] Digest: generating secret for digest authentication ...
+[Sun Mar 18 03:39:02 2018] [notice] Digest: done
+[Sun Mar 18 03:39:02 2018] [notice] Apache/2.2.34 (Unix) DAV/2 PHP/5.3.29 mod_ssl/2.2.34 OpenSSL/1.0.2k-fips configured -- resuming normal operations
+[Sun Mar 18 04:30:21 2018] [error] [client 172.31.9.209] PHP Notice:  Use of undefined constant runId - assumed 'runId' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 48
+[Sun Mar 18 04:30:21 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 50
+[Sun Mar 18 04:30:45 2018] [error] [client 172.31.9.209] PHP Notice:  Use of undefined constant runId - assumed 'runId' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 48
+[Sun Mar 18 04:30:45 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 50
+[Sun Mar 18 04:30:58 2018] [error] [client 172.31.9.209] PHP Notice:  Use of undefined constant runId - assumed 'runId' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 48
+[Sun Mar 18 04:30:58 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 50
+[Sun Mar 18 04:31:37 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined index: run-code in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 34
+[Sun Mar 18 04:31:37 2018] [error] [client 172.31.9.209] PHP Notice:  Use of undefined constant runId - assumed 'runId' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 48
+[Sun Mar 18 04:31:37 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 50
+[Sun Mar 18 04:35:44 2018] [error] [client 172.31.9.209] PHP Notice:  Use of undefined constant runId - assumed 'runId' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 48
+[Sun Mar 18 04:35:44 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 50
+[Sun Mar 18 04:43:38 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined variable: runId in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 48
+[Sun Mar 18 04:43:38 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 50
+[Sun Mar 18 04:47:42 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 51
+[Sun Mar 18 04:55:28 2018] [error] [client 172.31.9.209] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 37
+[Sun Mar 18 14:10:41 2018] [error] [client 66.70.218.233] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/vendor
+[Sun Mar 18 14:56:45 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php
+[Sun Mar 18 14:56:45 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php5
+[Sun Mar 18 14:56:45 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Sun Mar 18 14:56:45 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Sun Mar 18 14:56:46 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php4
+[Sun Mar 18 14:56:46 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php5-cli
+[Sun Mar 18 14:56:46 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/test.cgi
+[Sun Mar 18 14:56:46 2018] [error] [client 85.118.206.11] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/cgi-sys
+[Sun Mar 18 15:16:52 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined index: log-time in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 149
+[Sun Mar 18 15:16:52 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined variable: newUserResult in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 153
+[Sun Mar 18 15:19:26 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined index: log-time in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 149
+[Sun Mar 18 15:19:26 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined variable: newUserResult in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 153
+[Sun Mar 18 15:19:56 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined index: log-time in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 149
+[Sun Mar 18 15:19:56 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined variable: newUserResult in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 153
+[Sun Mar 18 15:28:20 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined index: log-time in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 149
+[Sun Mar 18 17:04:09 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined variable: runActiveResult in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 108
+[Sun Mar 18 17:04:09 2018] [error] [client 172.31.9.209] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 108
+[Sun Mar 18 17:11:47 2018] [error] [client 172.31.9.209] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 108

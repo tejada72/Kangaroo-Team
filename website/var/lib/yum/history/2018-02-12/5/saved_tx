@@ -1,0 +1,57 @@
+412:fee0b19a8ca69966fa549e6864c192a0c5df7427
+0
+3
+amzn-main:5883:1506841597
+amzn-updates:1017:1518045287
+installed:418:95318342749a8cd4d17a7b61dada117816ae3e71
+6
+mbr: php-common,x86_64,0,5.3.29,1.8.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php,x86_64,0,5.3.29,1.8.amzn1@a:dependson php-cli,x86_64,0,5.3.29,1.8.amzn1@a:dependson php-pdo,x86_64,0,5.3.29,1.8.amzn1@a:dependson
+  depends_on: php,x86_64,0,5.3.29,1.8.amzn1@a php-cli,x86_64,0,5.3.29,1.8.amzn1@a php-pdo,x86_64,0,5.3.29,1.8.amzn1@a
+mbr: php-cli,x86_64,0,5.3.29,1.8.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php,x86_64,0,5.3.29,1.8.amzn1@a:dependson
+  depends_on: php,x86_64,0,5.3.29,1.8.amzn1@a
+mbr: php-mysql,x86_64,0,5.3.29,1.8.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: php-pdo,x86_64,0,5.3.29,1.8.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php-mysql,x86_64,0,5.3.29,1.8.amzn1@a:dependson
+  depends_on: php-mysql,x86_64,0,5.3.29,1.8.amzn1@a
+mbr: php,x86_64,0,5.3.29,1.8.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: compat-gmp4,x86_64,0,4.3.2,1.14.amzn1 70
+  repo: amzn-main
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php,x86_64,0,5.3.29,1.8.amzn1@a:dependson php-cli,x86_64,0,5.3.29,1.8.amzn1@a:dependson
+  depends_on: php,x86_64,0,5.3.29,1.8.amzn1@a php-cli,x86_64,0,5.3.29,1.8.amzn1@a

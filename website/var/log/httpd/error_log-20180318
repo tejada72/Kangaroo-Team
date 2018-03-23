@@ -1,0 +1,311 @@
+[Sun Mar 11 03:22:01 2018] [notice] Digest: generating secret for digest authentication ...
+[Sun Mar 11 03:22:01 2018] [notice] Digest: done
+[Sun Mar 11 03:22:02 2018] [notice] Apache/2.2.34 (Unix) DAV/2 PHP/5.3.29 mod_ssl/2.2.34 OpenSSL/1.0.2k-fips configured -- resuming normal operations
+[Sun Mar 11 12:26:30 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php
+[Sun Mar 11 12:55:10 2018] [error] [client 80.82.64.70] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/muieblackcat
+[Sun Mar 11 12:55:10 2018] [error] [client 80.82.64.70] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin
+[Sun Mar 11 12:55:10 2018] [error] [client 80.82.64.70] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Sun Mar 11 12:55:11 2018] [error] [client 80.82.64.70] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Sun Mar 11 12:55:11 2018] [error] [client 80.82.64.70] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/myadmin
+[Sun Mar 11 12:55:11 2018] [error] [client 80.82.64.70] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/MyAdmin
+[Sun Mar 11 16:09:20 2018] [error] [client 66.7.149.58] script not found or unable to stat: /var/www/cgi-bin/php
+[Sun Mar 11 16:09:20 2018] [error] [client 66.7.149.58] script not found or unable to stat: /var/www/cgi-bin/php5
+[Sun Mar 11 16:09:20 2018] [error] [client 66.7.149.58] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Sun Mar 11 16:09:20 2018] [error] [client 66.7.149.58] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Sun Mar 11 16:09:20 2018] [error] [client 66.7.149.58] script not found or unable to stat: /var/www/cgi-bin/php4
+[Sun Mar 11 16:09:20 2018] [error] [client 66.7.149.58] script not found or unable to stat: /var/www/cgi-bin/php5-cli
+[Sun Mar 11 16:09:20 2018] [error] [client 66.7.149.58] script not found or unable to stat: /var/www/cgi-bin/test.cgi
+[Sun Mar 11 16:09:20 2018] [error] [client 66.7.149.58] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/cgi-sys
+[Sun Mar 11 17:00:03 2018] [error] [client 66.249.83.78] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico
+[Sun Mar 11 22:58:49 2018] [error] [client 78.111.161.100] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/manager
+[Mon Mar 12 02:19:12 2018] [error] [client 202.100.214.102] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wls-wsat
+[Mon Mar 12 03:00:45 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/.git
+[Mon Mar 12 07:09:16 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Mon Mar 12 07:09:17 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php5-cli
+[Mon Mar 12 07:09:17 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/test.cgi
+[Mon Mar 12 07:21:24 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php
+[Mon Mar 12 07:21:24 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php5
+[Mon Mar 12 07:21:25 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Mon Mar 12 07:21:25 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Mon Mar 12 07:21:25 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php4
+[Mon Mar 12 07:21:25 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php5-cli
+[Mon Mar 12 07:21:26 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/test.cgi
+[Mon Mar 12 07:21:26 2018] [error] [client 89.19.24.154] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/cgi-sys
+[Mon Mar 12 12:26:09 2018] [error] [client 183.129.160.229] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/farm
+[Mon Mar 12 18:52:39 2018] [error] [client 66.249.93.201] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico
+[Tue Mar 13 00:18:57 2018] [error] [client 222.186.56.91] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/manager
+[Tue Mar 13 06:54:37 2018] [error] [client 80.82.77.33] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/robots.txt
+[Tue Mar 13 06:54:38 2018] [error] [client 80.82.77.33] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sitemap.xml
+[Tue Mar 13 06:54:39 2018] [error] [client 80.82.77.33] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/.well-known
+[Tue Mar 13 06:54:40 2018] [error] [client 80.82.77.33] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico
+[Tue Mar 13 13:29:13 2018] [error] [client 123.206.13.220] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/verifylogin.do
+[Tue Mar 13 14:27:53 2018] [error] [client 184.180.135.169] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/HNAP1, referer: http://54.157.62.1/
+[Tue Mar 13 15:41:10 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php
+[Tue Mar 13 15:41:10 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php5
+[Tue Mar 13 15:41:11 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Tue Mar 13 15:41:11 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Tue Mar 13 15:41:11 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php4
+[Tue Mar 13 15:41:12 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php5-cli
+[Tue Mar 13 15:41:12 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/test.cgi
+[Tue Mar 13 15:41:12 2018] [error] [client 89.19.24.154] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/cgi-sys
+[Tue Mar 13 16:36:43 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Mar 13 16:36:43 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyadmin
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyAdmin
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin3
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin4
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/2phpmyadmin
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmy
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phppma
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/myadmin
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/shopdb
+[Tue Mar 13 16:36:44 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/MyAdmin
+[Tue Mar 13 16:36:45 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/program
+[Tue Mar 13 16:36:45 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA
+[Tue Mar 13 16:36:45 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/dbadmin
+[Tue Mar 13 16:36:45 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Tue Mar 13 16:36:45 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Mar 13 16:36:45 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Mar 13 16:36:45 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Mar 13 16:36:45 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/database
+[Tue Mar 13 16:36:45 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Mar 13 16:36:45 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Mar 13 16:36:45 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sqlmanager
+[Tue Mar 13 16:36:45 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysqlmanager
+[Tue Mar 13 16:36:45 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/php-myadmin
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmy-admin
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysqladmin
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql-admin
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Mar 13 16:36:46 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:47 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Mar 13 16:36:48 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Mar 13 16:36:48 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Mar 13 16:36:48 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Mar 13 16:36:48 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Mar 13 16:36:48 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Mar 13 16:36:48 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Mar 13 16:36:48 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Mar 13 16:36:48 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Mar 13 16:36:48 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Mar 13 16:36:48 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Mar 13 16:36:48 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Mar 13 16:36:48 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Mar 13 16:36:48 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Mar 13 16:36:49 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Mar 13 16:36:49 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Mar 13 16:36:49 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Mar 13 16:36:49 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Mar 13 16:36:49 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin2
+[Tue Mar 13 16:36:49 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin3
+[Tue Mar 13 16:36:49 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin4
+[Tue Mar 13 16:36:49 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin-3
+[Tue Mar 13 16:36:49 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/php-my-admin
+[Tue Mar 13 16:36:49 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2011
+[Tue Mar 13 16:36:49 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2012
+[Tue Mar 13 16:36:50 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2013
+[Tue Mar 13 16:36:50 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2014
+[Tue Mar 13 16:36:50 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2015
+[Tue Mar 13 16:36:50 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2016
+[Tue Mar 13 16:36:50 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2017
+[Tue Mar 13 16:36:50 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2018
+[Tue Mar 13 16:36:50 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2011
+[Tue Mar 13 16:36:50 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2012
+[Tue Mar 13 16:36:50 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2013
+[Tue Mar 13 16:36:50 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2014
+[Tue Mar 13 16:36:50 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2015
+[Tue Mar 13 16:36:50 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2016
+[Tue Mar 13 16:36:50 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2017
+[Tue Mar 13 16:36:51 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2018
+[Tue Mar 13 16:36:51 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2011
+[Tue Mar 13 16:36:51 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2012
+[Tue Mar 13 16:36:51 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2013
+[Tue Mar 13 16:36:51 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2014
+[Tue Mar 13 16:36:51 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2015
+[Tue Mar 13 16:36:51 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2016
+[Tue Mar 13 16:36:51 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2017
+[Tue Mar 13 16:36:51 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2018
+[Tue Mar 13 16:36:51 2018] [error] [client 24.173.98.42] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmanager
+[Tue Mar 13 16:37:03 2018] [error] [client 220.189.249.97] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/manager
+[Tue Mar 13 20:13:13 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php
+[Tue Mar 13 21:36:09 2018] [error] [client 66.249.83.77] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico
+[Tue Mar 13 22:46:51 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php
+[Wed Mar 14 02:37:59 2018] [error] [client 71.6.202.198] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/ccvv
+[Wed Mar 14 04:57:20 2018] [error] [client 183.129.160.229] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wp-includes
+[Wed Mar 14 04:57:20 2018] [error] [client 183.129.160.229] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wp-includes
+[Wed Mar 14 04:57:20 2018] [error] [client 183.129.160.229] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wp-includes
+[Wed Mar 14 13:27:50 2018] [error] [client 66.249.83.20] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico
+[Thu Mar 15 04:39:58 2018] [error] [client 115.231.218.198] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/manager
+[Thu Mar 15 15:16:04 2018] [error] [client 65.52.123.63] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/muieblackcat
+[Thu Mar 15 15:16:04 2018] [error] [client 65.52.123.63] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin
+[Thu Mar 15 15:16:04 2018] [error] [client 65.52.123.63] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Thu Mar 15 15:16:04 2018] [error] [client 65.52.123.63] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Thu Mar 15 15:16:04 2018] [error] [client 65.52.123.63] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/myadmin
+[Thu Mar 15 15:16:04 2018] [error] [client 65.52.123.63] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/MyAdmin
+[Thu Mar 15 18:59:45 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php
+[Thu Mar 15 18:59:46 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php5
+[Thu Mar 15 18:59:46 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Thu Mar 15 18:59:46 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Thu Mar 15 18:59:47 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php4
+[Thu Mar 15 18:59:47 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/php5-cli
+[Thu Mar 15 18:59:47 2018] [error] [client 89.19.24.154] script not found or unable to stat: /var/www/cgi-bin/test.cgi
+[Thu Mar 15 18:59:48 2018] [error] [client 89.19.24.154] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/cgi-sys
+[Fri Mar 16 02:24:38 2018] [error] [client 66.249.83.18] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico
+[Fri Mar 16 10:57:54 2018] [error] [client 220.189.249.97] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/manager
+[Fri Mar 16 12:16:34 2018] [error] [client 71.6.202.198] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/ccvv
+[Fri Mar 16 20:39:09 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Fri Mar 16 21:25:29 2018] [error] [client 101.248.185.52] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/winbox.png
+[Fri Mar 16 21:40:09 2018] [error] [client 103.236.254.19] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/index.action
+[Fri Mar 16 22:10:56 2018] [error] [client 173.70.128.25] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/index.php' not found or unable to stat, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/login.php
+[Fri Mar 16 22:24:32 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/login.php
+[Fri Mar 16 22:24:33 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/login.php
+[Fri Mar 16 22:26:50 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/register.php
+[Fri Mar 16 22:26:59 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/register.php
+[Fri Mar 16 22:27:00 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/register.php
+[Fri Mar 16 22:31:24 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/register.php
+[Fri Mar 16 22:34:45 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/login.php
+[Fri Mar 16 22:34:46 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/login.php
+[Fri Mar 16 22:36:30 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/login.php
+[Fri Mar 16 22:44:18 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/login.php
+[Fri Mar 16 22:44:19 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/login.php
+[Fri Mar 16 22:44:26 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/register.php
+[Fri Mar 16 22:52:01 2018] [error] [client 173.70.128.25] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/index.php' not found or unable to stat, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/login.php
+[Fri Mar 16 22:55:30 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php?create=true
+[Fri Mar 16 22:56:22 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php?create=true
+[Fri Mar 16 23:00:43 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php?create=true
+[Fri Mar 16 23:01:09 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php?create=true
+[Fri Mar 16 23:01:10 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php?create=true
+[Fri Mar 16 23:01:11 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php?create=true
+[Fri Mar 16 23:19:46 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico
+[Sat Mar 17 00:04:19 2018] [error] [client 173.70.128.25] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 50
+[Sat Mar 17 00:07:47 2018] [error] [client 173.70.128.25] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 62
+[Sat Mar 17 00:07:49 2018] [error] [client 173.70.128.25] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 62
+[Sat Mar 17 00:08:37 2018] [error] [client 173.70.128.25] PHP Parse error:  syntax error, unexpected T_STRING in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 66
+[Sat Mar 17 00:08:39 2018] [error] [client 173.70.128.25] PHP Parse error:  syntax error, unexpected T_STRING in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 66
+[Sat Mar 17 00:09:13 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php
+[Sat Mar 17 00:09:18 2018] [error] [client 173.70.128.25] PHP Notice:  Undefined variable: conn in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 38, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php
+[Sat Mar 17 00:09:18 2018] [error] [client 173.70.128.25] PHP Fatal error:  Call to a member function query() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 38, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php
+[Sat Mar 17 00:17:19 2018] [error] [client 173.70.128.25] PHP Notice:  Undefined variable: conn in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 52, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php
+[Sat Mar 17 00:17:19 2018] [error] [client 173.70.128.25] PHP Fatal error:  Call to a member function query() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 52, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php
+[Sat Mar 17 00:25:57 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 00:30:42 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/register.php
+[Sat Mar 17 00:30:43 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/register.php
+[Sat Mar 17 00:41:43 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico
+[Sat Mar 17 00:46:29 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 00:46:31 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 00:48:27 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico
+[Sat Mar 17 01:00:02 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico
+[Sat Mar 17 01:26:31 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/favicon.ico, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=qflar5
+[Sat Mar 17 04:11:12 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=qflar5
+[Sat Mar 17 04:11:12 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=qflar5
+[Sat Mar 17 04:11:15 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=qflar5
+[Sat Mar 17 04:11:15 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=qflar5
+[Sat Mar 17 04:11:20 2018] [error] [client 173.70.128.25] PHP Notice:  Use of undefined constant runCode - assumed 'runCode' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php on line 41, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=qflar5
+[Sat Mar 17 04:13:42 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=qflar5
+[Sat Mar 17 04:49:28 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=9rwwcw
+[Sat Mar 17 04:50:05 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=
+[Sat Mar 17 04:50:30 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=
+[Sat Mar 17 04:50:30 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=
+[Sat Mar 17 04:50:33 2018] [error] [client 173.70.128.25] PHP Notice:  Undefined index: code in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php on line 30
+[Sat Mar 17 04:50:37 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=pekwx6
+[Sat Mar 17 04:50:37 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=pekwx6
+[Sat Mar 17 04:56:59 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=g7a0l7
+[Sat Mar 17 04:57:08 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=g7a0l7
+[Sat Mar 17 04:57:13 2018] [error] [client 173.70.128.25] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/js, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=g7a0l7
+[Sat Mar 17 08:25:37 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Sat Mar 17 08:25:37 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 52, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 19, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 19, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 19
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/runs.php on line 19, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/somethingelse.php on line 11
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 16:36:04 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 16:36:51 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/register.php on line 11, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 16:36:59 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 16:37:31 2018] [error] [client 173.70.128.25] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/login.php on line 11, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/
+[Sat Mar 17 19:05:17 2018] [error] [client 173.70.128.25] PHP Notice:  Undefined index: run-code in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 18, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=
+[Sat Mar 17 19:06:04 2018] [error] [client 173.70.128.25] PHP Notice:  Undefined index: run-code in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 18, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=abc123
+[Sat Mar 17 19:06:13 2018] [error] [client 173.70.128.25] PHP Notice:  Undefined index: run-code in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 18, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=abc123
+[Sat Mar 17 19:06:50 2018] [error] [client 173.70.128.25] PHP Notice:  Undefined index: run-code in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 18, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=abc123
+[Sat Mar 17 19:09:16 2018] [error] [client 173.70.128.25] PHP Notice:  Undefined index: run-code in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 18, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=abc123
+[Sat Mar 17 19:10:00 2018] [error] [client 173.70.128.25] PHP Notice:  Undefined index: run-code in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 18, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=abc123
+[Sat Mar 17 19:10:03 2018] [error] [client 173.70.128.25] PHP Notice:  Undefined index: run-code in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 18, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=abc123
+[Sat Mar 17 20:16:47 2018] [error] [client 173.70.128.25] PHP Parse error:  syntax error, unexpected '[' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 32, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=
+[Sat Mar 17 20:43:19 2018] [error] [client 173.70.128.25] PHP Notice:  Undefined variable: run_id in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 26, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=
+[Sat Mar 17 20:43:19 2018] [error] [client 173.70.128.25] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 33, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=
+[Sat Mar 17 21:13:36 2018] [error] [client 173.70.128.25] PHP Notice:  Undefined index: code in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php on line 30
+[Sat Mar 17 21:46:19 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/.ssh
+[Sat Mar 17 21:46:19 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/.ssh
+[Sat Mar 17 21:46:19 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/.ssh
+[Sat Mar 17 21:46:19 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/.ssh
+[Sat Mar 17 21:46:19 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sftp_config.json
+[Sat Mar 17 21:46:19 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/.idea
+[Sat Mar 17 21:46:20 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/.DS_Store
+[Sat Mar 17 21:46:20 2018] [error] [client 5.188.9.80] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wp-login.php' not found or unable to stat
+[Sat Mar 17 21:46:20 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wp
+[Sat Mar 17 21:46:20 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wordpress
+[Sat Mar 17 21:46:20 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/blog
+[Sat Mar 17 21:46:20 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wp-admin
+[Sat Mar 17 21:46:21 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wp
+[Sat Mar 17 21:46:21 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wordpress
+[Sat Mar 17 21:46:21 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/blog
+[Sat Mar 17 21:46:21 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/.git
+[Sat Mar 17 21:46:21 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/.svn
+[Sat Mar 17 21:46:22 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/.hg
+[Sat Mar 17 21:46:22 2018] [error] [client 5.188.9.80] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wp-config.php.bak' not found or unable to stat
+[Sat Mar 17 21:46:22 2018] [error] [client 5.188.9.80] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/.wp-config.php.swp' not found or unable to stat
+[Sat Mar 17 21:46:22 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wp-config.php~
+[Sat Mar 17 21:46:22 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wp
+[Sat Mar 17 21:46:23 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wp
+[Sat Mar 17 21:46:23 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wp
+[Sat Mar 17 21:46:23 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wordpress
+[Sat Mar 17 21:46:23 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wordpress
+[Sat Mar 17 21:46:23 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wordpress
+[Sat Mar 17 21:46:24 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/blog
+[Sat Mar 17 21:46:24 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/blog
+[Sat Mar 17 21:46:24 2018] [error] [client 5.188.9.80] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/blog
+[Sun Mar 18 02:46:53 2018] [error] [client 191.190.5.174] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/hndUnblock.cgi
+[Sun Mar 18 02:46:53 2018] [error] [client 191.190.5.174] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/tmUnblock.cgi
+[Sun Mar 18 02:46:54 2018] [error] [client 191.190.5.174] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/moo
+[Sun Mar 18 02:46:54 2018] [error] [client 191.190.5.174] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/getcfg.php' not found or unable to stat
+[Sun Mar 18 02:46:55 2018] [error] [client 191.190.5.174] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/getcfg.php' not found or unable to stat
+[Sun Mar 18 03:39:02 2018] [notice] SIGHUP received.  Attempting to restart

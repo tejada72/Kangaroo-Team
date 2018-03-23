@@ -1,0 +1,25 @@
+393:b6099934d01c946b88d6972c87b14d7cc3600e31
+0
+3
+amzn-main:5883:1506841597
+amzn-updates:1017:1518045287
+installed:393:cf1fea05cfc88e312d58487471c11a51fc35d750
+2
+mbr: kernel-tools,x86_64,0,4.9.77,31.58.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 10
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: kernel-tools,x86_64,0,4.9.76,3.78.amzn1@i:updates
+  updates: kernel-tools,x86_64,0,4.9.76,3.78.amzn1@i
+mbr: kernel-tools,x86_64,0,4.9.76,3.78.amzn1 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: kernel-tools,x86_64,0,4.9.77,31.58.amzn1@a:updatedby
+  updated_by: kernel-tools,x86_64,0,4.9.77,31.58.amzn1@a

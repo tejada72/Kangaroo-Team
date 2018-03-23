@@ -1,0 +1,764 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+    <id>base</id>
+    <name>Base</name>
+    <description>This group includes a minimal set of packages. Useful for creating small router/firewall boxes, for example.</description>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>acl</packagereq>
+      <packagereq type='mandatory'>at</packagereq>
+      <packagereq type='mandatory'>attr</packagereq>
+      <packagereq type='mandatory'>authconfig</packagereq>
+      <packagereq type='mandatory'>bc</packagereq>
+      <packagereq type='mandatory'>bind-utils</packagereq>
+      <packagereq type='mandatory'>bzip2</packagereq>
+      <packagereq type='mandatory'>crontabs</packagereq>
+      <packagereq type='mandatory'>cyrus-sasl-plain</packagereq>
+      <packagereq type='mandatory'>logrotate</packagereq>
+      <packagereq type='mandatory'>dbus</packagereq>
+      <packagereq type='mandatory'>diffutils</packagereq>
+      <packagereq type='mandatory'>lsof</packagereq>
+      <packagereq type='mandatory'>man-db</packagereq>
+      <packagereq type='mandatory'>ntsysv</packagereq>
+      <packagereq type='mandatory'>psacct</packagereq>
+      <packagereq type='mandatory'>tmpwatch</packagereq>
+      <packagereq type='mandatory'>traceroute</packagereq>
+      <packagereq type='default'>acpid</packagereq>
+      <packagereq type='default'>cronie-anacron</packagereq>
+      <packagereq type='default'>cryptsetup</packagereq>
+      <packagereq type='default'>dhclient</packagereq>
+      <packagereq type='default'>dmraid</packagereq>
+      <packagereq type='default'>dump</packagereq>
+      <packagereq type='default'>gnupg2</packagereq>
+      <packagereq type='default'>irqbalance</packagereq>
+      <packagereq type='default'>libaio</packagereq>
+      <packagereq type='default'>lvm2</packagereq>
+      <packagereq type='default'>man-pages</packagereq>
+      <packagereq type='default'>mdadm</packagereq>
+      <packagereq type='default'>nano</packagereq>
+      <packagereq type='default'>nc</packagereq>
+      <packagereq type='default'>openssh-clients</packagereq>
+      <packagereq type='default'>openssh-server</packagereq>
+      <packagereq type='default'>pam_ccreds</packagereq>
+      <packagereq type='default'>pam_krb5</packagereq>
+      <packagereq type='default'>pam_passwdqc</packagereq>
+      <packagereq type='default'>rsync</packagereq>
+      <packagereq type='default'>sendmail</packagereq>
+      <packagereq type='default'>sudo</packagereq>
+      <packagereq type='default'>tcp_wrappers</packagereq>
+      <packagereq type='default'>time</packagereq>
+      <packagereq type='default'>util-linux</packagereq>
+      <packagereq type='default'>unzip</packagereq>
+      <packagereq type='default'>vim-enhanced</packagereq>
+      <packagereq type='default'>wget</packagereq>
+      <packagereq type='default'>which</packagereq>
+      <packagereq type='default'>words</packagereq>
+      <packagereq type='default'>zip</packagereq>
+      <packagereq type='default'>xz</packagereq>
+      <packagereq type='default'>yum-utils</packagereq>
+      <packagereq type='optional'>aide</packagereq>
+      <packagereq type='optional'>bridge-utils</packagereq>
+      <packagereq type='optional'>device-mapper-multipath</packagereq>
+      <packagereq type='optional'>dmraid-events-logwatch</packagereq>
+      <packagereq type='optional'>fipscheck</packagereq>
+      <packagereq type='optional'>fuse-libs</packagereq>
+      <packagereq type='optional'>fuse</packagereq>
+      <packagereq type='optional'>hardlink</packagereq>
+      <packagereq type='optional'>hesinfo</packagereq>
+      <packagereq type='optional'>ipsec-tools</packagereq>
+      <packagereq type='optional'>keyutils</packagereq>
+      <packagereq type='optional'>krb5-workstation</packagereq>
+      <packagereq type='optional'>ksh</packagereq>
+      <packagereq type='optional'>logwatch</packagereq>
+      <packagereq type='optional'>python27-m2crypto</packagereq>
+      <packagereq type='optional'>nfs4-acl-tools</packagereq>
+      <packagereq type='optional'>pax</packagereq>
+      <packagereq type='optional'>openswan</packagereq>
+      <packagereq type='optional'>rdist</packagereq>
+      <packagereq type='optional'>squashfs-tools</packagereq>
+      <packagereq type='optional'>star</packagereq>
+      <packagereq type='optional'>symlinks</packagereq>
+      <packagereq type='optional'>tcpdump</packagereq>
+      <packagereq type='optional'>tcsh</packagereq>
+      <packagereq type='optional'>udftools</packagereq>
+      <packagereq type='optional'>uuidd</packagereq>
+      <packagereq type='optional'>x86info</packagereq>
+      <packagereq type='optional'>yum-updatesd</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>console-internet</id>
+    <name>Console internet tools</name>
+    <description>Console internet access tools, often used by administrators.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='default'>elinks</packagereq>
+      <packagereq type='optional'>fetchmail</packagereq>
+      <packagereq type='optional'>ftp</packagereq>
+      <packagereq type='optional'>jwhois</packagereq>
+      <packagereq type='optional'>lftp</packagereq>
+      <packagereq type='optional'>mutt</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>core</id>
+    <name>Core</name>
+    <description>Smallest possible installation</description>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>audit</packagereq>
+      <packagereq type='mandatory'>authconfig</packagereq>
+      <packagereq type='mandatory'>basesystem</packagereq>
+      <packagereq type='mandatory'>bash</packagereq>
+      <packagereq type='mandatory'>coreutils</packagereq>
+      <packagereq type='mandatory'>cpio</packagereq>
+      <packagereq type='mandatory'>cronie</packagereq>
+      <packagereq type='mandatory'>dracut</packagereq>
+      <packagereq type='mandatory'>e2fsprogs</packagereq>
+      <packagereq type='mandatory'>ed</packagereq>
+      <packagereq type='mandatory'>file</packagereq>
+      <packagereq type='mandatory'>filesystem</packagereq>
+      <packagereq type='mandatory'>glibc</packagereq>
+      <packagereq type='mandatory'>hmaccalc</packagereq>
+      <packagereq type='mandatory'>initscripts</packagereq>
+      <packagereq type='mandatory'>iproute</packagereq>
+      <packagereq type='mandatory'>iptables</packagereq>
+      <packagereq type='mandatory'>iputils</packagereq>
+      <packagereq type='mandatory'>less</packagereq>
+      <packagereq type='mandatory'>ncurses-libs</packagereq>
+      <packagereq type='mandatory'>ncurses</packagereq>
+      <packagereq type='mandatory'>passwd</packagereq>
+      <packagereq type='mandatory'>procps</packagereq>
+      <packagereq type='mandatory'>readline</packagereq>
+      <packagereq type='mandatory'>rootfiles</packagereq>
+      <packagereq type='mandatory'>rpm</packagereq>
+      <packagereq type='mandatory'>rsyslog</packagereq>
+      <packagereq type='mandatory'>setserial</packagereq>
+      <packagereq type='mandatory'>setup</packagereq>
+      <packagereq type='mandatory'>shadow-utils</packagereq>
+      <packagereq type='mandatory'>system-release</packagereq>
+      <packagereq type='mandatory'>upstart</packagereq>
+      <packagereq type='mandatory'>vim-minimal</packagereq>
+      <packagereq type='default'>kernel</packagereq>
+      <packagereq type='default'>ntp</packagereq>
+      <packagereq type='default'>sysfsutils</packagereq>
+      <packagereq type='default'>yum</packagereq>
+      <packagereq type='optional'>ecryptfs-utils</packagereq>
+      <packagereq type='optional'>sgpio</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>development-libs</id>
+    <name>Development Libraries</name>
+    <description>The packages in this group are core libraries needed to develop applications.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>bzip2-devel</packagereq>
+      <packagereq type='mandatory'>glibc-devel</packagereq>
+      <packagereq type='mandatory'>gcc-c++</packagereq>
+      <packagereq type='mandatory'>ncurses-devel</packagereq>
+      <packagereq type='mandatory'>nss-devel</packagereq>
+      <packagereq type='mandatory'>pam-devel</packagereq>
+      <packagereq type='mandatory'>readline-devel</packagereq>
+      <packagereq type='mandatory'>zlib-devel</packagereq>
+      <packagereq type='default'>boost-devel</packagereq>
+      <packagereq type='default'>cyrus-sasl-devel</packagereq>
+      <packagereq type='default'>db4-devel</packagereq>
+      <packagereq type='default'>dbus-devel</packagereq>
+      <packagereq type='default'>expat-devel</packagereq>
+      <packagereq type='default'>gdbm-devel</packagereq>
+      <packagereq type='default'>gmp-devel</packagereq>
+      <packagereq type='default'>gpm-devel</packagereq>
+      <packagereq type='default'>hesiod-devel</packagereq>
+      <packagereq type='default'>krb5-devel</packagereq>
+      <packagereq type='default'>libacl-devel</packagereq>
+      <packagereq type='default'>libattr-devel</packagereq>
+      <packagereq type='default'>libcap-devel</packagereq>
+      <packagereq type='default'>libcurl-devel</packagereq>
+      <packagereq type='default'>libogg-devel</packagereq>
+      <packagereq type='default'>libselinux-devel</packagereq>
+      <packagereq type='default'>libusb-devel</packagereq>
+      <packagereq type='default'>libuser-devel</packagereq>
+      <packagereq type='default'>libvorbis-devel</packagereq>
+      <packagereq type='default'>libxml2-devel</packagereq>
+      <packagereq type='default'>lockdev-devel</packagereq>
+      <packagereq type='default'>newt-devel</packagereq>
+      <packagereq type='default'>openldap-devel</packagereq>
+      <packagereq type='default'>openssl-devel</packagereq>
+      <packagereq type='default'>pam-devel</packagereq>
+      <packagereq type='default'>pciutils-devel</packagereq>
+      <packagereq type='default'>python27-devel</packagereq>
+      <packagereq type='default'>rpm-devel</packagereq>
+      <packagereq type='default'>slang-devel</packagereq>
+      <packagereq type='default'>sysfsutils</packagereq>
+      <packagereq type='optional'>fipscheck-devel</packagereq>
+      <packagereq type='optional'>fuse-devel</packagereq>
+      <packagereq type='optional'>libassuan-devel</packagereq>
+      <packagereq type='optional'>libksba</packagereq>
+      <packagereq type='optional'>libksba-devel</packagereq>
+      <packagereq type='optional'>perl-Archive-Zip</packagereq>
+      <packagereq type='optional'>perl-Convert-ASN1</packagereq>
+      <packagereq type='optional'>perl-Crypt-SSLeay</packagereq>
+      <packagereq type='optional'>perl-Date-Manip</packagereq>
+      <packagereq type='optional'>perl-LDAP</packagereq>
+      <packagereq type='optional'>perl-Mozilla-LDAP</packagereq>
+      <packagereq type='optional'>perl-TimeDate</packagereq>
+      <packagereq type='optional'>perl-XML-Dumper</packagereq>
+      <packagereq type='optional'>perl-XML-Grove</packagereq>
+      <packagereq type='optional'>perl-XML-NamespaceSupport</packagereq>
+      <packagereq type='optional'>perl-XML-SAX</packagereq>
+      <packagereq type='optional'>perl-XML-Twig</packagereq>
+      <packagereq type='optional'>perl-libxml-perl</packagereq>
+      <packagereq type='optional'>pth</packagereq>
+      <packagereq type='optional'>pth-devel</packagereq>
+      <packagereq type='optional'>python27-imaging</packagereq>
+      <packagereq type='optional'>systemtap-sdt-devel</packagereq>
+      <packagereq type='optional'>xz-devel</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>development</id>
+    <name>Development tools</name>
+    <description>A basic development environment.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>autoconf</packagereq>
+      <packagereq type='mandatory'>automake</packagereq>
+      <packagereq type='mandatory'>binutils</packagereq>
+      <packagereq type='mandatory'>bison</packagereq>
+      <packagereq type='mandatory'>flex</packagereq>
+      <packagereq type='mandatory'>gcc</packagereq>
+      <packagereq type='mandatory'>gcc-c++</packagereq>
+      <packagereq type='mandatory'>gdb</packagereq>
+      <packagereq type='mandatory'>gettext</packagereq>
+      <packagereq type='mandatory'>kexec-tools</packagereq>
+      <packagereq type='mandatory'>latrace</packagereq>
+      <packagereq type='mandatory'>libtool</packagereq>
+      <packagereq type='mandatory'>make</packagereq>
+      <packagereq type='mandatory'>patch</packagereq>
+      <packagereq type='mandatory'>pkgconfig</packagereq>
+      <packagereq type='mandatory'>system-rpm-config</packagereq>
+      <packagereq type='mandatory'>systemtap-runtime</packagereq>
+      <packagereq type='mandatory'>rpm-build</packagereq>
+      <packagereq type='mandatory'>strace</packagereq>
+      <packagereq type='default'>byacc</packagereq>
+      <packagereq type='default'>crash</packagereq>
+      <packagereq type='default'>cscope</packagereq>
+      <packagereq type='default'>ctags</packagereq>
+      <packagereq type='default'>cvs</packagereq>
+      <packagereq type='default'>diffstat</packagereq>
+      <packagereq type='default'>doxygen</packagereq>
+      <packagereq type='default'>elfutils</packagereq>
+      <packagereq type='default'>gcc-gfortran</packagereq>
+      <packagereq type='default'>git</packagereq>
+      <packagereq type='default'>indent</packagereq>
+      <packagereq type='default'>intltool</packagereq>
+      <packagereq type='default'>ltrace</packagereq>
+      <packagereq type='default'>patchutils</packagereq>
+      <packagereq type='default'>rcs</packagereq>
+      <packagereq type='default'>subversion</packagereq>
+      <packagereq type='default'>swig</packagereq>
+      <packagereq type='default'>systemtap</packagereq>
+      <packagereq type='default'>texinfo</packagereq>
+      <packagereq type='default'>valgrind</packagereq>
+      <packagereq type='optional'>ant</packagereq>
+      <packagereq type='optional'>python27-babel</packagereq>
+      <packagereq type='optional'>bzr-python27</packagereq>
+      <packagereq type='optional'>chrpath</packagereq>
+      <packagereq type='optional'>cmake</packagereq>
+      <packagereq type='optional'>dejagnu</packagereq>
+      <packagereq type='optional'>expect</packagereq>
+      <packagereq type='optional'>gcc-gnat</packagereq>
+      <packagereq type='optional'>glibc-utils</packagereq>
+      <packagereq type='optional'>imake</packagereq>
+      <packagereq type='optional'>jpackage-utils</packagereq>
+      <packagereq type='optional'>lslk</packagereq>
+      <packagereq type='optional'>mercurial-python27</packagereq>
+      <packagereq type='optional'>mod_dav_svn</packagereq>
+      <packagereq type='optional'>nasm</packagereq>
+      <packagereq type='optional'>perltidy</packagereq>
+      <packagereq type='optional'>python27-docs</packagereq>
+      <packagereq type='optional'>rpmdevtools</packagereq>
+      <packagereq type='optional'>rpmlint</packagereq>
+      <packagereq type='optional'>systemtap-initscript</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>dns-server</id>
+    <name>DNS Name Server</name>
+    <description>This package group allows you to run a DNS name server (BIND) on the system.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>bind</packagereq>
+      <packagereq type='default'>bind-chroot</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>editors</id>
+    <name>Editors</name>
+    <description>Sometimes called text editors, these are programs that allow you to create and edit files. These include Emacs and Vi.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='default'>vim-enhanced</packagereq>
+      <packagereq type='optional'>emacs</packagereq>
+      <packagereq type='optional'>ctags-etags</packagereq>
+      <packagereq type='optional'>emacs-auctex</packagereq>
+      <packagereq type='optional'>emacs-gnuplot</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>ftp-server</id>
+    <name>FTP Server</name>
+    <description>These tools allow you to run an FTP server on the system.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>vsftpd</packagereq>
+      <packagereq type='optional'>xferstats</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>java</id>
+    <name>Java</name>
+    <description>Support for running programs written in the Java programming language.</description>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>java-1.7.0-openjdk</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>java-development</id>
+    <name>Java Development</name>
+    <description>Support for developing programs in the Java programming language.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>java-1.7.0-openjdk-devel</packagereq>
+      <packagereq type='default'>bsh</packagereq>
+      <packagereq type='default'>bsh-javadoc</packagereq>
+      <packagereq type='default'>bsh-manual</packagereq>
+      <packagereq type='optional'>bsh-demo</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>legacy-unix</id>
+    <name>Legacy UNIX compatibility</name>
+    <description>Compatibility programs for migration from or working with legacy UNIX environments.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='default'>xinetd</packagereq>
+      <packagereq type='optional'>dump</packagereq>
+      <packagereq type='optional'>finger</packagereq>
+      <packagereq type='optional'>rsh</packagereq>
+      <packagereq type='optional'>rsh-server</packagereq>
+      <packagereq type='optional'>talk</packagereq>
+      <packagereq type='optional'>talk-server</packagereq>
+      <packagereq type='optional'>tcp_wrappers</packagereq>
+      <packagereq type='optional'>telnet</packagereq>
+      <packagereq type='optional'>telnet-server</packagereq>
+      <packagereq type='optional'>tftp</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>mail-server</id>
+    <name>Mail Server</name>
+    <description>These packages allow you to configure an IMAP or SMTP mail server.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='default'>cyrus-sasl</packagereq>
+      <packagereq type='default'>dovecot</packagereq>
+      <packagereq type='default'>sendmail</packagereq>
+      <packagereq type='default'>sendmail-cf</packagereq>
+      <packagereq type='default'>spamassassin</packagereq>
+      <packagereq type='optional'>cyrus-imapd</packagereq>
+      <packagereq type='optional'>mailman</packagereq>
+      <packagereq type='optional'>postfix</packagereq>
+      <packagereq type='optional'>dovecot-mysql</packagereq>
+      <packagereq type='optional'>dovecot-pgsql</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>mysql</id>
+    <name>MySQL Database</name>
+    <description>This package group contains packages useful for use with MySQL.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>mysql-server</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>mysql-client</id>
+    <name>MySQL Database client</name>
+    <description>The MySQL SQL database client, and associated packages.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>mysql</packagereq>
+      <packagereq type='default'>MySQL-python27</packagereq>
+      <packagereq type='default'>mysql-connector-odbc</packagereq>
+      <packagereq type='optional'>mysql-connector-java</packagereq>
+      <packagereq type='optional'>libdbi-dbd-mysql</packagereq>
+      <packagereq type='optional'>perl-DBD-MySQL55</packagereq>
+      <packagereq type='optional'>mod_auth_mysql</packagereq>
+      <packagereq type='optional'>php56-mysqlnd</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>network-server</id>
+    <name>Network Servers</name>
+    <description>These packages include network-based servers such as DHCP, Kerberos and NIS.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='default'>cyrus-sasl</packagereq>
+      <packagereq type='optional'>amanda-server</packagereq>
+      <packagereq type='optional'>dhcp</packagereq>
+      <packagereq type='optional'>dnsmasq</packagereq>
+      <packagereq type='optional'>freeradius</packagereq>
+      <packagereq type='optional'>krb5-server</packagereq>
+      <packagereq type='optional'>openldap-servers</packagereq>
+      <packagereq type='optional'>privoxy</packagereq>
+      <packagereq type='optional'>ypserv</packagereq>
+      <packagereq type='optional'>tftp-server</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>network-tools</id>
+    <name>Networking Tools</name>
+    <description>Tools for configuring and analyzing computer networks.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>tcpdump</packagereq>
+      <packagereq type='default'>nc</packagereq>
+      <packagereq type='optional'>openswan</packagereq>
+      <packagereq type='optional'>arptables_jf</packagereq>
+      <packagereq type='optional'>arpwatch</packagereq>
+      <packagereq type='optional'>iptraf</packagereq>
+      <packagereq type='optional'>iptstate</packagereq>
+      <packagereq type='optional'>lksctp-tools</packagereq>
+      <packagereq type='optional'>mrtg</packagereq>
+      <packagereq type='optional'>netlabel_tools</packagereq>
+      <packagereq type='optional'>nmap</packagereq>
+      <packagereq type='optional'>stunnel</packagereq>
+      <packagereq type='optional'>wireshark</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>nfs-server</id>
+    <name>NFS file server</name>
+    <description>NFS file server.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nfs-utils</packagereq>
+      <packagereq type='mandatory'>nfs4-acl-tools</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>performance</id>
+    <name>Performance Tools</name>
+    <description>Tools for diagnosing system and application-level performance problems.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>blktrace</packagereq>
+      <packagereq type='mandatory'>sysstat</packagereq>
+      <packagereq type='default'>dstat</packagereq>
+      <packagereq type='default'>iotop</packagereq>
+      <packagereq type='default'>oprofile</packagereq>
+      <!--packagereq type='default'>perf</packagereq-->
+      <packagereq type='optional'>oprofile-jit</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>perl-runtime</id>
+    <name>Perl Support</name>
+    <description>Perl interfaces to common libraries and functionality.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>perl</packagereq>
+      <packagereq type='default'>perl-Crypt-SSLeay</packagereq>
+      <packagereq type='default'>perl-XML-Dumper</packagereq>
+      <packagereq type='default'>perl-XML-Grove</packagereq>
+      <packagereq type='default'>perl-XML-Twig</packagereq>
+      <packagereq type='default'>perl-core</packagereq>
+      <packagereq type='optional'>perl-DBD-SQLite</packagereq>
+      <packagereq type='optional'>perl-Date-Calc</packagereq>
+      <packagereq type='optional'>perl-Date-Manip</packagereq>
+      <packagereq type='optional'>perl-Frontier-RPC</packagereq>
+      <packagereq type='optional'>perl-LDAP</packagereq>
+      <packagereq type='optional'>perl-Mozilla-LDAP</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>php</id>
+    <name>PHP Support</name>
+    <description>PHP web application framework.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>php56</packagereq>
+      <packagereq type='default'>php56-gd</packagereq>
+      <packagereq type='default'>php56-pdo</packagereq>
+      <packagereq type='default'>php-pear</packagereq>
+      <packagereq type='default'>php56-xml</packagereq>
+      <packagereq type='optional'>php56-ldap</packagereq>
+      <packagereq type='optional'>php56-mysqlnd</packagereq>
+      <packagereq type='optional'>php56-odbc</packagereq>
+      <packagereq type='optional'>php56-pecl-apcu</packagereq>
+      <packagereq type='optional'>php56-pecl-memcache</packagereq>
+      <packagereq type='optional'>php56-pgsql</packagereq>
+      <packagereq type='optional'>php56-soap</packagereq>
+      <packagereq type='optional'>php56-xmlrpc</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>ruby</id>
+    <name>Ruby</name>
+    <description>Basic support for the Ruby programming language.</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>ruby</packagereq>
+      <packagereq type='default'>ruby-devel</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>scientific</id>
+    <name>Scientific support</name>
+    <description>Tools for mathematical and scientific computations, and parallel computing.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='default'>gnuplot</packagereq>
+      <packagereq type='default'>units</packagereq>
+      <packagereq type='optional'>atlas</packagereq>
+      <packagereq type='optional'>lapack</packagereq>
+      <packagereq type='optional'>mpich</packagereq>
+      <packagereq type='optional'>python27-numpy</packagereq>
+      <packagereq type='optional'>openmpi</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>selinux</id>
+    <name>SELinux</name>
+    <description>This package group allows you to use and manage SELinux policies on the system.</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>policycoreutils</packagereq>
+      <packagereq type='mandatory'>selinux-policy-targeted</packagereq>
+      <packagereq type='mandatory'>setools</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>system-tools</id>
+    <name>System Tools</name>
+    <description>This group is a collection of various tools for the system, such as the client for connecting to SMB shares and tools to monitor network traffic.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='default'>conman</packagereq>
+      <packagereq type='default'>mgetty</packagereq>
+      <packagereq type='default'>mkbootdisk</packagereq>
+      <packagereq type='default'>net-snmp-libs</packagereq>
+      <packagereq type='default'>nmap</packagereq>
+      <packagereq type='default'>ntp</packagereq>
+      <packagereq type='default'>openldap-clients</packagereq>
+      <packagereq type='default'>quota</packagereq>
+      <packagereq type='default'>rng-tools</packagereq>
+      <packagereq type='default'>screen</packagereq>
+      <packagereq type='default'>xdelta</packagereq>
+      <packagereq type='default'>zisofs-tools</packagereq>
+      <packagereq type='default'>zsh</packagereq>
+      <packagereq type='optional'>adjtimex</packagereq>
+      <packagereq type='optional'>amanda-client</packagereq>
+      <packagereq type='optional'>arptables_jf</packagereq>
+      <packagereq type='optional'>arpwatch</packagereq>
+      <packagereq type='optional'>audit</packagereq>
+      <packagereq type='optional'>avahi-tools</packagereq>
+      <packagereq type='optional'>blktrace</packagereq>
+      <packagereq type='optional'>createrepo</packagereq>
+      <packagereq type='optional'>dstat</packagereq>
+      <packagereq type='optional'>gnutls-utils</packagereq>
+      <packagereq type='optional'>iptraf</packagereq>
+      <packagereq type='optional'>ktune</packagereq>
+      <packagereq type='optional'>lslk</packagereq>
+      <packagereq type='optional'>lsscsi</packagereq>
+      <packagereq type='optional'>mc</packagereq>
+      <packagereq type='optional'>mrtg</packagereq>
+      <packagereq type='optional'>net-snmp-utils</packagereq>
+      <packagereq type='optional'>pinentry</packagereq>
+      <packagereq type='optional'>sysstat</packagereq>
+      <packagereq type='optional'>uuidd</packagereq>
+      <packagereq type='optional'>vlock</packagereq>
+      <packagereq type='optional'>watchdog</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>technical-writing</id>
+    <name>Technical Writing</name>
+    <description>Tools for writing technical documentation.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>docbook-slides</packagereq>
+      <packagereq type='mandatory'>docbook-style-xsl</packagereq>
+      <packagereq type='mandatory'>docbook-utils</packagereq>
+      <packagereq type='mandatory'>docbook5-schemas</packagereq>
+      <packagereq type='mandatory'>docbook5-style-xsl</packagereq>
+      <packagereq type='default'>xmlto</packagereq>
+      <packagereq type='optional'>docbook-utils-pdf</packagereq>
+      <packagereq type='optional'>texinfo</packagereq>
+      <packagereq type='optional'>xmlto-tex</packagereq>
+      <packagereq type='optional'>xmltoman</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>tex</id>
+    <name>TeX support</name>
+    <description>Support for the TeX document formatting system.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>texlive</packagereq>
+      <packagereq type='mandatory'>texlive-latex</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>tomcat</id>
+    <name>Web Servlet Engine</name>
+    <description>Allows the system to host Java servlets.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>tomcat8</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>web-server</id>
+    <name>Web Server</name>
+    <description>Allows the system to act as a web server, and run Perl and Python web applications.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>httpd</packagereq>
+      <packagereq type='default'>crypto-utils</packagereq>
+      <packagereq type='default'>mod_perl</packagereq>
+      <packagereq type='default'>mod_ssl</packagereq>
+      <packagereq type='default'>mod_wsgi-python27</packagereq>
+      <packagereq type='optional'>httpd-manual</packagereq>
+      <packagereq type='optional'>libmemcached</packagereq>
+      <packagereq type='optional'>memcached</packagereq>
+      <packagereq type='optional'>mod_auth_kerb</packagereq>
+      <packagereq type='optional'>mod_auth_mysql</packagereq>
+      <packagereq type='optional'>mod_auth_pgsql</packagereq>
+      <packagereq type='optional'>mod_authz_ldap</packagereq>
+      <packagereq type='optional'>mod_nss</packagereq>
+      <packagereq type='optional'>perl-CGI</packagereq>
+      <packagereq type='optional'>perl-CGI-Session</packagereq>
+      <packagereq type='optional'>perl-Cache-Memcached</packagereq>
+      <packagereq type='optional'>python27-memcached</packagereq>
+      <packagereq type='optional'>squid</packagereq>
+      <packagereq type='optional'>varnish</packagereq>
+    </packagelist>
+  </group>
+  <category>
+    <id>apps</id>
+    <name>Applications</name>
+    <description>Applications for a variety of tasks</description>
+    <display_order>20</display_order>
+    <grouplist>
+      <groupid>console-internet</groupid>
+      <groupid>editors</groupid>
+      <groupid>scientific</groupid>
+      <groupid>graphics</groupid>
+      <groupid>technical-writing</groupid>
+      <groupid>tex</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>development</id>
+    <name>Development</name>
+    <description>Packages which provide functionality for developing and building applications.</description>
+    <display_order>70</display_order>
+    <grouplist>
+      <groupid>development-libs</groupid>
+      <groupid>development</groupid>
+      <groupid>java-development</groupid>
+      <groupid>perl-runtime</groupid>
+      <groupid>ruby</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>servers</id>
+    <name>Servers</name>
+    <description>Software used for running network servers</description>
+    <display_order>90</display_order>
+    <grouplist>
+      <groupid>dns-server</groupid>
+      <groupid>ftp-server</groupid>
+      <groupid>legacy-unix</groupid>
+      <groupid>mail-server</groupid>
+      <groupid>mysql</groupid>
+      <groupid>network-server</groupid>
+      <groupid>nfs-server</groupid>
+      <groupid>news-server</groupid>
+      <groupid>postgresql95</groupid>
+      <groupid>printing</groupid>
+      <groupid>server-cfg</groupid>
+      <groupid>web-server</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>base-system</id>
+    <name>Base System</name>
+    <description>Various core pieces of the system.</description>
+    <display_order>99</display_order>
+    <grouplist>
+      <groupid>base</groupid>
+      <groupid>java</groupid>
+      <groupid>perl-runtime</groupid>
+      <groupid>system-tools</groupid>
+      <groupid>systemz-tools</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>web-services</id>
+    <name>Web Services</name>
+    <description>Web and web application servers.</description>
+    <display_order>30</display_order>
+    <grouplist>
+      <groupid>php</groupid>
+      <groupid>web-server</groupid>
+      <groupid>tomcat</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>databases</id>
+    <name>Databases</name>
+    <description>SQL Databases</description>
+    <display_order>35</display_order>
+    <grouplist>
+      <groupid>mysql</groupid>
+      <groupid>mysql-client</groupid>
+      <groupid>postgresql95</groupid>
+      <groupid>postgresql95-client</groupid>
+    </grouplist>
+  </category>
+</comps>

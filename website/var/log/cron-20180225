@@ -1,0 +1,662 @@
+Feb 18 03:39:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[9584]: finished logrotate
+Feb 18 03:39:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[9557]: starting man-db.cron
+Feb 18 03:39:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[9604]: finished man-db.cron
+Feb 18 03:39:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[9557]: starting tmpwatch
+Feb 18 03:39:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[9630]: finished tmpwatch
+Feb 18 03:39:01 ip-172-31-9-209 anacron[9469]: Job `cron.daily' terminated
+Feb 18 03:39:01 ip-172-31-9-209 anacron[9469]: Normal exit (1 job run)
+Feb 18 04:01:01 ip-172-31-9-209 CROND[9637]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 04:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[9637]: starting 0anacron
+Feb 18 04:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[9646]: finished 0anacron
+Feb 18 05:01:01 ip-172-31-9-209 CROND[9771]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[9771]: starting 0anacron
+Feb 18 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[9780]: finished 0anacron
+Feb 18 05:09:01 ip-172-31-9-209 CROND[9783]: (root) CMD (/sbin/start --quiet update-motd)
+Feb 18 06:01:01 ip-172-31-9-209 CROND[9914]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[9914]: starting 0anacron
+Feb 18 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[9923]: finished 0anacron
+Feb 18 07:01:01 ip-172-31-9-209 CROND[10045]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10045]: starting 0anacron
+Feb 18 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10054]: finished 0anacron
+Feb 18 08:01:01 ip-172-31-9-209 CROND[10204]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10204]: starting 0anacron
+Feb 18 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10213]: finished 0anacron
+Feb 18 09:01:01 ip-172-31-9-209 CROND[10359]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10359]: starting 0anacron
+Feb 18 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10368]: finished 0anacron
+Feb 18 10:01:01 ip-172-31-9-209 CROND[10493]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10493]: starting 0anacron
+Feb 18 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10502]: finished 0anacron
+Feb 18 11:01:01 ip-172-31-9-209 CROND[10600]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 11:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10600]: starting 0anacron
+Feb 18 11:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10609]: finished 0anacron
+Feb 18 12:01:01 ip-172-31-9-209 CROND[10751]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10751]: starting 0anacron
+Feb 18 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10760]: finished 0anacron
+Feb 18 13:01:01 ip-172-31-9-209 CROND[10853]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10853]: starting 0anacron
+Feb 18 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[10862]: finished 0anacron
+Feb 18 14:01:01 ip-172-31-9-209 CROND[11471]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[11471]: starting 0anacron
+Feb 18 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[11480]: finished 0anacron
+Feb 18 15:01:01 ip-172-31-9-209 CROND[11607]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[11607]: starting 0anacron
+Feb 18 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[11616]: finished 0anacron
+Feb 18 16:01:01 ip-172-31-9-209 CROND[11716]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[11716]: starting 0anacron
+Feb 18 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[11725]: finished 0anacron
+Feb 18 17:01:01 ip-172-31-9-209 CROND[11820]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[11820]: starting 0anacron
+Feb 18 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[11829]: finished 0anacron
+Feb 18 18:01:01 ip-172-31-9-209 CROND[11962]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[11962]: starting 0anacron
+Feb 18 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[11971]: finished 0anacron
+Feb 18 19:01:01 ip-172-31-9-209 CROND[12063]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12063]: starting 0anacron
+Feb 18 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12072]: finished 0anacron
+Feb 18 20:01:01 ip-172-31-9-209 CROND[12168]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12168]: starting 0anacron
+Feb 18 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12177]: finished 0anacron
+Feb 18 21:01:01 ip-172-31-9-209 CROND[12281]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12281]: starting 0anacron
+Feb 18 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12290]: finished 0anacron
+Feb 18 22:01:01 ip-172-31-9-209 CROND[12422]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12422]: starting 0anacron
+Feb 18 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12431]: finished 0anacron
+Feb 18 23:01:01 ip-172-31-9-209 CROND[12617]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 18 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12617]: starting 0anacron
+Feb 18 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12626]: finished 0anacron
+Feb 19 00:01:01 ip-172-31-9-209 CROND[12752]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12752]: starting 0anacron
+Feb 19 00:01:01 ip-172-31-9-209 anacron[12762]: Anacron started on 2018-02-19
+Feb 19 00:01:01 ip-172-31-9-209 anacron[12762]: Jobs will be executed sequentially
+Feb 19 00:01:01 ip-172-31-9-209 anacron[12762]: Normal exit (0 jobs run)
+Feb 19 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12764]: finished 0anacron
+Feb 19 01:01:01 ip-172-31-9-209 CROND[12893]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12893]: starting 0anacron
+Feb 19 01:01:01 ip-172-31-9-209 anacron[12903]: Anacron started on 2018-02-19
+Feb 19 01:01:01 ip-172-31-9-209 anacron[12903]: Jobs will be executed sequentially
+Feb 19 01:01:01 ip-172-31-9-209 anacron[12903]: Normal exit (0 jobs run)
+Feb 19 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12905]: finished 0anacron
+Feb 19 02:01:01 ip-172-31-9-209 CROND[13003]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[13003]: starting 0anacron
+Feb 19 02:01:01 ip-172-31-9-209 anacron[13013]: Anacron started on 2018-02-19
+Feb 19 02:01:01 ip-172-31-9-209 anacron[13013]: Jobs will be executed sequentially
+Feb 19 02:01:01 ip-172-31-9-209 anacron[13013]: Normal exit (0 jobs run)
+Feb 19 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[13015]: finished 0anacron
+Feb 19 03:01:01 ip-172-31-9-209 CROND[13123]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[13123]: starting 0anacron
+Feb 19 03:01:01 ip-172-31-9-209 anacron[13133]: Anacron started on 2018-02-19
+Feb 19 03:01:01 ip-172-31-9-209 anacron[13133]: Will run job `cron.daily' in 39 min.
+Feb 19 03:01:01 ip-172-31-9-209 anacron[13133]: Will run job `cron.weekly' in 59 min.
+Feb 19 03:01:01 ip-172-31-9-209 anacron[13133]: Jobs will be executed sequentially
+Feb 19 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[13135]: finished 0anacron
+Feb 19 03:40:01 ip-172-31-9-209 anacron[13133]: Job `cron.daily' started
+Feb 19 03:40:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[13222]: starting logrotate
+Feb 19 03:40:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[13230]: finished logrotate
+Feb 19 03:40:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[13222]: starting man-db.cron
+Feb 19 03:40:02 ip-172-31-9-209 run-parts(/etc/cron.daily)[13241]: finished man-db.cron
+Feb 19 03:40:02 ip-172-31-9-209 run-parts(/etc/cron.daily)[13222]: starting tmpwatch
+Feb 19 03:40:02 ip-172-31-9-209 run-parts(/etc/cron.daily)[13267]: finished tmpwatch
+Feb 19 03:40:02 ip-172-31-9-209 anacron[13133]: Job `cron.daily' terminated
+Feb 19 04:00:01 ip-172-31-9-209 anacron[13133]: Job `cron.weekly' started
+Feb 19 04:00:01 ip-172-31-9-209 anacron[13133]: Job `cron.weekly' terminated
+Feb 19 04:00:01 ip-172-31-9-209 anacron[13133]: Normal exit (2 jobs run)
+Feb 19 04:01:01 ip-172-31-9-209 CROND[13276]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 04:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[13276]: starting 0anacron
+Feb 19 04:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[13285]: finished 0anacron
+Feb 19 05:01:01 ip-172-31-9-209 CROND[13474]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[13474]: starting 0anacron
+Feb 19 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[13483]: finished 0anacron
+Feb 19 05:09:01 ip-172-31-9-209 CROND[13486]: (root) CMD (/sbin/start --quiet update-motd)
+Feb 19 06:01:01 ip-172-31-9-209 CROND[13755]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[13755]: starting 0anacron
+Feb 19 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[13764]: finished 0anacron
+Feb 19 07:01:01 ip-172-31-9-209 CROND[14023]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14023]: starting 0anacron
+Feb 19 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14032]: finished 0anacron
+Feb 19 08:01:01 ip-172-31-9-209 CROND[14157]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14157]: starting 0anacron
+Feb 19 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14166]: finished 0anacron
+Feb 19 09:01:01 ip-172-31-9-209 CROND[14252]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14252]: starting 0anacron
+Feb 19 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14261]: finished 0anacron
+Feb 19 10:01:01 ip-172-31-9-209 CROND[14353]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14353]: starting 0anacron
+Feb 19 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14362]: finished 0anacron
+Feb 19 11:01:01 ip-172-31-9-209 CROND[14612]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 11:01:02 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14612]: starting 0anacron
+Feb 19 11:01:02 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14621]: finished 0anacron
+Feb 19 12:01:01 ip-172-31-9-209 CROND[14750]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14750]: starting 0anacron
+Feb 19 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14759]: finished 0anacron
+Feb 19 13:01:01 ip-172-31-9-209 CROND[14847]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14847]: starting 0anacron
+Feb 19 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[14856]: finished 0anacron
+Feb 19 14:01:01 ip-172-31-9-209 CROND[15552]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[15552]: starting 0anacron
+Feb 19 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[15561]: finished 0anacron
+Feb 19 15:01:01 ip-172-31-9-209 CROND[15649]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[15649]: starting 0anacron
+Feb 19 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[15658]: finished 0anacron
+Feb 19 16:01:01 ip-172-31-9-209 CROND[15795]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[15795]: starting 0anacron
+Feb 19 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[15804]: finished 0anacron
+Feb 19 17:01:01 ip-172-31-9-209 CROND[15913]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[15913]: starting 0anacron
+Feb 19 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[15922]: finished 0anacron
+Feb 19 18:01:01 ip-172-31-9-209 CROND[16020]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16020]: starting 0anacron
+Feb 19 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16029]: finished 0anacron
+Feb 19 19:01:01 ip-172-31-9-209 CROND[16164]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16164]: starting 0anacron
+Feb 19 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16173]: finished 0anacron
+Feb 19 20:01:01 ip-172-31-9-209 CROND[16268]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16268]: starting 0anacron
+Feb 19 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16277]: finished 0anacron
+Feb 19 21:01:01 ip-172-31-9-209 CROND[16414]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16414]: starting 0anacron
+Feb 19 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16423]: finished 0anacron
+Feb 19 22:01:01 ip-172-31-9-209 CROND[16671]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16671]: starting 0anacron
+Feb 19 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16680]: finished 0anacron
+Feb 19 23:01:01 ip-172-31-9-209 CROND[16810]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 19 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16810]: starting 0anacron
+Feb 19 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16819]: finished 0anacron
+Feb 20 00:01:01 ip-172-31-9-209 CROND[16923]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16923]: starting 0anacron
+Feb 20 00:01:01 ip-172-31-9-209 anacron[16933]: Anacron started on 2018-02-20
+Feb 20 00:01:01 ip-172-31-9-209 anacron[16933]: Jobs will be executed sequentially
+Feb 20 00:01:01 ip-172-31-9-209 anacron[16933]: Normal exit (0 jobs run)
+Feb 20 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16935]: finished 0anacron
+Feb 20 01:01:01 ip-172-31-9-209 CROND[17066]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17066]: starting 0anacron
+Feb 20 01:01:01 ip-172-31-9-209 anacron[17076]: Anacron started on 2018-02-20
+Feb 20 01:01:01 ip-172-31-9-209 anacron[17076]: Jobs will be executed sequentially
+Feb 20 01:01:01 ip-172-31-9-209 anacron[17076]: Normal exit (0 jobs run)
+Feb 20 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17078]: finished 0anacron
+Feb 20 02:01:01 ip-172-31-9-209 CROND[17185]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17185]: starting 0anacron
+Feb 20 02:01:01 ip-172-31-9-209 anacron[17195]: Anacron started on 2018-02-20
+Feb 20 02:01:01 ip-172-31-9-209 anacron[17195]: Jobs will be executed sequentially
+Feb 20 02:01:01 ip-172-31-9-209 anacron[17195]: Normal exit (0 jobs run)
+Feb 20 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17197]: finished 0anacron
+Feb 20 03:01:01 ip-172-31-9-209 CROND[17380]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17380]: starting 0anacron
+Feb 20 03:01:01 ip-172-31-9-209 anacron[17390]: Anacron started on 2018-02-20
+Feb 20 03:01:01 ip-172-31-9-209 anacron[17390]: Will run job `cron.daily' in 18 min.
+Feb 20 03:01:01 ip-172-31-9-209 anacron[17390]: Jobs will be executed sequentially
+Feb 20 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17392]: finished 0anacron
+Feb 20 03:19:01 ip-172-31-9-209 anacron[17390]: Job `cron.daily' started
+Feb 20 03:19:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[17445]: starting logrotate
+Feb 20 03:19:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[17453]: finished logrotate
+Feb 20 03:19:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[17445]: starting man-db.cron
+Feb 20 03:19:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[17464]: finished man-db.cron
+Feb 20 03:19:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[17445]: starting tmpwatch
+Feb 20 03:19:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[17490]: finished tmpwatch
+Feb 20 03:19:01 ip-172-31-9-209 anacron[17390]: Job `cron.daily' terminated
+Feb 20 03:19:01 ip-172-31-9-209 anacron[17390]: Normal exit (1 job run)
+Feb 20 04:01:01 ip-172-31-9-209 CROND[17542]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 04:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17542]: starting 0anacron
+Feb 20 04:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17551]: finished 0anacron
+Feb 20 05:01:01 ip-172-31-9-209 CROND[17682]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17682]: starting 0anacron
+Feb 20 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17691]: finished 0anacron
+Feb 20 05:09:01 ip-172-31-9-209 CROND[17696]: (root) CMD (/sbin/start --quiet update-motd)
+Feb 20 06:01:01 ip-172-31-9-209 CROND[17822]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17822]: starting 0anacron
+Feb 20 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17831]: finished 0anacron
+Feb 20 07:01:01 ip-172-31-9-209 CROND[17942]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17942]: starting 0anacron
+Feb 20 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[17951]: finished 0anacron
+Feb 20 08:01:01 ip-172-31-9-209 CROND[18241]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[18241]: starting 0anacron
+Feb 20 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[18250]: finished 0anacron
+Feb 20 09:01:01 ip-172-31-9-209 CROND[18443]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[18443]: starting 0anacron
+Feb 20 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[18452]: finished 0anacron
+Feb 20 10:01:01 ip-172-31-9-209 CROND[18570]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[18570]: starting 0anacron
+Feb 20 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[18579]: finished 0anacron
+Feb 20 11:01:01 ip-172-31-9-209 CROND[18697]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 11:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[18697]: starting 0anacron
+Feb 20 11:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[18706]: finished 0anacron
+Feb 20 12:01:01 ip-172-31-9-209 CROND[18860]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[18860]: starting 0anacron
+Feb 20 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[18869]: finished 0anacron
+Feb 20 13:01:01 ip-172-31-9-209 CROND[18984]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[18984]: starting 0anacron
+Feb 20 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[18993]: finished 0anacron
+Feb 20 14:01:01 ip-172-31-9-209 CROND[19121]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[19121]: starting 0anacron
+Feb 20 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[19130]: finished 0anacron
+Feb 20 15:01:01 ip-172-31-9-209 CROND[19450]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[19450]: starting 0anacron
+Feb 20 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[19459]: finished 0anacron
+Feb 20 16:01:01 ip-172-31-9-209 CROND[19672]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[19672]: starting 0anacron
+Feb 20 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[19681]: finished 0anacron
+Feb 20 17:01:01 ip-172-31-9-209 CROND[19853]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[19853]: starting 0anacron
+Feb 20 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[19862]: finished 0anacron
+Feb 20 18:01:01 ip-172-31-9-209 CROND[20004]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20004]: starting 0anacron
+Feb 20 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20013]: finished 0anacron
+Feb 20 19:01:01 ip-172-31-9-209 CROND[20159]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20159]: starting 0anacron
+Feb 20 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20168]: finished 0anacron
+Feb 20 20:01:01 ip-172-31-9-209 CROND[20457]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20457]: starting 0anacron
+Feb 20 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20466]: finished 0anacron
+Feb 20 21:01:01 ip-172-31-9-209 CROND[20602]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20602]: starting 0anacron
+Feb 20 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20611]: finished 0anacron
+Feb 20 22:01:01 ip-172-31-9-209 CROND[20701]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20701]: starting 0anacron
+Feb 20 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20710]: finished 0anacron
+Feb 20 23:01:01 ip-172-31-9-209 CROND[20842]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 20 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20842]: starting 0anacron
+Feb 20 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20851]: finished 0anacron
+Feb 21 00:01:01 ip-172-31-9-209 CROND[20976]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20976]: starting 0anacron
+Feb 21 00:01:01 ip-172-31-9-209 anacron[20986]: Anacron started on 2018-02-21
+Feb 21 00:01:01 ip-172-31-9-209 anacron[20986]: Jobs will be executed sequentially
+Feb 21 00:01:01 ip-172-31-9-209 anacron[20986]: Normal exit (0 jobs run)
+Feb 21 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20988]: finished 0anacron
+Feb 21 01:01:01 ip-172-31-9-209 CROND[21081]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21081]: starting 0anacron
+Feb 21 01:01:01 ip-172-31-9-209 anacron[21091]: Anacron started on 2018-02-21
+Feb 21 01:01:01 ip-172-31-9-209 anacron[21091]: Jobs will be executed sequentially
+Feb 21 01:01:01 ip-172-31-9-209 anacron[21091]: Normal exit (0 jobs run)
+Feb 21 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21093]: finished 0anacron
+Feb 21 02:01:01 ip-172-31-9-209 CROND[21214]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21214]: starting 0anacron
+Feb 21 02:01:01 ip-172-31-9-209 anacron[21224]: Anacron started on 2018-02-21
+Feb 21 02:01:01 ip-172-31-9-209 anacron[21224]: Jobs will be executed sequentially
+Feb 21 02:01:01 ip-172-31-9-209 anacron[21224]: Normal exit (0 jobs run)
+Feb 21 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21226]: finished 0anacron
+Feb 21 03:01:01 ip-172-31-9-209 CROND[21316]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21316]: starting 0anacron
+Feb 21 03:01:01 ip-172-31-9-209 anacron[21326]: Anacron started on 2018-02-21
+Feb 21 03:01:01 ip-172-31-9-209 anacron[21326]: Will run job `cron.daily' in 49 min.
+Feb 21 03:01:01 ip-172-31-9-209 anacron[21326]: Jobs will be executed sequentially
+Feb 21 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21328]: finished 0anacron
+Feb 21 03:50:01 ip-172-31-9-209 anacron[21326]: Job `cron.daily' started
+Feb 21 03:50:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[21438]: starting logrotate
+Feb 21 03:50:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[21446]: finished logrotate
+Feb 21 03:50:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[21438]: starting man-db.cron
+Feb 21 03:50:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[21457]: finished man-db.cron
+Feb 21 03:50:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[21438]: starting tmpwatch
+Feb 21 03:50:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[21483]: finished tmpwatch
+Feb 21 03:50:01 ip-172-31-9-209 anacron[21326]: Job `cron.daily' terminated
+Feb 21 03:50:01 ip-172-31-9-209 anacron[21326]: Normal exit (1 job run)
+Feb 21 04:01:01 ip-172-31-9-209 CROND[21488]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 04:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21488]: starting 0anacron
+Feb 21 04:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21497]: finished 0anacron
+Feb 21 05:01:01 ip-172-31-9-209 CROND[21593]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21593]: starting 0anacron
+Feb 21 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21602]: finished 0anacron
+Feb 21 05:09:01 ip-172-31-9-209 CROND[21675]: (root) CMD (/sbin/start --quiet update-motd)
+Feb 21 06:01:01 ip-172-31-9-209 CROND[21749]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21749]: starting 0anacron
+Feb 21 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21758]: finished 0anacron
+Feb 21 07:01:01 ip-172-31-9-209 CROND[21883]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21883]: starting 0anacron
+Feb 21 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21892]: finished 0anacron
+Feb 21 08:01:01 ip-172-31-9-209 CROND[21982]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21982]: starting 0anacron
+Feb 21 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21991]: finished 0anacron
+Feb 21 09:01:01 ip-172-31-9-209 CROND[22080]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22080]: starting 0anacron
+Feb 21 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22089]: finished 0anacron
+Feb 21 10:01:01 ip-172-31-9-209 CROND[22182]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22182]: starting 0anacron
+Feb 21 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22191]: finished 0anacron
+Feb 21 11:01:01 ip-172-31-9-209 CROND[22283]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 11:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22283]: starting 0anacron
+Feb 21 11:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22292]: finished 0anacron
+Feb 21 12:01:01 ip-172-31-9-209 CROND[22439]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22439]: starting 0anacron
+Feb 21 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22448]: finished 0anacron
+Feb 21 13:01:01 ip-172-31-9-209 CROND[22548]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22548]: starting 0anacron
+Feb 21 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22557]: finished 0anacron
+Feb 21 14:01:01 ip-172-31-9-209 CROND[22650]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22650]: starting 0anacron
+Feb 21 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22659]: finished 0anacron
+Feb 21 15:01:01 ip-172-31-9-209 CROND[22956]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22956]: starting 0anacron
+Feb 21 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22965]: finished 0anacron
+Feb 21 16:01:01 ip-172-31-9-209 CROND[23258]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23258]: starting 0anacron
+Feb 21 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23267]: finished 0anacron
+Feb 21 17:01:01 ip-172-31-9-209 CROND[23402]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23402]: starting 0anacron
+Feb 21 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23411]: finished 0anacron
+Feb 21 18:01:01 ip-172-31-9-209 CROND[23555]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23555]: starting 0anacron
+Feb 21 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23564]: finished 0anacron
+Feb 21 19:01:01 ip-172-31-9-209 CROND[23972]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23972]: starting 0anacron
+Feb 21 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23981]: finished 0anacron
+Feb 21 20:01:01 ip-172-31-9-209 CROND[24158]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24158]: starting 0anacron
+Feb 21 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24167]: finished 0anacron
+Feb 21 21:01:01 ip-172-31-9-209 CROND[24439]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24439]: starting 0anacron
+Feb 21 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24448]: finished 0anacron
+Feb 21 22:01:01 ip-172-31-9-209 CROND[25054]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25054]: starting 0anacron
+Feb 21 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25063]: finished 0anacron
+Feb 21 23:01:01 ip-172-31-9-209 CROND[25603]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 21 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25603]: starting 0anacron
+Feb 21 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25612]: finished 0anacron
+Feb 22 00:01:01 ip-172-31-9-209 CROND[25776]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25776]: starting 0anacron
+Feb 22 00:01:01 ip-172-31-9-209 anacron[25786]: Anacron started on 2018-02-22
+Feb 22 00:01:01 ip-172-31-9-209 anacron[25786]: Jobs will be executed sequentially
+Feb 22 00:01:01 ip-172-31-9-209 anacron[25786]: Normal exit (0 jobs run)
+Feb 22 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25788]: finished 0anacron
+Feb 22 01:01:01 ip-172-31-9-209 CROND[25926]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25926]: starting 0anacron
+Feb 22 01:01:01 ip-172-31-9-209 anacron[25936]: Anacron started on 2018-02-22
+Feb 22 01:01:01 ip-172-31-9-209 anacron[25936]: Jobs will be executed sequentially
+Feb 22 01:01:01 ip-172-31-9-209 anacron[25936]: Normal exit (0 jobs run)
+Feb 22 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25938]: finished 0anacron
+Feb 22 02:01:01 ip-172-31-9-209 CROND[26029]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26029]: starting 0anacron
+Feb 22 02:01:01 ip-172-31-9-209 anacron[26039]: Anacron started on 2018-02-22
+Feb 22 02:01:01 ip-172-31-9-209 anacron[26039]: Jobs will be executed sequentially
+Feb 22 02:01:01 ip-172-31-9-209 anacron[26039]: Normal exit (0 jobs run)
+Feb 22 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26041]: finished 0anacron
+Feb 22 03:01:01 ip-172-31-9-209 CROND[26169]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26169]: starting 0anacron
+Feb 22 03:01:01 ip-172-31-9-209 anacron[26179]: Anacron started on 2018-02-22
+Feb 22 03:01:01 ip-172-31-9-209 anacron[26179]: Will run job `cron.daily' in 49 min.
+Feb 22 03:01:01 ip-172-31-9-209 anacron[26179]: Jobs will be executed sequentially
+Feb 22 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26181]: finished 0anacron
+Feb 22 03:50:01 ip-172-31-9-209 anacron[26179]: Job `cron.daily' started
+Feb 22 03:50:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[26295]: starting logrotate
+Feb 22 03:50:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[26303]: finished logrotate
+Feb 22 03:50:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[26295]: starting man-db.cron
+Feb 22 03:50:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[26314]: finished man-db.cron
+Feb 22 03:50:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[26295]: starting tmpwatch
+Feb 22 03:50:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[26340]: finished tmpwatch
+Feb 22 03:50:01 ip-172-31-9-209 anacron[26179]: Job `cron.daily' terminated
+Feb 22 03:50:01 ip-172-31-9-209 anacron[26179]: Normal exit (1 job run)
+Feb 22 04:01:01 ip-172-31-9-209 CROND[26381]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 04:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26381]: starting 0anacron
+Feb 22 04:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26390]: finished 0anacron
+Feb 22 05:01:01 ip-172-31-9-209 CROND[26480]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26480]: starting 0anacron
+Feb 22 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26489]: finished 0anacron
+Feb 22 05:09:01 ip-172-31-9-209 CROND[26494]: (root) CMD (/sbin/start --quiet update-motd)
+Feb 22 06:01:01 ip-172-31-9-209 CROND[26607]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26607]: starting 0anacron
+Feb 22 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26616]: finished 0anacron
+Feb 22 07:01:01 ip-172-31-9-209 CROND[26702]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26702]: starting 0anacron
+Feb 22 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26711]: finished 0anacron
+Feb 22 08:01:01 ip-172-31-9-209 CROND[26854]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26854]: starting 0anacron
+Feb 22 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26863]: finished 0anacron
+Feb 22 09:01:01 ip-172-31-9-209 CROND[26959]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26959]: starting 0anacron
+Feb 22 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26968]: finished 0anacron
+Feb 22 10:01:01 ip-172-31-9-209 CROND[27062]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27062]: starting 0anacron
+Feb 22 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27071]: finished 0anacron
+Feb 22 11:01:01 ip-172-31-9-209 CROND[27229]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 11:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27229]: starting 0anacron
+Feb 22 11:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27238]: finished 0anacron
+Feb 22 12:01:01 ip-172-31-9-209 CROND[27358]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27358]: starting 0anacron
+Feb 22 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27367]: finished 0anacron
+Feb 22 13:01:01 ip-172-31-9-209 CROND[27477]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27477]: starting 0anacron
+Feb 22 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27486]: finished 0anacron
+Feb 22 14:01:01 ip-172-31-9-209 CROND[27648]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27648]: starting 0anacron
+Feb 22 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27657]: finished 0anacron
+Feb 22 15:01:01 ip-172-31-9-209 CROND[27756]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27756]: starting 0anacron
+Feb 22 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27765]: finished 0anacron
+Feb 22 16:01:01 ip-172-31-9-209 CROND[27892]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27892]: starting 0anacron
+Feb 22 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27901]: finished 0anacron
+Feb 22 17:01:01 ip-172-31-9-209 CROND[28035]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28035]: starting 0anacron
+Feb 22 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28044]: finished 0anacron
+Feb 22 18:01:01 ip-172-31-9-209 CROND[28221]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28221]: starting 0anacron
+Feb 22 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28230]: finished 0anacron
+Feb 22 19:01:01 ip-172-31-9-209 CROND[28360]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28360]: starting 0anacron
+Feb 22 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28369]: finished 0anacron
+Feb 22 20:01:01 ip-172-31-9-209 CROND[28517]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28517]: starting 0anacron
+Feb 22 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28526]: finished 0anacron
+Feb 22 21:01:01 ip-172-31-9-209 CROND[28648]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28648]: starting 0anacron
+Feb 22 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28657]: finished 0anacron
+Feb 22 22:01:01 ip-172-31-9-209 CROND[28858]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28858]: starting 0anacron
+Feb 22 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28867]: finished 0anacron
+Feb 22 23:01:01 ip-172-31-9-209 CROND[28979]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28979]: starting 0anacron
+Feb 22 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[28988]: finished 0anacron
+Feb 23 00:01:01 ip-172-31-9-209 CROND[29094]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[29094]: starting 0anacron
+Feb 23 00:01:01 ip-172-31-9-209 anacron[29104]: Anacron started on 2018-02-23
+Feb 23 00:01:01 ip-172-31-9-209 anacron[29104]: Jobs will be executed sequentially
+Feb 23 00:01:01 ip-172-31-9-209 anacron[29104]: Normal exit (0 jobs run)
+Feb 23 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[29106]: finished 0anacron
+Feb 23 01:01:01 ip-172-31-9-209 CROND[29198]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[29198]: starting 0anacron
+Feb 23 01:01:01 ip-172-31-9-209 anacron[29208]: Anacron started on 2018-02-23
+Feb 23 01:01:01 ip-172-31-9-209 anacron[29208]: Jobs will be executed sequentially
+Feb 23 01:01:01 ip-172-31-9-209 anacron[29208]: Normal exit (0 jobs run)
+Feb 23 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[29210]: finished 0anacron
+Feb 23 02:01:01 ip-172-31-9-209 CROND[29341]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[29341]: starting 0anacron
+Feb 23 02:01:01 ip-172-31-9-209 anacron[29351]: Anacron started on 2018-02-23
+Feb 23 02:01:01 ip-172-31-9-209 anacron[29351]: Jobs will be executed sequentially
+Feb 23 02:01:01 ip-172-31-9-209 anacron[29351]: Normal exit (0 jobs run)
+Feb 23 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[29353]: finished 0anacron
+Feb 23 03:01:01 ip-172-31-9-209 CROND[29450]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[29450]: starting 0anacron
+Feb 23 03:01:01 ip-172-31-9-209 anacron[29460]: Anacron started on 2018-02-23
+Feb 23 03:01:01 ip-172-31-9-209 anacron[29460]: Will run job `cron.daily' in 27 min.
+Feb 23 03:01:01 ip-172-31-9-209 anacron[29460]: Jobs will be executed sequentially
+Feb 23 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[29462]: finished 0anacron
+Feb 23 03:28:01 ip-172-31-9-209 anacron[29460]: Job `cron.daily' started
+Feb 23 03:28:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[29507]: starting logrotate
+Feb 23 03:28:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[29515]: finished logrotate
+Feb 23 03:28:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[29507]: starting man-db.cron
+Feb 23 03:28:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[29526]: finished man-db.cron
+Feb 23 03:28:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[29507]: starting tmpwatch
+Feb 23 03:28:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[29552]: finished tmpwatch
+Feb 23 03:28:01 ip-172-31-9-209 anacron[29460]: Job `cron.daily' terminated
+Feb 23 03:28:01 ip-172-31-9-209 anacron[29460]: Normal exit (1 job run)
+Feb 23 04:01:01 ip-172-31-9-209 CROND[29638]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 04:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[29638]: starting 0anacron
+Feb 23 04:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[29647]: finished 0anacron
+Feb 23 05:01:01 ip-172-31-9-209 CROND[29847]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[29847]: starting 0anacron
+Feb 23 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[29856]: finished 0anacron
+Feb 23 05:09:01 ip-172-31-9-209 CROND[29894]: (root) CMD (/sbin/start --quiet update-motd)
+Feb 23 06:01:01 ip-172-31-9-209 CROND[30020]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[30020]: starting 0anacron
+Feb 23 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[30029]: finished 0anacron
+Feb 23 07:01:01 ip-172-31-9-209 CROND[30129]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[30129]: starting 0anacron
+Feb 23 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[30138]: finished 0anacron
+Feb 23 08:01:01 ip-172-31-9-209 CROND[32276]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[32276]: starting 0anacron
+Feb 23 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[32285]: finished 0anacron
+Feb 23 09:01:01 ip-172-31-9-209 CROND[32438]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[32438]: starting 0anacron
+Feb 23 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[32447]: finished 0anacron
+Feb 23 10:01:01 ip-172-31-9-209 CROND[32533]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[32533]: starting 0anacron
+Feb 23 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[32542]: finished 0anacron
+Feb 23 11:01:01 ip-172-31-9-209 CROND[32640]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 11:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[32640]: starting 0anacron
+Feb 23 11:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[32649]: finished 0anacron
+Feb 23 12:01:01 ip-172-31-9-209 CROND[32743]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[32743]: starting 0anacron
+Feb 23 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[32752]: finished 0anacron
+Feb 23 13:01:01 ip-172-31-9-209 CROND[763]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[763]: starting 0anacron
+Feb 23 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[772]: finished 0anacron
+Feb 23 14:01:01 ip-172-31-9-209 CROND[2662]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[2662]: starting 0anacron
+Feb 23 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[2671]: finished 0anacron
+Feb 23 15:01:01 ip-172-31-9-209 CROND[4493]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[4493]: starting 0anacron
+Feb 23 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[4502]: finished 0anacron
+Feb 23 16:01:01 ip-172-31-9-209 CROND[6266]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[6266]: starting 0anacron
+Feb 23 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[6275]: finished 0anacron
+Feb 23 17:01:01 ip-172-31-9-209 CROND[7993]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[7993]: starting 0anacron
+Feb 23 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[8002]: finished 0anacron
+Feb 23 18:01:01 ip-172-31-9-209 CROND[9856]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[9856]: starting 0anacron
+Feb 23 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[9865]: finished 0anacron
+Feb 23 19:01:01 ip-172-31-9-209 CROND[12669]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12669]: starting 0anacron
+Feb 23 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[12678]: finished 0anacron
+Feb 23 20:01:01 ip-172-31-9-209 CROND[16354]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16354]: starting 0anacron
+Feb 23 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[16363]: finished 0anacron
+Feb 23 21:01:01 ip-172-31-9-209 CROND[20061]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20061]: starting 0anacron
+Feb 23 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[20070]: finished 0anacron
+Feb 23 22:01:01 ip-172-31-9-209 CROND[21978]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21978]: starting 0anacron
+Feb 23 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[21987]: finished 0anacron
+Feb 23 23:01:01 ip-172-31-9-209 CROND[22613]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22613]: starting 0anacron
+Feb 23 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22622]: finished 0anacron
+Feb 24 00:01:01 ip-172-31-9-209 CROND[22986]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22986]: starting 0anacron
+Feb 24 00:01:01 ip-172-31-9-209 anacron[22996]: Anacron started on 2018-02-24
+Feb 24 00:01:01 ip-172-31-9-209 anacron[22996]: Jobs will be executed sequentially
+Feb 24 00:01:01 ip-172-31-9-209 anacron[22996]: Normal exit (0 jobs run)
+Feb 24 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[22998]: finished 0anacron
+Feb 24 01:01:01 ip-172-31-9-209 CROND[23153]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23153]: starting 0anacron
+Feb 24 01:01:01 ip-172-31-9-209 anacron[23163]: Anacron started on 2018-02-24
+Feb 24 01:01:01 ip-172-31-9-209 anacron[23163]: Jobs will be executed sequentially
+Feb 24 01:01:01 ip-172-31-9-209 anacron[23163]: Normal exit (0 jobs run)
+Feb 24 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23165]: finished 0anacron
+Feb 24 02:01:01 ip-172-31-9-209 CROND[23349]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23349]: starting 0anacron
+Feb 24 02:01:01 ip-172-31-9-209 anacron[23359]: Anacron started on 2018-02-24
+Feb 24 02:01:01 ip-172-31-9-209 anacron[23359]: Jobs will be executed sequentially
+Feb 24 02:01:01 ip-172-31-9-209 anacron[23359]: Normal exit (0 jobs run)
+Feb 24 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23361]: finished 0anacron
+Feb 24 03:01:01 ip-172-31-9-209 CROND[23505]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23505]: starting 0anacron
+Feb 24 03:01:01 ip-172-31-9-209 anacron[23515]: Anacron started on 2018-02-24
+Feb 24 03:01:01 ip-172-31-9-209 anacron[23515]: Will run job `cron.daily' in 20 min.
+Feb 24 03:01:01 ip-172-31-9-209 anacron[23515]: Jobs will be executed sequentially
+Feb 24 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23517]: finished 0anacron
+Feb 24 03:21:01 ip-172-31-9-209 anacron[23515]: Job `cron.daily' started
+Feb 24 03:21:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[23569]: starting logrotate
+Feb 24 03:21:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[23577]: finished logrotate
+Feb 24 03:21:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[23569]: starting man-db.cron
+Feb 24 03:21:02 ip-172-31-9-209 run-parts(/etc/cron.daily)[23588]: finished man-db.cron
+Feb 24 03:21:02 ip-172-31-9-209 run-parts(/etc/cron.daily)[23569]: starting tmpwatch
+Feb 24 03:21:02 ip-172-31-9-209 run-parts(/etc/cron.daily)[23614]: finished tmpwatch
+Feb 24 03:21:02 ip-172-31-9-209 anacron[23515]: Job `cron.daily' terminated
+Feb 24 03:21:02 ip-172-31-9-209 anacron[23515]: Normal exit (1 job run)
+Feb 24 04:01:02 ip-172-31-9-209 CROND[23683]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 04:01:02 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23683]: starting 0anacron
+Feb 24 04:01:02 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23692]: finished 0anacron
+Feb 24 05:01:01 ip-172-31-9-209 CROND[23819]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23819]: starting 0anacron
+Feb 24 05:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23828]: finished 0anacron
+Feb 24 05:09:01 ip-172-31-9-209 CROND[23833]: (root) CMD (/sbin/start --quiet update-motd)
+Feb 24 06:01:01 ip-172-31-9-209 CROND[23955]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23955]: starting 0anacron
+Feb 24 06:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[23964]: finished 0anacron
+Feb 24 07:01:01 ip-172-31-9-209 CROND[24062]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24062]: starting 0anacron
+Feb 24 07:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24071]: finished 0anacron
+Feb 24 08:01:01 ip-172-31-9-209 CROND[24185]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24185]: starting 0anacron
+Feb 24 08:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24194]: finished 0anacron
+Feb 24 09:01:01 ip-172-31-9-209 CROND[24308]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24308]: starting 0anacron
+Feb 24 09:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24317]: finished 0anacron
+Feb 24 10:01:01 ip-172-31-9-209 CROND[24458]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24458]: starting 0anacron
+Feb 24 10:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24467]: finished 0anacron
+Feb 24 11:01:01 ip-172-31-9-209 CROND[24571]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 11:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24571]: starting 0anacron
+Feb 24 11:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24580]: finished 0anacron
+Feb 24 12:01:01 ip-172-31-9-209 CROND[24702]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24702]: starting 0anacron
+Feb 24 12:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24711]: finished 0anacron
+Feb 24 13:01:01 ip-172-31-9-209 CROND[24821]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24821]: starting 0anacron
+Feb 24 13:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24830]: finished 0anacron
+Feb 24 14:01:01 ip-172-31-9-209 CROND[24975]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24975]: starting 0anacron
+Feb 24 14:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[24984]: finished 0anacron
+Feb 24 15:01:01 ip-172-31-9-209 CROND[25082]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25082]: starting 0anacron
+Feb 24 15:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25091]: finished 0anacron
+Feb 24 16:01:01 ip-172-31-9-209 CROND[25205]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25205]: starting 0anacron
+Feb 24 16:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25214]: finished 0anacron
+Feb 24 17:01:01 ip-172-31-9-209 CROND[25346]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25346]: starting 0anacron
+Feb 24 17:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25355]: finished 0anacron
+Feb 24 18:01:01 ip-172-31-9-209 CROND[25469]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25469]: starting 0anacron
+Feb 24 18:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25478]: finished 0anacron
+Feb 24 19:01:01 ip-172-31-9-209 CROND[25752]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25752]: starting 0anacron
+Feb 24 19:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[25761]: finished 0anacron
+Feb 24 20:01:01 ip-172-31-9-209 CROND[26122]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26122]: starting 0anacron
+Feb 24 20:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26131]: finished 0anacron
+Feb 24 21:01:01 ip-172-31-9-209 CROND[26539]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26539]: starting 0anacron
+Feb 24 21:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26548]: finished 0anacron
+Feb 24 22:01:01 ip-172-31-9-209 CROND[26867]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26867]: starting 0anacron
+Feb 24 22:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[26876]: finished 0anacron
+Feb 24 23:01:01 ip-172-31-9-209 CROND[27122]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27122]: starting 0anacron
+Feb 24 23:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27131]: finished 0anacron
+Feb 25 00:01:01 ip-172-31-9-209 CROND[27416]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 25 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27416]: starting 0anacron
+Feb 25 00:01:01 ip-172-31-9-209 anacron[27426]: Anacron started on 2018-02-25
+Feb 25 00:01:01 ip-172-31-9-209 anacron[27426]: Jobs will be executed sequentially
+Feb 25 00:01:01 ip-172-31-9-209 anacron[27426]: Normal exit (0 jobs run)
+Feb 25 00:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27428]: finished 0anacron
+Feb 25 01:00:01 ip-172-31-9-209 CROND[27547]: (root) CMD (/usr/sbin/raid-check)
+Feb 25 01:01:01 ip-172-31-9-209 CROND[27553]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 25 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27553]: starting 0anacron
+Feb 25 01:01:01 ip-172-31-9-209 anacron[27563]: Anacron started on 2018-02-25
+Feb 25 01:01:01 ip-172-31-9-209 anacron[27563]: Jobs will be executed sequentially
+Feb 25 01:01:01 ip-172-31-9-209 anacron[27563]: Normal exit (0 jobs run)
+Feb 25 01:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27565]: finished 0anacron
+Feb 25 02:01:01 ip-172-31-9-209 CROND[27753]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 25 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27753]: starting 0anacron
+Feb 25 02:01:01 ip-172-31-9-209 anacron[27763]: Anacron started on 2018-02-25
+Feb 25 02:01:01 ip-172-31-9-209 anacron[27763]: Jobs will be executed sequentially
+Feb 25 02:01:01 ip-172-31-9-209 anacron[27763]: Normal exit (0 jobs run)
+Feb 25 02:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27765]: finished 0anacron
+Feb 25 03:01:01 ip-172-31-9-209 CROND[27859]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 25 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27859]: starting 0anacron
+Feb 25 03:01:01 ip-172-31-9-209 anacron[27869]: Anacron started on 2018-02-25
+Feb 25 03:01:01 ip-172-31-9-209 anacron[27869]: Will run job `cron.daily' in 22 min.
+Feb 25 03:01:01 ip-172-31-9-209 anacron[27869]: Jobs will be executed sequentially
+Feb 25 03:01:01 ip-172-31-9-209 run-parts(/etc/cron.hourly)[27871]: finished 0anacron
+Feb 25 03:23:01 ip-172-31-9-209 anacron[27869]: Job `cron.daily' started
+Feb 25 03:23:01 ip-172-31-9-209 run-parts(/etc/cron.daily)[27917]: starting logrotate

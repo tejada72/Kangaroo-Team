@@ -1,0 +1,14 @@
+418:95318342749a8cd4d17a7b61dada117816ae3e71
+0
+3
+amzn-main:5883:1506841597
+amzn-updates:1017:1518045287
+installed:419:32106c222f5ee02110eeaf8cbf74e34e5cc40a1a
+1
+mbr: mod_ssl,x86_64,1,2.2.34,1.16.amzn1 70
+  repo: amzn-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

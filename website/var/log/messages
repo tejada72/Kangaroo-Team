@@ -1,0 +1,602 @@
+Mar 18 03:39:01 ip-172-31-9-209 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="2294" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Mar 18 03:41:08 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131200ms.
+Mar 18 03:43:19 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121300ms.
+Mar 18 03:45:21 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126610ms.
+Mar 18 03:47:27 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116080ms.
+Mar 18 03:49:23 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130540ms.
+Mar 18 03:51:34 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119970ms.
+Mar 18 03:53:34 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131570ms.
+Mar 18 03:55:46 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116970ms.
+Mar 18 03:57:43 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125520ms.
+Mar 18 03:59:46 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 03:59:46 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 03:59:46 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1547 seconds.
+Mar 18 03:59:46 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 03:59:46 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 03:59:48 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127300ms.
+Mar 18 04:01:56 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130420ms.
+Mar 18 04:04:06 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116540ms.
+Mar 18 04:06:03 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111150ms.
+Mar 18 04:07:54 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119960ms.
+Mar 18 04:09:54 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125570ms.
+Mar 18 04:11:59 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130940ms.
+Mar 18 04:14:10 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127720ms.
+Mar 18 04:16:18 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124070ms.
+Mar 18 04:18:22 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117870ms.
+Mar 18 04:20:20 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114340ms.
+Mar 18 04:22:15 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111030ms.
+Mar 18 04:24:06 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121410ms.
+Mar 18 04:25:33 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 04:25:33 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 04:25:33 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1605 seconds.
+Mar 18 04:25:33 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 04:25:33 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 04:26:07 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111560ms.
+Mar 18 04:27:59 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124740ms.
+Mar 18 04:30:04 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116500ms.
+Mar 18 04:32:00 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125910ms.
+Mar 18 04:33:23 ip-172-31-9-209 ntpd[2598]: frequency file /var/lib/ntp/drift.TEMP: Permission denied
+Mar 18 04:34:06 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118480ms.
+Mar 18 04:36:05 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108490ms.
+Mar 18 04:37:53 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108390ms.
+Mar 18 04:39:42 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122540ms.
+Mar 18 04:41:44 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114310ms.
+Mar 18 04:43:39 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126600ms.
+Mar 18 04:45:45 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117610ms.
+Mar 18 04:47:43 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108260ms.
+Mar 18 04:49:31 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126690ms.
+Mar 18 04:51:38 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 115820ms.
+Mar 18 04:52:18 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 04:52:18 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 04:52:18 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1574 seconds.
+Mar 18 04:52:18 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 04:52:18 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 04:53:34 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112830ms.
+Mar 18 04:55:27 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116200ms.
+Mar 18 04:57:23 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131530ms.
+Mar 18 04:59:35 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117400ms.
+Mar 18 05:01:32 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128860ms.
+Mar 18 05:03:41 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126900ms.
+Mar 18 05:05:48 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121640ms.
+Mar 18 05:07:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112850ms.
+Mar 18 05:09:43 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123710ms.
+Mar 18 05:11:47 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119910ms.
+Mar 18 05:13:47 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120810ms.
+Mar 18 05:15:47 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119870ms.
+Mar 18 05:17:47 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 109060ms.
+Mar 18 05:18:32 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 05:18:32 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 05:18:32 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1730 seconds.
+Mar 18 05:18:32 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 05:18:32 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 05:19:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129820ms.
+Mar 18 05:21:46 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 110590ms.
+Mar 18 05:23:37 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 109350ms.
+Mar 18 05:25:26 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118750ms.
+Mar 18 05:27:25 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127730ms.
+Mar 18 05:29:33 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126350ms.
+Mar 18 05:31:39 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130250ms.
+Mar 18 05:33:23 ip-172-31-9-209 ntpd[2598]: frequency file /var/lib/ntp/drift.TEMP: Permission denied
+Mar 18 05:33:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124320ms.
+Mar 18 05:35:54 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114440ms.
+Mar 18 05:37:49 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128420ms.
+Mar 18 05:39:57 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131910ms.
+Mar 18 05:42:09 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122550ms.
+Mar 18 05:44:12 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126020ms.
+Mar 18 05:46:18 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130260ms.
+Mar 18 05:47:22 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 05:47:22 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 05:47:22 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1673 seconds.
+Mar 18 05:47:22 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 05:47:22 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 05:48:28 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117650ms.
+Mar 18 05:50:26 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129950ms.
+Mar 18 05:52:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 110940ms.
+Mar 18 05:54:27 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128980ms.
+Mar 18 05:56:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119890ms.
+Mar 18 05:58:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125750ms.
+Mar 18 06:00:42 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129950ms.
+Mar 18 06:02:52 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124690ms.
+Mar 18 06:04:57 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119210ms.
+Mar 18 06:06:56 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129240ms.
+Mar 18 06:09:05 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126900ms.
+Mar 18 06:11:12 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124750ms.
+Mar 18 06:13:17 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121670ms.
+Mar 18 06:15:15 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 06:15:15 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 06:15:15 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1487 seconds.
+Mar 18 06:15:15 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 06:15:15 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 06:15:19 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118570ms.
+Mar 18 06:17:17 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126530ms.
+Mar 18 06:19:24 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129460ms.
+Mar 18 06:21:34 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124020ms.
+Mar 18 06:23:38 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123580ms.
+Mar 18 06:25:41 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111850ms.
+Mar 18 06:27:33 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111180ms.
+Mar 18 06:29:24 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128290ms.
+Mar 18 06:31:33 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131350ms.
+Mar 18 06:33:23 ip-172-31-9-209 ntpd[2598]: frequency file /var/lib/ntp/drift.TEMP: Permission denied
+Mar 18 06:33:44 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124910ms.
+Mar 18 06:35:49 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130320ms.
+Mar 18 06:38:00 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112990ms.
+Mar 18 06:39:53 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117590ms.
+Mar 18 06:40:02 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 06:40:02 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 06:40:02 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1631 seconds.
+Mar 18 06:40:02 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 06:40:02 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 06:41:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129100ms.
+Mar 18 06:43:59 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 110580ms.
+Mar 18 06:45:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121570ms.
+Mar 18 06:47:52 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114290ms.
+Mar 18 06:49:46 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113850ms.
+Mar 18 06:51:40 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124210ms.
+Mar 18 06:53:44 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111110ms.
+Mar 18 06:55:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108700ms.
+Mar 18 06:57:24 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128340ms.
+Mar 18 06:59:33 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130680ms.
+Mar 18 07:01:43 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112740ms.
+Mar 18 07:03:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126750ms.
+Mar 18 07:05:43 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129950ms.
+Mar 18 07:07:13 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 07:07:13 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 07:07:13 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1506 seconds.
+Mar 18 07:07:13 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 07:07:13 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 07:07:53 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117650ms.
+Mar 18 07:09:51 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128520ms.
+Mar 18 07:11:59 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118700ms.
+Mar 18 07:13:58 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129560ms.
+Mar 18 07:16:08 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120280ms.
+Mar 18 07:18:08 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114350ms.
+Mar 18 07:20:03 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111110ms.
+Mar 18 07:21:34 ip-172-31-9-209 auditd[2265]: Audit daemon rotating log files
+Mar 18 07:21:54 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 110260ms.
+Mar 18 07:23:44 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125930ms.
+Mar 18 07:25:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111100ms.
+Mar 18 07:27:41 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124250ms.
+Mar 18 07:29:45 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130490ms.
+Mar 18 07:31:56 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131950ms.
+Mar 18 07:32:19 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 07:32:19 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 07:32:19 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1422 seconds.
+Mar 18 07:32:19 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 07:32:19 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 07:33:23 ip-172-31-9-209 ntpd[2598]: frequency file /var/lib/ntp/drift.TEMP: Permission denied
+Mar 18 07:34:08 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108790ms.
+Mar 18 07:35:57 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116750ms.
+Mar 18 07:37:54 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123720ms.
+Mar 18 07:39:57 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117550ms.
+Mar 18 07:41:55 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121620ms.
+Mar 18 07:43:57 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117820ms.
+Mar 18 07:45:55 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117510ms.
+Mar 18 07:47:52 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118130ms.
+Mar 18 07:49:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108550ms.
+Mar 18 07:51:39 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119920ms.
+Mar 18 07:53:39 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116540ms.
+Mar 18 07:55:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120090ms.
+Mar 18 07:56:01 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 07:56:01 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 07:56:02 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1795 seconds.
+Mar 18 07:56:02 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 07:56:02 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 07:57:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108470ms.
+Mar 18 07:59:24 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123010ms.
+Mar 18 08:01:27 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111150ms.
+Mar 18 08:03:19 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118060ms.
+Mar 18 08:05:17 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121600ms.
+Mar 18 08:07:18 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114600ms.
+Mar 18 08:09:13 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125140ms.
+Mar 18 08:11:18 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129510ms.
+Mar 18 08:13:28 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120380ms.
+Mar 18 08:15:28 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113770ms.
+Mar 18 08:17:22 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121300ms.
+Mar 18 08:19:24 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129610ms.
+Mar 18 08:21:33 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113130ms.
+Mar 18 08:23:26 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124630ms.
+Mar 18 08:25:31 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127310ms.
+Mar 18 08:25:57 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 08:25:57 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 08:25:57 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1512 seconds.
+Mar 18 08:25:57 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 08:25:57 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 08:27:39 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117180ms.
+Mar 18 08:29:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124940ms.
+Mar 18 08:31:41 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114560ms.
+Mar 18 08:33:23 ip-172-31-9-209 ntpd[2598]: frequency file /var/lib/ntp/drift.TEMP: Permission denied
+Mar 18 08:33:35 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131020ms.
+Mar 18 08:35:47 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111960ms.
+Mar 18 08:37:39 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127310ms.
+Mar 18 08:39:46 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129890ms.
+Mar 18 08:41:56 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114640ms.
+Mar 18 08:43:51 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111100ms.
+Mar 18 08:45:42 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118610ms.
+Mar 18 08:47:40 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108790ms.
+Mar 18 08:49:29 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112710ms.
+Mar 18 08:51:09 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 08:51:09 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 08:51:09 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1425 seconds.
+Mar 18 08:51:09 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 08:51:09 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 08:51:22 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125690ms.
+Mar 18 08:53:28 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123810ms.
+Mar 18 08:55:32 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 115380ms.
+Mar 18 08:57:27 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130920ms.
+Mar 18 08:59:38 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126730ms.
+Mar 18 09:01:45 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128680ms.
+Mar 18 09:03:53 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123900ms.
+Mar 18 09:05:57 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129840ms.
+Mar 18 09:08:07 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120280ms.
+Mar 18 09:10:08 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114410ms.
+Mar 18 09:12:02 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121490ms.
+Mar 18 09:14:04 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117510ms.
+Mar 18 09:14:54 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 09:14:54 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 09:14:54 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1721 seconds.
+Mar 18 09:14:54 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 09:14:54 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 09:16:01 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120010ms.
+Mar 18 09:18:01 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 109450ms.
+Mar 18 09:19:51 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111900ms.
+Mar 18 09:21:43 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127070ms.
+Mar 18 09:23:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131860ms.
+Mar 18 09:26:02 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119850ms.
+Mar 18 09:28:02 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113900ms.
+Mar 18 09:29:56 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111740ms.
+Mar 18 09:31:48 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114580ms.
+Mar 18 09:33:23 ip-172-31-9-209 ntpd[2598]: frequency file /var/lib/ntp/drift.TEMP: Permission denied
+Mar 18 09:33:42 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113850ms.
+Mar 18 09:35:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108080ms.
+Mar 18 09:37:24 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130270ms.
+Mar 18 09:39:35 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112730ms.
+Mar 18 09:41:27 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114400ms.
+Mar 18 09:43:22 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129660ms.
+Mar 18 09:43:35 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 09:43:35 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 09:43:35 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1578 seconds.
+Mar 18 09:43:35 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 09:43:35 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 09:45:32 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118800ms.
+Mar 18 09:47:31 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127890ms.
+Mar 18 09:49:39 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114350ms.
+Mar 18 09:51:33 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114220ms.
+Mar 18 09:53:27 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129370ms.
+Mar 18 09:55:37 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124240ms.
+Mar 18 09:57:41 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125250ms.
+Mar 18 09:59:46 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111870ms.
+Mar 18 10:01:38 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114640ms.
+Mar 18 10:03:33 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113300ms.
+Mar 18 10:05:26 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124800ms.
+Mar 18 10:07:31 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128120ms.
+Mar 18 10:09:39 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 109600ms.
+Mar 18 10:09:53 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 10:09:53 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 10:09:54 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1500 seconds.
+Mar 18 10:09:54 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 10:09:54 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 10:11:29 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131690ms.
+Mar 18 10:13:41 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131000ms.
+Mar 18 10:15:52 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111830ms.
+Mar 18 10:17:44 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122910ms.
+Mar 18 10:19:47 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117860ms.
+Mar 18 10:21:45 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111440ms.
+Mar 18 10:23:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 110610ms.
+Mar 18 10:25:27 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130140ms.
+Mar 18 10:27:37 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129840ms.
+Mar 18 10:29:47 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108870ms.
+Mar 18 10:31:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124330ms.
+Mar 18 10:33:23 ip-172-31-9-209 ntpd[2598]: frequency file /var/lib/ntp/drift.TEMP: Permission denied
+Mar 18 10:33:40 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128040ms.
+Mar 18 10:34:54 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 10:34:54 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 10:34:54 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1644 seconds.
+Mar 18 10:34:54 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 10:34:54 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 10:35:48 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131930ms.
+Mar 18 10:38:00 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114930ms.
+Mar 18 10:39:55 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 115860ms.
+Mar 18 10:41:51 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108840ms.
+Mar 18 10:43:40 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128440ms.
+Mar 18 10:45:49 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120780ms.
+Mar 18 10:47:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125510ms.
+Mar 18 10:49:55 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 115860ms.
+Mar 18 10:51:51 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112880ms.
+Mar 18 10:53:44 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127440ms.
+Mar 18 10:55:51 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124040ms.
+Mar 18 10:57:55 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118220ms.
+Mar 18 10:59:54 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124870ms.
+Mar 18 11:01:59 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127530ms.
+Mar 18 11:02:19 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 11:02:19 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 11:02:19 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1618 seconds.
+Mar 18 11:02:19 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 11:02:19 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 11:04:06 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 110470ms.
+Mar 18 11:05:57 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118760ms.
+Mar 18 11:07:56 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120300ms.
+Mar 18 11:09:56 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114330ms.
+Mar 18 11:11:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118080ms.
+Mar 18 11:13:49 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123520ms.
+Mar 18 11:15:52 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122880ms.
+Mar 18 11:17:55 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122660ms.
+Mar 18 11:19:58 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119930ms.
+Mar 18 11:21:58 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119770ms.
+Mar 18 11:23:58 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117800ms.
+Mar 18 11:25:56 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116170ms.
+Mar 18 11:27:52 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116680ms.
+Mar 18 11:29:17 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 11:29:17 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 11:29:17 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1699 seconds.
+Mar 18 11:29:17 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 11:29:17 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 11:29:48 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127660ms.
+Mar 18 11:31:56 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121350ms.
+Mar 18 11:33:58 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122680ms.
+Mar 18 11:36:00 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126590ms.
+Mar 18 11:38:07 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 110100ms.
+Mar 18 11:39:57 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111000ms.
+Mar 18 11:41:48 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122860ms.
+Mar 18 11:43:51 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127520ms.
+Mar 18 11:45:59 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131520ms.
+Mar 18 11:48:10 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122610ms.
+Mar 18 11:50:13 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130740ms.
+Mar 18 11:52:24 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124630ms.
+Mar 18 11:54:29 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111230ms.
+Mar 18 11:56:20 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 109600ms.
+Mar 18 11:57:36 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 11:57:36 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 11:57:36 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1650 seconds.
+Mar 18 11:57:36 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 11:57:36 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 11:58:10 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116210ms.
+Mar 18 12:00:06 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117720ms.
+Mar 18 12:02:04 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127700ms.
+Mar 18 12:04:11 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114890ms.
+Mar 18 12:06:06 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130750ms.
+Mar 18 12:08:17 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127700ms.
+Mar 18 12:10:25 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120300ms.
+Mar 18 12:12:25 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125150ms.
+Mar 18 12:14:31 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123710ms.
+Mar 18 12:16:34 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121470ms.
+Mar 18 12:18:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111020ms.
+Mar 18 12:20:27 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121300ms.
+Mar 18 12:22:28 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118560ms.
+Mar 18 12:24:27 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124200ms.
+Mar 18 12:25:06 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 12:25:06 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 12:25:06 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1648 seconds.
+Mar 18 12:25:06 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 12:25:06 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 12:26:31 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120310ms.
+Mar 18 12:28:32 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113110ms.
+Mar 18 12:30:25 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119960ms.
+Mar 18 12:32:25 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116270ms.
+Mar 18 12:33:23 ip-172-31-9-209 ntpd[2598]: frequency file /var/lib/ntp/drift.TEMP: Permission denied
+Mar 18 12:34:21 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125820ms.
+Mar 18 12:36:27 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129980ms.
+Mar 18 12:38:37 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128560ms.
+Mar 18 12:40:46 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113250ms.
+Mar 18 12:42:39 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128330ms.
+Mar 18 12:44:47 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127890ms.
+Mar 18 12:46:55 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123010ms.
+Mar 18 12:48:58 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 115220ms.
+Mar 18 12:50:54 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125370ms.
+Mar 18 12:52:34 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 12:52:34 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 12:52:34 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1672 seconds.
+Mar 18 12:52:34 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 12:52:34 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 12:52:59 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131720ms.
+Mar 18 12:55:11 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114400ms.
+Mar 18 12:57:05 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 109590ms.
+Mar 18 12:58:55 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125600ms.
+Mar 18 13:01:01 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127150ms.
+Mar 18 13:03:08 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129510ms.
+Mar 18 13:05:17 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125160ms.
+Mar 18 13:07:23 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130500ms.
+Mar 18 13:09:33 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127740ms.
+Mar 18 13:11:41 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120770ms.
+Mar 18 13:13:42 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119800ms.
+Mar 18 13:15:42 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111330ms.
+Mar 18 13:17:33 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 109090ms.
+Mar 18 13:19:22 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128980ms.
+Mar 18 13:20:26 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 13:20:26 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 13:20:26 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1599 seconds.
+Mar 18 13:20:26 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 13:20:26 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 13:21:31 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128230ms.
+Mar 18 13:23:40 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120700ms.
+Mar 18 13:25:40 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 110170ms.
+Mar 18 13:27:31 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127760ms.
+Mar 18 13:29:38 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129670ms.
+Mar 18 13:31:48 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122390ms.
+Mar 18 13:33:51 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130860ms.
+Mar 18 13:36:02 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108190ms.
+Mar 18 13:37:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119120ms.
+Mar 18 13:39:49 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123040ms.
+Mar 18 13:41:52 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 109640ms.
+Mar 18 13:43:42 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119790ms.
+Mar 18 13:45:42 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128790ms.
+Mar 18 13:47:05 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 13:47:05 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 13:47:06 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 13:47:06 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1610 seconds.
+Mar 18 13:47:06 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 13:47:51 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 109070ms.
+Mar 18 13:49:40 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121380ms.
+Mar 18 13:51:41 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122060ms.
+Mar 18 13:53:43 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128290ms.
+Mar 18 13:55:52 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117510ms.
+Mar 18 13:57:49 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113740ms.
+Mar 18 13:59:43 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118090ms.
+Mar 18 14:01:41 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130560ms.
+Mar 18 14:03:52 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128230ms.
+Mar 18 14:06:00 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124320ms.
+Mar 18 14:08:04 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129320ms.
+Mar 18 14:10:14 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111000ms.
+Mar 18 14:12:05 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122240ms.
+Mar 18 14:13:56 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 14:13:56 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 14:13:56 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1437 seconds.
+Mar 18 14:13:56 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 14:13:56 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 14:14:07 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108070ms.
+Mar 18 14:15:55 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130000ms.
+Mar 18 14:18:05 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129070ms.
+Mar 18 14:20:14 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 130670ms.
+Mar 18 14:22:25 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129120ms.
+Mar 18 14:24:34 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111940ms.
+Mar 18 14:26:26 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127420ms.
+Mar 18 14:28:34 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131740ms.
+Mar 18 14:30:46 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 110590ms.
+Mar 18 14:32:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112570ms.
+Mar 18 14:33:23 ip-172-31-9-209 ntpd[2598]: frequency file /var/lib/ntp/drift.TEMP: Permission denied
+Mar 18 14:34:29 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122250ms.
+Mar 18 14:36:31 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114460ms.
+Mar 18 14:37:53 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 14:37:53 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 14:37:53 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1575 seconds.
+Mar 18 14:37:53 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 14:37:53 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 14:38:26 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113100ms.
+Mar 18 14:40:19 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121950ms.
+Mar 18 14:42:21 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128090ms.
+Mar 18 14:44:29 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124660ms.
+Mar 18 14:46:34 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122090ms.
+Mar 18 14:48:36 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128940ms.
+Mar 18 14:50:45 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125670ms.
+Mar 18 14:52:51 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113490ms.
+Mar 18 14:54:44 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124220ms.
+Mar 18 14:56:49 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124080ms.
+Mar 18 14:58:53 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118690ms.
+Mar 18 15:00:51 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124740ms.
+Mar 18 15:02:56 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113610ms.
+Mar 18 15:04:08 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 15:04:08 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 15:04:08 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1449 seconds.
+Mar 18 15:04:08 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 15:04:08 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 15:04:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126360ms.
+Mar 18 15:06:56 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113990ms.
+Mar 18 15:08:51 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114370ms.
+Mar 18 15:10:45 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112610ms.
+Mar 18 15:12:38 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111060ms.
+Mar 18 15:14:29 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116380ms.
+Mar 18 15:16:25 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112730ms.
+Mar 18 15:18:18 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126250ms.
+Mar 18 15:20:24 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121560ms.
+Mar 18 15:22:26 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113170ms.
+Mar 18 15:24:19 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114660ms.
+Mar 18 15:26:14 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124280ms.
+Mar 18 15:28:17 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 15:28:17 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 15:28:17 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1770 seconds.
+Mar 18 15:28:17 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 15:28:17 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 15:28:18 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120970ms.
+Mar 18 15:30:19 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126510ms.
+Mar 18 15:32:26 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124240ms.
+Mar 18 15:34:30 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118900ms.
+Mar 18 15:36:29 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131900ms.
+Mar 18 15:38:41 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123360ms.
+Mar 18 15:40:44 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123790ms.
+Mar 18 15:42:48 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114520ms.
+Mar 18 15:44:43 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112540ms.
+Mar 18 15:46:35 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 110380ms.
+Mar 18 15:48:26 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125290ms.
+Mar 18 15:50:31 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126810ms.
+Mar 18 15:52:38 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120490ms.
+Mar 18 15:54:38 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121710ms.
+Mar 18 15:56:40 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 109300ms.
+Mar 18 15:57:47 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 15:57:47 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 15:57:47 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1629 seconds.
+Mar 18 15:57:47 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 15:57:47 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 15:58:30 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 109780ms.
+Mar 18 16:00:19 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116960ms.
+Mar 18 16:02:16 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 115810ms.
+Mar 18 16:04:12 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108340ms.
+Mar 18 16:06:01 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127680ms.
+Mar 18 16:08:08 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131410ms.
+Mar 18 16:10:20 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118450ms.
+Mar 18 16:12:19 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126830ms.
+Mar 18 16:14:25 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125920ms.
+Mar 18 16:16:31 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123740ms.
+Mar 18 16:18:35 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124510ms.
+Mar 18 16:20:40 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128850ms.
+Mar 18 16:22:49 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131760ms.
+Mar 18 16:24:56 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 16:24:56 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 16:24:56 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1593 seconds.
+Mar 18 16:24:56 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 16:24:56 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 16:25:00 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123230ms.
+Mar 18 16:27:04 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120380ms.
+Mar 18 16:29:04 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131400ms.
+Mar 18 16:31:16 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126610ms.
+Mar 18 16:33:22 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118430ms.
+Mar 18 16:33:23 ip-172-31-9-209 ntpd[2598]: frequency file /var/lib/ntp/drift.TEMP: Permission denied
+Mar 18 16:35:21 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125440ms.
+Mar 18 16:37:26 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 113010ms.
+Mar 18 16:39:19 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126870ms.
+Mar 18 16:41:26 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 116050ms.
+Mar 18 16:43:23 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131550ms.
+Mar 18 16:45:34 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114170ms.
+Mar 18 16:47:28 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118120ms.
+Mar 18 16:49:27 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 121760ms.
+Mar 18 16:51:28 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 122810ms.
+Mar 18 16:51:29 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 16:51:29 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 16:51:29 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1551 seconds.
+Mar 18 16:51:29 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 16:51:29 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 16:53:31 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125880ms.
+Mar 18 16:55:37 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131890ms.
+Mar 18 16:57:49 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 115990ms.
+Mar 18 16:59:45 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117520ms.
+Mar 18 17:01:43 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114360ms.
+Mar 18 17:03:37 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127690ms.
+Mar 18 17:05:45 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118490ms.
+Mar 18 17:07:43 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119420ms.
+Mar 18 17:09:43 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118140ms.
+Mar 18 17:11:41 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 131840ms.
+Mar 18 17:13:53 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123550ms.
+Mar 18 17:15:57 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112940ms.
+Mar 18 17:17:20 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 17:17:20 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 17:17:20 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1542 seconds.
+Mar 18 17:17:20 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 17:17:20 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 17:17:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128800ms.
+Mar 18 17:19:59 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 111500ms.
+Mar 18 17:21:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129620ms.
+Mar 18 17:24:00 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 109110ms.
+Mar 18 17:25:49 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120820ms.
+Mar 18 17:27:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112560ms.
+Mar 18 17:29:42 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125210ms.
+Mar 18 17:31:48 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120080ms.
+Mar 18 17:33:48 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 110090ms.
+Mar 18 17:35:38 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128290ms.
+Mar 18 17:37:46 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 112790ms.
+Mar 18 17:39:39 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 119940ms.
+Mar 18 17:41:39 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 125950ms.
+Mar 18 17:43:02 ip-172-31-9-209 dhclient[2125]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x79046d54)
+Mar 18 17:43:02 ip-172-31-9-209 dhclient[2125]: DHCPACK from 172.31.0.1 (xid=0x79046d54)
+Mar 18 17:43:02 ip-172-31-9-209 dhclient[2125]: bound to 172.31.9.209 -- renewal in 1533 seconds.
+Mar 18 17:43:02 ip-172-31-9-209 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:83:67:48:10:fc/local-ipv4s
+Mar 18 17:43:02 ip-172-31-9-209 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Mar 18 17:43:45 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 128930ms.
+Mar 18 17:45:54 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 127050ms.
+Mar 18 17:48:01 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 123100ms.
+Mar 18 17:50:04 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108820ms.
+Mar 18 17:51:53 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 114350ms.
+Mar 18 17:53:48 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 124840ms.
+Mar 18 17:55:53 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 129820ms.
+Mar 18 17:58:03 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 120390ms.
+Mar 18 18:00:03 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 118350ms.
+Mar 18 18:02:02 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 108340ms.
+Mar 18 18:03:50 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 117120ms.
+Mar 18 18:05:47 ip-172-31-9-209 dhclient[2213]: XMT: Solicit on eth0, interval 126020ms.

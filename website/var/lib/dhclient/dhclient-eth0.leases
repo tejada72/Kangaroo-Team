@@ -1,0 +1,255 @@
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 11:57:36;
+  rebind 0 2018/03/18 12:21:47;
+  expire 0 2018/03/18 12:29:17;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 12:25:06;
+  rebind 0 2018/03/18 12:50:06;
+  expire 0 2018/03/18 12:57:36;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 12:52:34;
+  rebind 0 2018/03/18 13:17:36;
+  expire 0 2018/03/18 13:25:06;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 13:20:26;
+  rebind 0 2018/03/18 13:45:04;
+  expire 0 2018/03/18 13:52:34;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 13:47:05;
+  rebind 0 2018/03/18 14:12:56;
+  expire 0 2018/03/18 14:20:26;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 14:13:56;
+  rebind 0 2018/03/18 14:39:35;
+  expire 0 2018/03/18 14:47:05;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 14:37:53;
+  rebind 0 2018/03/18 15:06:26;
+  expire 0 2018/03/18 15:13:56;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 15:04:08;
+  rebind 0 2018/03/18 15:30:23;
+  expire 0 2018/03/18 15:37:53;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 15:28:17;
+  rebind 0 2018/03/18 15:56:38;
+  expire 0 2018/03/18 16:04:08;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 15:57:47;
+  rebind 0 2018/03/18 16:20:47;
+  expire 0 2018/03/18 16:28:17;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 16:24:56;
+  rebind 0 2018/03/18 16:50:17;
+  expire 0 2018/03/18 16:57:47;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 16:51:29;
+  rebind 0 2018/03/18 17:17:26;
+  expire 0 2018/03/18 17:24:56;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 17:17:20;
+  rebind 0 2018/03/18 17:43:59;
+  expire 0 2018/03/18 17:51:29;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 17:43:02;
+  rebind 0 2018/03/18 18:09:50;
+  expire 0 2018/03/18 18:17:20;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.31.9.209;
+  option subnet-mask 255.255.240.0;
+  option routers 172.31.0.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 172.31.0.2;
+  option dhcp-server-identifier 172.31.0.1;
+  option interface-mtu 9001;
+  option broadcast-address 172.31.15.255;
+  option host-name "ip-172-31-9-209";
+  option domain-name "ec2.internal";
+  renew 0 2018/03/18 18:08:35;
+  rebind 0 2018/03/18 18:35:32;
+  expire 0 2018/03/18 18:43:02;
+}
