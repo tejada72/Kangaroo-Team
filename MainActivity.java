@@ -88,8 +88,6 @@ public class MainActivity extends AppCompatActivity {
                 os.flush();
                 os.close();
 
-
-
                 InputStream is = httpURLConnection.getInputStream();
 
                 Reader in = new BufferedReader(new InputStreamReader(is, "UTF-8"));
@@ -99,26 +97,10 @@ public class MainActivity extends AppCompatActivity {
                 String response = sb.toString();
                 System.out.println(response);
 
-                try {
-                    JSONObject myResponse = new JSONObject(response.toString());
-                    if(myResponse.getBoolean("error")) {
-                        //Toast.makeText(ctx, myResponse.getString("error-msg"), Toast.LENGTH_SHORT).show();
-                        System.out.println("Not working");
-                    }
-                } catch (JSONException e){
-                    e.printStackTrace();
-                    return "Exception: " +e.getMessage();
-                }
-
-                while((temp=is.read()) != -1)
-                {
-                    data += (char)temp;
-                }
-
                 is.close();
                 httpURLConnection.disconnect();
 
-                return data;
+                return response;
             }
             catch (MalformedURLException e)
             {
@@ -133,18 +115,31 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @Override
-        protected void onPostExecute(String s)
+        protected void onPostExecute(String response)
         {
             String err = null;
+
             try
             {
-                JSONObject root = new JSONObject(s);
-                JSONObject user_data = root.getJSONObject("user_data");
+                JSONObject myResponse = new JSONObject(response.toString());
 
-                RUNID = user_data.getString("run-code");
-                USERNAME = user_data.getString("username");
-                //PASSWORD = user_data.getString("password");
-                //EMAIL = user_data.getString("email");
+                //Check if run exists, or if name is taken
+                if (myResponse.getBoolean("error"))
+                {
+                    Toast.makeText(ctx, myResponse.getString("error-msg"), Toast.LENGTH_SHORT).show();
+                    System.out.println("Not working");
+                }
+                else
+                {
+                    JSONObject root = new JSONObject(response);
+                    JSONObject user_data = root.getJSONObject("data");
+
+                    RUNID = user_data.getString("run-id");
+                    USERNAME = user_data.getString("user-id");
+
+                    Intent i = new Intent(ctx, Tracker.class);
+                    startActivity(i);
+                }
             }
             catch (JSONException e)
             {
@@ -152,13 +147,11 @@ public class MainActivity extends AppCompatActivity {
                 err = "Exception: "+e.getMessage();
             }
 
-            Intent i = new Intent(ctx, Tracker.class);
             //i.putExtra("run-code", RUNID);
             //i.putExtra("username", USERNAME);
             //i.putExtra("password", PASSWORD);
             //i.putExtra("email", EMAIL);
             //i.putExtra("err", err);
-            startActivity(i);
         }
     }
 }
