@@ -1,6 +1,8 @@
 package teamkangaroo.areamonitoringtool;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
@@ -12,14 +14,8 @@ import android.widget.Toast;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.io.Reader;
+import java.io.*;
+import java.util.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
@@ -42,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
 //Check the run.
     //User puts in RunID.
     //Check ID with URL.
-        //Continue if it exists.
-        //Ask again if it does not exist.
+    //Continue if it exists.
+    //Ask again if it does not exist.
     //private static HttpURLConnection con;
 
     @Override
@@ -53,6 +49,52 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         runID = (EditText) findViewById(R.id.runName);
         userName = (EditText) findViewById(R.id.userName);
+
+        File sessionFile = new File(ctx.getFilesDir(), "session");
+
+        if(sessionFile.canRead()) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            // Add the buttons
+            builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                        restoreSession();
+                }
+            });
+            builder.setNeutralButton("No", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    
+                }
+            });
+            builder.setNegativeButton("Delete", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    File sessionFile = new File(ctx.getFilesDir(), "session");
+                    sessionFile.delete();
+                }
+            });
+            builder.setMessage("Restore previous session?")
+                    .setTitle("Old session available");
+            builder.show();
+            AlertDialog dialog = builder.create();
+
+        }
+    }
+
+    protected void restoreSession() {
+        File sessionFile = new File(ctx.getFilesDir(), "session");
+        FileInputStream inFileStream;
+        try {
+            inFileStream = new FileInputStream(sessionFile);
+            ObjectInputStream objInputStream = new ObjectInputStream(inFileStream);
+            ArrayList<String> prevSessionData = (ArrayList) objInputStream.readObject();
+
+            this.run = prevSessionData.get(0);
+            this.user = prevSessionData.get(1);
+
+            Intent intent = new Intent(ctx, Tracker.class);
+            startActivity(intent);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     //User logs in
@@ -62,9 +104,9 @@ public class MainActivity extends AppCompatActivity {
         user = userName.getText().toString();
         BackGround b = new BackGround();
         b.execute(run, user);
-        //Intent intent = new Intent(this, Tracker.class);
-        //startActivity(intent);
+
     }
+
 
     class BackGround extends AsyncTask<String, String, String>
     {
@@ -136,6 +178,22 @@ public class MainActivity extends AppCompatActivity {
 
                     RUNID = user_data.getString("run-id");
                     USERNAME = user_data.getString("user-id");
+
+                    File sessionFile = new File(ctx.getFilesDir(), "session");
+                    FileOutputStream outputStream;
+
+                    try {
+                        outputStream = new FileOutputStream(sessionFile);
+                        ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream);
+                        ArrayList<String> varData = new ArrayList<String>();
+                        varData.add(run);
+                        varData.add(user);
+                        objectOutputStream.writeObject(varData);
+                        outputStream.close();
+                    } catch (Exception e) {
+                        System.err.println("Error occurs when saving state");
+                        e.printStackTrace();
+                    }
 
                     Intent i = new Intent(ctx, Tracker.class);
                     startActivity(i);
