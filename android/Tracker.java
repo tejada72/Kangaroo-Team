@@ -136,7 +136,7 @@ public class Tracker extends AppCompatActivity implements LocationListener, Goog
                 checkGPS();
                 switch (buttonStatus) {
 
-                    //Turn off
+                    //Turn on
                     case 0:
                         text.setText("Location is Loading");
                         button.setText("On");
@@ -145,7 +145,7 @@ public class Tracker extends AppCompatActivity implements LocationListener, Goog
                         //need some way to write the update, perhaps a handler
                         buttonStatus = 1;
                         break;
-                    //Turn on
+                    //Turn off
                     case 1:
                         text.setText("Location is not being transmitted");
                         button.setText("Off");
