@@ -158,6 +158,8 @@ public class Tracker extends AppCompatActivity implements LocationListener, Goog
                         latitude = location.getLatitude();
                         longitude = location.getLongitude();
                         if (buttonStatus == 1) {
+                            if(!text.getText().equals("Location is being transmitted"))
+                                text.setText("Location is being transmitted");
                             xLabel.setText(Double.toString(latitude));
                             yLabel.setText(Double.toString(longitude));
                         }
@@ -179,7 +181,7 @@ public class Tracker extends AppCompatActivity implements LocationListener, Goog
 
                     //Turn off
                     case 0:
-                        text.setText("Location is being transmitted");
+                        text.setText("Location is Loading");
                         button.setText("On");
                         button.setBackgroundColor(Color.GREEN);
                         //Supposedly printing location grabbed when tracker started in OnCreate listener
