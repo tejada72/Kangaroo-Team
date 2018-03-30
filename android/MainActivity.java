@@ -18,9 +18,7 @@ import java.io.*;
 import java.util.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
-import java.net.ProtocolException;
 import java.net.URL;
-import java.net.URLEncoder;
 
 public class MainActivity extends AppCompatActivity {
 //Get the MAC Address for user login to the operator.
@@ -57,12 +55,12 @@ public class MainActivity extends AppCompatActivity {
             // Add the buttons
             builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
-                        restoreSession();
+                    restoreSession();
                 }
             });
             builder.setNeutralButton("No", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
-                    
+
                 }
             });
             builder.setNegativeButton("Delete", new DialogInterface.OnClickListener() {
@@ -196,6 +194,8 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                     Intent i = new Intent(ctx, Tracker.class);
+                    i.putExtra("runId", RUNID);
+                    i.putExtra("userId", USERNAME);
                     startActivity(i);
                 }
             }
@@ -205,11 +205,7 @@ public class MainActivity extends AppCompatActivity {
                 err = "Exception: "+e.getMessage();
             }
 
-            //i.putExtra("run-code", RUNID);
-            //i.putExtra("username", USERNAME);
-            //i.putExtra("password", PASSWORD);
-            //i.putExtra("email", EMAIL);
-            //i.putExtra("err", err);
+
         }
     }
 }
