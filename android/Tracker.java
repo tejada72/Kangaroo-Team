@@ -1,5 +1,8 @@
 package teamkangaroo.areamonitoringtool;
 
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,17 +11,25 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.location.Location;
 
+import java.io.File;
+
 public class Tracker extends AppCompatActivity  {
-    Button button;      //Button for on/off button
+    Button btnLocation;      //Button for on/off btnLocation
+    Button btnEmergency;    //Button for Emergency state
     TextView text;      //TextView for the Button Message
     TextView xLabel;    //TextView for X coordinates
     TextView yLabel;    //TextView for Y coordinates
+    TextView lblEmergency;
+
     int buttonStatus = 1;
+    boolean emergency = false;
 
     GPSHandler gps;
 
     double latitude = 0.0;   //lat
     double longitude = 0.0;  //long
+
+    Context ctx = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -26,10 +37,12 @@ public class Tracker extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tracker);
 
-        button = (Button) findViewById(R.id.locationSwitchbtn);
+        btnLocation = (Button) findViewById(R.id.locationSwitchbtn);
+        btnEmergency = (Button) findViewById(R.id.btnEmergency);
         text = (TextView) findViewById(R.id.locationSwitchlbl);
         xLabel = (TextView) findViewById(R.id.locationXtxt);
         yLabel = (TextView) findViewById(R.id.locationYtxt);
+        lblEmergency = (TextView) findViewById(R.id.lblEmergency);
 
         //Creates the new GPS handler
         gps = new GPSHandler(this);
@@ -37,16 +50,16 @@ public class Tracker extends AppCompatActivity  {
         //Check if the GPS is turn on
         gps.checkGPS();
 
-        //Creates the button listener
-        setButtonListener();
+        //Creates the btnLocation listener
+        setButtonsListener();
     }
 
     /**
-     * Creates the listener for the button that tracks
+     * Creates the listener for the btnLocation that tracks
      */
-    private void setButtonListener() {
+    private void setButtonsListener() {
         //Turns location transmission off or on.
-        button.setOnClickListener(new View.OnClickListener(){
+        btnLocation.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View view)
             {
@@ -56,10 +69,12 @@ public class Tracker extends AppCompatActivity  {
                     //Turn on
                     case 0:
                         text.setText("Location is Loading");
-                        button.setText("On");
-                        button.setBackgroundColor(Color.GREEN);
+                        btnLocation.setText("On");
+                        btnLocation.setBackgroundColor(Color.GREEN);
                         xLabel.setText(Double.toString(latitude));
                         yLabel.setText(Double.toString(longitude));
+                        btnEmergency.setEnabled(true);
+                        btnEmergency.setBackgroundColor(Color.RED);
                         //Supposedly printing location grabbed when tracker started in OnCreate listener
                         //need some way to write the update, perhaps a handler
                         buttonStatus = 1;
@@ -67,10 +82,12 @@ public class Tracker extends AppCompatActivity  {
                     //Turn off
                     case 1:
                         text.setText("Location is not being transmitted");
-                        button.setText("Off");
-                        button.setBackgroundColor(Color.RED);
+                        btnLocation.setText("Off");
+                        btnLocation.setBackgroundColor(Color.rgb(255,165,0));
                         xLabel.setText("Longitude");
                         yLabel.setText("Latitude");
+                        btnEmergency.setEnabled(false);
+                        btnEmergency.setBackgroundColor(Color.GRAY);
                         buttonStatus = 0;
                         break;
                     default:
@@ -78,8 +95,40 @@ public class Tracker extends AppCompatActivity  {
                 }
             }
         });
+
+        btnEmergency.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if(!emergency) {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
+                    // Add the buttons
+                    builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            setEmergency(!emergency); //Reverse the state of emergency
+                        }
+                    });
+                    builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+
+                        }
+                    });
+                    builder.setMessage("Are you sure?")
+                            .setTitle("Change emergency state");
+                    builder.show();
+                    AlertDialog dialog = builder.create();
+                }
+                else
+                    setEmergency(!emergency); //Reverse the state of emergency
+            }
+        });
     }
 
+    /**
+     * Changes the location whenever the GPSHandler class has a location update
+     *
+     * @param location
+     */
     public void changeLocation(Location location) {
 
         this.setLatitude(location.getLatitude());
@@ -91,6 +140,19 @@ public class Tracker extends AppCompatActivity  {
 
             if(!text.getText().equals("Location is being transmitted"))
                 text.setText("Location is being transmitted");
+        }
+    }
+
+    public void setEmergency(boolean emergency) {
+        this.emergency = emergency;
+
+        if(emergency) {
+            lblEmergency.setText("EMERGENCY STATE ACTIVATED");
+            lblEmergency.setTextColor(Color.RED);
+        }
+        else
+        {
+            lblEmergency.setText("");
         }
     }
 
