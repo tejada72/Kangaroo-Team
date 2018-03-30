@@ -1,5 +1,6 @@
 package teamkangaroo.areamonitoringtool;
 
+
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -27,8 +28,6 @@ public class MainActivity extends AppCompatActivity {
 
     EditText runID;
     EditText userName;
-    String RUNID = null;
-    String USERNAME = null;
     String run;
     String user;
 
@@ -57,12 +56,12 @@ public class MainActivity extends AppCompatActivity {
             // Add the buttons
             builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
-                        restoreSession();
+                    restoreSession();
                 }
             });
             builder.setNeutralButton("No", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
-                    
+
                 }
             });
             builder.setNegativeButton("Delete", new DialogInterface.OnClickListener() {
@@ -90,8 +89,8 @@ public class MainActivity extends AppCompatActivity {
             this.run = prevSessionData.get(0);
             this.user = prevSessionData.get(1);
 
-            Intent intent = new Intent(ctx, Tracker.class);
-            startActivity(intent);
+            launchTracker();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -176,8 +175,8 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject root = new JSONObject(response);
                     JSONObject user_data = root.getJSONObject("data");
 
-                    RUNID = user_data.getString("run-id");
-                    USERNAME = user_data.getString("user-id");
+                    run = user_data.getString("run-id");
+                    user = user_data.getString("user-id");
 
                     File sessionFile = new File(ctx.getFilesDir(), "session");
                     FileOutputStream outputStream;
@@ -195,8 +194,7 @@ public class MainActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
 
-                    Intent i = new Intent(ctx, Tracker.class);
-                    startActivity(i);
+                   launchTracker();
                 }
             }
             catch (JSONException e)
@@ -211,5 +209,12 @@ public class MainActivity extends AppCompatActivity {
             //i.putExtra("email", EMAIL);
             //i.putExtra("err", err);
         }
+    }
+
+    private void launchTracker() {
+        Intent intent = new Intent(ctx, Tracker.class);
+        intent.putExtra("runId",run);
+        intent.putExtra("userId",user);
+        startActivity(intent);
     }
 }
