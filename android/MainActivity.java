@@ -57,12 +57,12 @@ public class MainActivity extends AppCompatActivity {
             // Add the buttons
             builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
-                        restoreSession();
+                    restoreSession();
                 }
             });
             builder.setNeutralButton("No", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
-                    
+
                 }
             });
             builder.setNegativeButton("Delete", new DialogInterface.OnClickListener() {
@@ -90,8 +90,8 @@ public class MainActivity extends AppCompatActivity {
             this.run = prevSessionData.get(0);
             this.user = prevSessionData.get(1);
 
-            Intent intent = new Intent(ctx, Tracker.class);
-            startActivity(intent);
+            launchTracker();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -195,8 +195,7 @@ public class MainActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
 
-                    Intent i = new Intent(ctx, Tracker.class);
-                    startActivity(i);
+                   launchTracker();
                 }
             }
             catch (JSONException e)
@@ -211,5 +210,15 @@ public class MainActivity extends AppCompatActivity {
             //i.putExtra("email", EMAIL);
             //i.putExtra("err", err);
         }
+    }
+
+    private void launchTracker() {
+
+
+
+        Intent intent = new Intent(ctx, Tracker.class);
+        intent.putExtra("run",run);
+        intent.putExtra("user",user);
+        startActivity(intent);
     }
 }
