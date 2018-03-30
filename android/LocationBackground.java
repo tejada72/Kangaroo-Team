@@ -1,4 +1,4 @@
-package teamkangaroo.areamonitoringtool; //Change this
+package teamkangaroo.areamonitoringtool;
 
 import android.content.Context;
 import android.content.Intent;
