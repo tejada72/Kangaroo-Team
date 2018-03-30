@@ -68,8 +68,8 @@ public class GPSHandler implements GoogleApiClient.ConnectionCallbacks, GoogleAp
     @SuppressLint("RestrictedApi")
     protected void createLocationRequest() {
         mLocationRequest = new LocationRequest();
-        mLocationRequest.setInterval(500);
-        mLocationRequest.setFastestInterval(250);
+        mLocationRequest.setInterval(5000);
+        mLocationRequest.setFastestInterval(2500);
         mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
 
         //creates location request
