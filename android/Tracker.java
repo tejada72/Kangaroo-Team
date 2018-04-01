@@ -1,141 +1,198 @@
 package teamkangaroo.areamonitoringtool;
 
-import android.Manifest;
-import android.annotation.SuppressLint;
-import android.content.IntentSender;
-import android.content.pm.PackageManager;
-import android.location.Location;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.graphics.Color;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.os.Looper;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.location.Location;
+import java.io.File;
+import java.sql.Timestamp;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.*;
-import com.google.android.gms.location.*;
-import com.google.android.gms.tasks.Task;
+public class Tracker extends AppCompatActivity  {
+    Button btnLocation;      //Button for on/off btnLocation
+    Button btnEmergency;    //Button for Emergency state
+    TextView text;      //TextView for the Button Message
+    TextView xLabel;    //TextView for X coordinates
+    TextView yLabel;    //TextView for Y coordinates
+    TextView lblEmergency;
 
-/**
- * Created by lTejada on 3/26/2018.
- */
+    int buttonStatus = 1;
+    boolean emergency = false;
+    String userId;
+    String runId;
 
-public class GPSHandler implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener{
-    Tracker tracker;
-    FusedLocationProviderClient locationClient;
-    LocationCallback mLocationCallback;
-    LocationRequest mLocationRequest;
+    int counter = 0; //Counter for updating location data
 
-    public GPSHandler(Tracker tracker) {
-        this.tracker = tracker;
+    GPSHandler gps;
 
-        locationClient = LocationServices.getFusedLocationProviderClient(tracker);
-        initiateLocationCallBack();
+    double latitude = 0.0;   //lat
+    double longitude = 0.0;  //long
 
-        //start asking for periodic location updates
-        createLocationRequest();
+    Context ctx = this;
 
-        if (ContextCompat.checkSelfPermission(tracker, Manifest.permission.ACCESS_FINE_LOCATION)
-                != PackageManager.PERMISSION_GRANTED) {
-            // Permission is not granted
-            // Need to prompt user with Android dialog that asks to use GPS
-            //Takes user to GPS settings
-            ActivityCompat.requestPermissions(tracker,
-                    new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
-                    1);
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_tracker);
+
+        btnLocation = (Button) findViewById(R.id.locationSwitchbtn);
+        btnEmergency = (Button) findViewById(R.id.btnEmergency);
+        text = (TextView) findViewById(R.id.locationSwitchlbl);
+        xLabel = (TextView) findViewById(R.id.locationXtxt);
+        yLabel = (TextView) findViewById(R.id.locationYtxt);
+        lblEmergency = (TextView) findViewById(R.id.lblEmergency);
+
+        //Creates the new GPS handler
+        gps = new GPSHandler(this);
+
+        //Check if the GPS is turn on
+        gps.checkGPS();
+
+        //Creates the btnLocation listener
+        setButtonsListener();
+
+        Bundle bundle = getIntent().getExtras();
+        if(bundle.getString("runId")!= null)
+        {
+            runId = bundle.getString("runId");
         }
-
-        locationClient.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper());
-    }
-
-    private void initiateLocationCallBack() {
-        mLocationCallback = new LocationCallback() {
-            @Override
-            public void onLocationResult(LocationResult locationResult) {
-                if (locationResult == null) {
-                    return;
-                }
-                for (Location location : locationResult.getLocations()) {
-                    if(location != null) {
-                        tracker.changeLocation(location);
-                    }
-                }
-            }
-        };
-    }
-
-    @SuppressLint("RestrictedApi")
-    protected void createLocationRequest() {
-        mLocationRequest = new LocationRequest();
-        mLocationRequest.setInterval(500);
-        mLocationRequest.setFastestInterval(250);
-        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-
-        //creates location request
-        LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder()
-                .addLocationRequest(mLocationRequest);
-
-        SettingsClient client = LocationServices.getSettingsClient(tracker);
-       Task<LocationSettingsResponse> task = client.checkLocationSettings(builder.build());
+        if(bundle.getString("userId")!= null)
+        {
+            userId = bundle.getString("userId");
+        }
     }
 
     /**
-     * Confirms that GPS settings are properly set for the Tracker class to function properly.
-     * If GPS are settings are off, a pop up will be display allowing the user to turn them on.
+     * Creates the listener for the btnLocation that tracks
      */
-    protected void checkGPS() {
-        GoogleApiClient googleApiClient = new GoogleApiClient.Builder(tracker)
-                .addApi(LocationServices.API)
-                .addConnectionCallbacks(this)
-                .addOnConnectionFailedListener(this).build();
-        googleApiClient.connect();
-        
-        LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder()
-                .addLocationRequest(mLocationRequest);
+    private void setButtonsListener() {
+        //Turns location transmission off or on.
+        btnLocation.setOnClickListener(new View.OnClickListener(){
 
-        //**************************
-        builder.setAlwaysShow(true); //this is the key ingredient
-        //**************************
+            public void onClick(View view)
+            {
+                gps.checkGPS();
+                switch (buttonStatus) {
 
-        PendingResult<LocationSettingsResult> result =
-                LocationServices.SettingsApi.checkLocationSettings(googleApiClient, builder.build());
-        result.setResultCallback(new ResultCallback<LocationSettingsResult>() {
-            @Override
-            public void onResult(@NonNull LocationSettingsResult result) {
-                final Status status = result.getStatus();
-//                final LocationSettingsStates state = result.getLocationSettingsStates();
-
-                switch (status.getStatusCode()) {
-                    case LocationSettingsStatusCodes.SUCCESS:
-
-
+                    //Turn on
+                    case 0:
+                        text.setText("Location is Loading");
+                        btnLocation.setText("On");
+                        btnLocation.setBackgroundColor(Color.GREEN);
+                        xLabel.setText(Double.toString(latitude));
+                        yLabel.setText(Double.toString(longitude));
+                        btnEmergency.setEnabled(true);
+                        btnEmergency.setBackgroundColor(Color.RED);
+                        //Supposedly printing location grabbed when tracker started in OnCreate listener
+                        //need some way to write the update, perhaps a handler
+                        buttonStatus = 1;
                         break;
-                    case LocationSettingsStatusCodes.RESOLUTION_REQUIRED:
-                        // Location settings are not satisfied. But could be fixed by showing the user
-                        // a dialog.
-                        try {
-                            // Show the dialog by calling startResolutionForResult(),
-                            // and check the result in onActivityResult().
-                            status.startResolutionForResult(
-                                    tracker, 1000);
-                        } catch (IntentSender.SendIntentException e) {
-                            // Ignore the error.
-                        }
+                    //Turn off
+                    case 1:
+                        text.setText("Location is not being transmitted");
+                        btnLocation.setText("Off");
+                        btnLocation.setBackgroundColor(Color.rgb(255,165,0));
+                        xLabel.setText("Longitude");
+                        yLabel.setText("Latitude");
+                        btnEmergency.setEnabled(false);
+                        btnEmergency.setBackgroundColor(Color.GRAY);
+                        buttonStatus = 0;
                         break;
-                    case LocationSettingsStatusCodes.SETTINGS_CHANGE_UNAVAILABLE:
+                    default:
                         break;
                 }
             }
         });
+
+        btnEmergency.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if(!emergency) {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
+                    // Add the buttons
+                    builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            setEmergency(!emergency); //Reverse the state of emergency
+                        }
+                    });
+                    builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+
+                        }
+                    });
+                    builder.setMessage("Are you sure?")
+                            .setTitle("Change emergency state");
+                    builder.show();
+                    AlertDialog dialog = builder.create();
+                }
+                else
+                    setEmergency(!emergency); //Reverse the state of emergency
+            }
+        });
     }
 
-    @Override
-    public void onConnected(@Nullable Bundle bundle) {    }
+    /**
+     * Changes the location whenever the GPSHandler class has a location update
+     *
+     * @param location
+     */
+    public void changeLocation(Location location) {
 
-    @Override
-    public void onConnectionSuspended(int i) {    }
+        this.setLatitude(location.getLatitude());
+        this.setLongitude(location.getLongitude());
 
-    @Override
-    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {    }
+        if(buttonStatus == 1) {
+            yLabel.setText(Double.toString(longitude));
+            xLabel.setText(Double.toString(latitude));
+
+            if(!text.getText().equals("Location is being transmitted"))
+                text.setText("Location is being transmitted");
+        }
+
+        if(counter == 0) {
+            LocationBackground b = new LocationBackground(this, RunOver.class);
+            Long time = (new Timestamp(System.currentTimeMillis())).getTime() / 1000;
+            b.execute(runId, userId, Double.toString(longitude), Double.toString(latitude),
+                    Long.toString(time));
+            counter = 5;
+        }
+
+        counter--;
+    }
+
+    public void setEmergency(boolean emergency) {
+        this.emergency = emergency;
+
+        if(emergency) {
+            lblEmergency.setText("EMERGENCY STATE ACTIVATED");
+            lblEmergency.setTextColor(Color.RED);
+        }
+        else
+        {
+            lblEmergency.setText("");
+        }
+    }
+
+    /**
+     * Sets the longitude whenever a new location is found by the GPSHandler class.
+     * @param longitude - Double longitude
+     */
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
+    }
+
+    /**
+     * Sets the latitude whenever a new location is found by the GPSHandler class.
+     * @param latitude - Double latitude
+     */
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
+    }
 }
