@@ -94,6 +94,7 @@ public class Tracker extends AppCompatActivity {
                         //Supposedly printing location grabbed when tracker started in OnCreate listener
                         //need some way to write the update, perhaps a handler
                         buttonStatus = 1;
+                        changeStatus(buttonStatus);
                         break;
                     //Turn off
                     case 1:
@@ -105,6 +106,7 @@ public class Tracker extends AppCompatActivity {
                         btnEmergency.setEnabled(false);
                         btnEmergency.setBackgroundColor(Color.GRAY);
                         buttonStatus = 0;
+                        changeStatus(buttonStatus);
                         break;
                     default:
                         break;
