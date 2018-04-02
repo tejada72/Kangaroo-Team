@@ -1,6 +1,8 @@
 package teamkangaroo.areamonitoringtool;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.widget.Toast;
@@ -9,6 +11,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -27,12 +30,14 @@ public class LocationBackground extends AsyncTask<String, String, String>
 {
     private Context ctx;
     private Class nextClass;
+    Tracker tracker;
 
 
-    public LocationBackground(Context ctx, Class nextClass)
+    public LocationBackground(Context ctx, Class nextClass, Tracker tracker)
     {
         this.ctx = ctx;
         this.nextClass = nextClass;
+        this.tracker = tracker;
     }
 
     @Override
@@ -50,7 +55,7 @@ public class LocationBackground extends AsyncTask<String, String, String>
             String urlParams = "action=update-location&run-id=" + runId + "&user-id=" + userId
                     + "&lon=" + lon + "&lat=" + lat + "&log-time=" + logTime;
 
-            System.out.print(urlParams);
+            //System.out.print(urlParams);
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             httpURLConnection.setDoOutput(true);
@@ -122,8 +127,21 @@ public class LocationBackground extends AsyncTask<String, String, String>
 
                 if (!isActive)
                 {
-                    Intent i = new Intent(ctx, nextClass);
-                    ctx.startActivity(i);
+                    //Intent i = new Intent(ctx, nextClass);
+                    //ctx.startActivity(i);
+                    AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
+                    // Add the buttons
+                    builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            File sessionFile = new File(ctx.getFilesDir(), "session");
+                            sessionFile.delete();
+                            tracker.finish();
+                        }
+                    });
+                    builder.setMessage("You will return to log in screen")
+                            .setTitle("RUN NO LONGER ACTIVE");
+                    builder.show();
+                    AlertDialog dialog = builder.create();
                 }
             }
         }
