@@ -27,10 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
     EditText runID;
     EditText userName;
-    String RUNID = null;
-    String USERNAME = null;
     String run;
     String user;
+    String username;
 
     Context ctx = this;
 
@@ -49,7 +48,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         runID = (EditText) findViewById(R.id.runName);
         userName = (EditText) findViewById(R.id.userName);
+    }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
         File sessionFile = new File(ctx.getFilesDir(), "session");
 
         if(sessionFile.canRead()) {
@@ -72,10 +75,9 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
             builder.setMessage("Restore previous session?")
-                    .setTitle("Old session available");
+                    .setTitle("You have a session available");
             builder.show();
             AlertDialog dialog = builder.create();
-
         }
     }
 
@@ -89,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
             this.run = prevSessionData.get(0);
             this.user = prevSessionData.get(1);
+            this.username = prevSessionData.get(2);
 
             launchTracker();
 
@@ -102,8 +105,35 @@ public class MainActivity extends AppCompatActivity {
     {
         run = runID.getText().toString();
         user = userName.getText().toString();
-        BackGround b = new BackGround();
-        b.execute(run, user);
+        final BackGround b = new BackGround();
+        File sessionFile = new File(ctx.getFilesDir(), "session");
+        if(sessionFile.canRead()) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
+            // Add the buttons
+            builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    File sessionFile = new File(ctx.getFilesDir(), "session");
+                    sessionFile.delete();
+                    b.execute(run, user);
+                }
+            });
+            builder.setNeutralButton("Use old session", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    restoreSession();
+                }
+            });
+            builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+
+                }
+            });
+            builder.setMessage("Delete this session and proceed?")
+                    .setTitle("Active session available");
+            builder.show();
+            AlertDialog dialog = builder.create();
+        } else {
+            b.execute(run, user);
+        }
 
     }
 
@@ -176,8 +206,9 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject root = new JSONObject(response);
                     JSONObject user_data = root.getJSONObject("data");
 
-                    RUNID = user_data.getString("run-id");
-                    USERNAME = user_data.getString("user-id");
+                    run = user_data.getString("run-id");
+                    username = user;
+                    user = user_data.getString("user-id");
 
                     File sessionFile = new File(ctx.getFilesDir(), "session");
                     FileOutputStream outputStream;
@@ -188,12 +219,16 @@ public class MainActivity extends AppCompatActivity {
                         ArrayList<String> varData = new ArrayList<String>();
                         varData.add(run);
                         varData.add(user);
+                        varData.add(userName.getText().toString());
                         objectOutputStream.writeObject(varData);
                         outputStream.close();
                     } catch (Exception e) {
                         System.err.println("Error occurs when saving state");
                         e.printStackTrace();
                     }
+
+                    runID.setText("");
+                    userName.setText("");
 
                    launchTracker();
                 }
@@ -213,12 +248,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void launchTracker() {
-
-
-
         Intent intent = new Intent(ctx, Tracker.class);
-        intent.putExtra("run",run);
-        intent.putExtra("user",user);
+        intent.putExtra("runId",run);
+        intent.putExtra("userId",user);
+        intent.putExtra("username",username);
         startActivity(intent);
     }
 }
