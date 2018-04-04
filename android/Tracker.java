@@ -46,8 +46,8 @@ public class Tracker extends AppCompatActivity {
         btnLocation = (Button) findViewById(R.id.locationSwitchbtn);
         btnEmergency = (Button) findViewById(R.id.btnEmergency);
         text = (TextView) findViewById(R.id.locationSwitchlbl);
-        xLabel = (TextView) findViewById(R.id.locationXtxt);
-        yLabel = (TextView) findViewById(R.id.locationYtxt);
+        xLabel = (TextView) findViewById(R.id.locationX);
+        yLabel = (TextView) findViewById(R.id.locationY);
         lblEmergency = (TextView) findViewById(R.id.lblEmergency);
 
         //Creates the new GPS handler
@@ -87,8 +87,8 @@ public class Tracker extends AppCompatActivity {
                         text.setText("Location is Loading");
                         btnLocation.setText("On");
                         btnLocation.setBackgroundColor(Color.GREEN);
-                        xLabel.setText(Double.toString(latitude));
-                        yLabel.setText(Double.toString(longitude));
+                        xLabel.setText(Double.toString(longitude));
+                        yLabel.setText(Double.toString(latitude));
                         btnEmergency.setEnabled(true);
                         btnEmergency.setBackgroundColor(Color.RED);
                         //Supposedly printing location grabbed when tracker started in OnCreate listener
@@ -101,10 +101,11 @@ public class Tracker extends AppCompatActivity {
                         text.setText("Location is not being transmitted");
                         btnLocation.setText("Off");
                         btnLocation.setBackgroundColor(Color.rgb(255, 165, 0));
-                        xLabel.setText("Longitude");
-                        yLabel.setText("Latitude");
+                        xLabel.setText("0.0");
+                        yLabel.setText("0.0");
                         btnEmergency.setEnabled(false);
                         btnEmergency.setBackgroundColor(Color.GRAY);
+                        lblEmergency.setText("");
                         buttonStatus = 0;
                         changeStatus(buttonStatus);
                         break;
@@ -152,8 +153,8 @@ public class Tracker extends AppCompatActivity {
         this.setLongitude(location.getLongitude());
 
         if (buttonStatus == 1) {
-            yLabel.setText(Double.toString(longitude));
-            xLabel.setText(Double.toString(latitude));
+            yLabel.setText(Double.toString(latitude));
+            xLabel.setText(Double.toString(longitude));
 
             if (!text.getText().equals("Location is being transmitted"))
                 text.setText("Location is being transmitted");
@@ -246,9 +247,9 @@ public class Tracker extends AppCompatActivity {
                         .setTitle("Log out from " + username);
                 builder.show();
                 AlertDialog dialog = builder.create();
-            }
+        }
 
-            return true;
+        return true;
     }
 
     @Override
@@ -272,6 +273,5 @@ public class Tracker extends AppCompatActivity {
         builder.show();
         AlertDialog dialog = builder.create();
     }
-
 
 }

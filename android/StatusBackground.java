@@ -1,8 +1,6 @@
 package teamkangaroo.areamonitoringtool;
 
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.widget.Toast;
@@ -11,7 +9,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -24,21 +21,18 @@ import java.net.URL;
 
 
 /**
- * Created by enz12 on 3/29/2018.
+ * Created by Jordan Vargas on 4/1/2018
  */
 
-public class LocationBackground extends AsyncTask<String, String, String>
+public class StatusBackground extends AsyncTask<String, String, String>
 {
     private Context ctx;
     private Class nextClass;
-    Tracker tracker;
 
-
-    public LocationBackground(Context ctx, Class nextClass, Tracker tracker)
+    public StatusBackground(Context ctx, Class nextClass)
     {
         this.ctx = ctx;
         this.nextClass = nextClass;
-        this.tracker = tracker;
     }
 
     @Override
@@ -46,17 +40,19 @@ public class LocationBackground extends AsyncTask<String, String, String>
     {
         String runId = params[0];
         String userId = params[1];
-        String lon = params[2];
+        String status = params[2];
+        /*String lon = params[2];
         String lat = params[3];
-        String logTime = params[4];
+        String logTime = params[4];*/
 
         try
         {
             URL url = new URL("http://ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php");
-            String urlParams = "action=update-location&run-id=" + runId + "&user-id=" + userId
-                    + "&lon=" + lon + "&lat=" + lat + "&log-time=" + logTime;
+            String urlParams = "action=update-status&user-id=" + userId + "&run-id=" + runId
+                    + "&status=" + status;
 
-            //System.out.print(urlParams);
+            //URL parameters are printed
+            System.out.print(urlParams);
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             httpURLConnection.setDoOutput(true);
@@ -65,8 +61,10 @@ public class LocationBackground extends AsyncTask<String, String, String>
             os.flush();
             os.close();
 
+            //Retrieve info from database
             InputStream is = httpURLConnection.getInputStream();
 
+            //Read information from database
             Reader in = new BufferedReader(new InputStreamReader(is, "UTF-8"));
             StringBuilder sb = new StringBuilder();
             for (int c; (c = in.read()) >= 0;)
@@ -88,7 +86,7 @@ public class LocationBackground extends AsyncTask<String, String, String>
         {
             e.printStackTrace();
 
-            //Allows Toast to be made in Tracker
+            //Allows Toast to be made in tracker
             publishProgress();
             return "Exception: "+e.getMessage();
         }
@@ -144,21 +142,8 @@ public class LocationBackground extends AsyncTask<String, String, String>
 
                 if (!isActive)
                 {
-                    //Intent i = new Intent(ctx, nextClass);
-                    //ctx.startActivity(i);
-                    AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
-                    // Add the buttons
-                    builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                            File sessionFile = new File(ctx.getFilesDir(), "session");
-                            sessionFile.delete();
-                            tracker.finish();
-                        }
-                    });
-                    builder.setMessage("You will return to log in screen")
-                            .setTitle("RUN NO LONGER ACTIVE");
-                    builder.show();
-                    AlertDialog dialog = builder.create();
+                    Intent i = new Intent(ctx, nextClass);
+                    ctx.startActivity(i);
                 }
             }
         }
