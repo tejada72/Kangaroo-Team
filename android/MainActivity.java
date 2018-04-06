@@ -117,6 +117,8 @@ public class MainActivity extends AppCompatActivity {
                     File sessionFile = new File(ctx.getFilesDir(), "session");
                     sessionFile.delete();
                     b.execute();
+                    runId = b.getMainActivityrunid();
+                    user = b.getMainActivityuserid();
                     launchTracker();
                 }
             });
@@ -136,6 +138,8 @@ public class MainActivity extends AppCompatActivity {
             AlertDialog dialog = builder.create();
         } else {
             b.execute();
+            runId = b.getMainActivityrunid();
+            user = b.getMainActivityuserid();
             launchTracker();
         }
 
