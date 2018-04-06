@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
     {
         run = runID.getText().toString();
         user = userName.getText().toString();
-        final BackGround b = new BackGround();
+        final AnyBackground b = new AnyBackground(ctx,run,user);
         File sessionFile = new File(ctx.getFilesDir(), "session");
         if(sessionFile.canRead()) {
             AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(DialogInterface dialog, int id) {
                     File sessionFile = new File(ctx.getFilesDir(), "session");
                     sessionFile.delete();
-                    b.execute(run, user);
+                    b.execute();
                 }
             });
             builder.setNeutralButton("Use old session", new DialogInterface.OnClickListener() {
@@ -132,122 +132,12 @@ public class MainActivity extends AppCompatActivity {
             builder.show();
             AlertDialog dialog = builder.create();
         } else {
-            b.execute(run, user);
+            b.execute();
         }
 
     }
 
-
-    class BackGround extends AsyncTask<String, String, String>
-    {
-        @Override
-        protected String doInBackground(String... params)
-        {
-            String runCode = params[0];        //runName is for runID, since runID is already taken
-            String username = params[1];
-            String data = "";
-            int temp;
-
-            try
-            {
-                URL url = new URL("http://ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php");
-                String urlParams = "action=log-in&run-code=" + runCode + "&username=" + username;
-
-                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                httpURLConnection.setDoOutput(true);
-                OutputStream os = httpURLConnection.getOutputStream();
-                os.write(urlParams.getBytes());
-                os.flush();
-                os.close();
-
-                InputStream is = httpURLConnection.getInputStream();
-
-                Reader in = new BufferedReader(new InputStreamReader(is, "UTF-8"));
-                StringBuilder sb = new StringBuilder();
-                for (int c; (c = in.read()) >= 0;)
-                    sb.append((char)c);
-                String response = sb.toString();
-                System.out.println(response);
-
-                is.close();
-                httpURLConnection.disconnect();
-
-                return response;
-            }
-            catch (MalformedURLException e)
-            {
-                e.printStackTrace();
-                return "Exception: "+e.getMessage();
-            }
-            catch (IOException e)
-            {
-                e.printStackTrace();
-                return "Exception: "+e.getMessage();
-            }
-        }
-
-        @Override
-        protected void onPostExecute(String response)
-        {
-            String err = null;
-
-            try
-            {
-                JSONObject myResponse = new JSONObject(response.toString());
-
-                //Check if run exists, or if name is taken
-                if (myResponse.getBoolean("error"))
-                {
-                    Toast.makeText(ctx, myResponse.getString("error-msg"), Toast.LENGTH_SHORT).show();
-                    System.out.println("Not working");
-                }
-                else
-                {
-                    JSONObject root = new JSONObject(response);
-                    JSONObject user_data = root.getJSONObject("data");
-
-                    run = user_data.getString("run-id");
-                    username = user;
-                    user = user_data.getString("user-id");
-
-                    File sessionFile = new File(ctx.getFilesDir(), "session");
-                    FileOutputStream outputStream;
-
-                    try {
-                        outputStream = new FileOutputStream(sessionFile);
-                        ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream);
-                        ArrayList<String> varData = new ArrayList<String>();
-                        varData.add(run);
-                        varData.add(user);
-                        varData.add(userName.getText().toString());
-                        objectOutputStream.writeObject(varData);
-                        outputStream.close();
-                    } catch (Exception e) {
-                        System.err.println("Error occurs when saving state");
-                        e.printStackTrace();
-                    }
-
-                    runID.setText("");
-                    userName.setText("");
-
-                   launchTracker();
-                }
-            }
-            catch (JSONException e)
-            {
-                e.printStackTrace();
-                err = "Exception: "+e.getMessage();
-            }
-
-            //i.putExtra("run-code", RUNID);
-            //i.putExtra("username", USERNAME);
-            //i.putExtra("password", PASSWORD);
-            //i.putExtra("email", EMAIL);
-            //i.putExtra("err", err);
-        }
-    }
-
-    private void launchTracker() {
+        private void launchTracker() {
         Intent intent = new Intent(ctx, Tracker.class);
         intent.putExtra("runId",run);
         intent.putExtra("userId",user);
