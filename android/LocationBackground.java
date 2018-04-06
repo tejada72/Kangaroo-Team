@@ -155,7 +155,6 @@ public class LocationBackground extends AsyncTask<String, String, String>
                             tracker.finish();
                         }
                     });
-                    builder.setCancelable(false);
                     builder.setMessage("You will return to log in screen")
                             .setTitle("RUN NO LONGER ACTIVE");
                     builder.show();
