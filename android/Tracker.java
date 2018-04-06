@@ -22,9 +22,11 @@ public class Tracker extends AppCompatActivity {
     TextView xLabel;    //TextView for X coordinates
     TextView yLabel;    //TextView for Y coordinates
     TextView lblEmergency; //TextView for emergency Status
+    TextView lblIsLeader;
 
     int buttonStatus = 1;
     boolean emergency = false;
+    boolean isLeader = false;
     String userId;
     String runId;
     String username;
@@ -49,6 +51,7 @@ public class Tracker extends AppCompatActivity {
         xLabel = (TextView) findViewById(R.id.locationX);
         yLabel = (TextView) findViewById(R.id.locationY);
         lblEmergency = (TextView) findViewById(R.id.lblEmergency);
+        lblIsLeader = (TextView) findViewById(R.id.lblIsLeader);
 
         //Creates the new GPS handler
         gps = new GPSHandler(this);
@@ -162,8 +165,8 @@ public class Tracker extends AppCompatActivity {
 
         if (counter == 0) {
             Long time = (new Timestamp(System.currentTimeMillis())).getTime() / 1000;
-            AnyBackground b = new AnyBackground(this, this, runId, userId, Double.toString(longitude), 
-                                                          Double.toString(latitude), Long.toString(time));
+            AnyBackground b = new AnyBackground(this, this, runId, userId, Double.toString(longitude),
+                    Double.toString(latitude), Long.toString(time));
             b.execute();
             counter = 5;
         }
@@ -179,7 +182,7 @@ public class Tracker extends AppCompatActivity {
      */
     public void changeStatus(int status)
     {
-        AnyBackground s = new AnyBackground(this, this, runId, userId, Integer.toString(status));
+        AnyBackground s = new AnyBackground(this, runId, userId, Integer.toString(status));
         s.execute();
     }
 
@@ -204,6 +207,18 @@ public class Tracker extends AppCompatActivity {
         }
     }
 
+    public void setLeader(boolean isLeader)
+    {
+        this.isLeader = isLeader;
+
+        if(isLeader)
+        {
+            lblIsLeader.setText("Team Leader");
+        }
+        else
+            lblIsLeader.setText("Team Member");
+    }
+
     /**
      * Sets the longitude whenever a new location is found by the GPSHandler class.
      *
@@ -221,6 +236,7 @@ public class Tracker extends AppCompatActivity {
     public void setLatitude(double latitude) {
         this.latitude = latitude;
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

@@ -104,8 +104,10 @@ public class MainActivity extends AppCompatActivity {
     public void login (View view)
     {
         run = runID.getText().toString();
-        user = userName.getText().toString();
-        final AnyBackground b = new AnyBackground(ctx,run,user);
+        username = userName.getText().toString();
+        //needed to differentiate constructors, blank is empty placeholder
+        String blank = "";
+        final AnyBackground b = new AnyBackground(ctx, run, username, user, blank);
         File sessionFile = new File(ctx.getFilesDir(), "session");
         if(sessionFile.canRead()) {
             AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
@@ -115,6 +117,7 @@ public class MainActivity extends AppCompatActivity {
                     File sessionFile = new File(ctx.getFilesDir(), "session");
                     sessionFile.delete();
                     b.execute();
+                    launchTracker();
                 }
             });
             builder.setNeutralButton("Use old session", new DialogInterface.OnClickListener() {
@@ -133,15 +136,20 @@ public class MainActivity extends AppCompatActivity {
             AlertDialog dialog = builder.create();
         } else {
             b.execute();
+            launchTracker();
         }
 
     }
 
-        private void launchTracker() {
-        Intent intent = new Intent(ctx, Tracker.class);
-        intent.putExtra("runId",run);
-        intent.putExtra("userId",user);
-        intent.putExtra("username",username);
-        startActivity(intent);
+    private void launchTracker() {
+        if(run != null && user != null) {
+            Intent intent = new Intent(ctx, Tracker.class);
+            intent.putExtra("runId", run);
+            intent.putExtra("userId", user);
+            intent.putExtra("username", username);
+            startActivity(intent);
+        }
+        //else do nothing
+            //the onPostMainActivity did not succeed
     }
 }

@@ -3,7 +3,6 @@ package teamkangaroo.areamonitoringtool;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.widget.Toast;
 
@@ -12,15 +11,18 @@ import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.io.Reader;
 import java.net.ConnectException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 
 
 /**
@@ -31,64 +33,64 @@ public class AnyBackground extends AsyncTask<String, String, String>
 {
     private Context ctx;
     Tracker tracker;
-	String runId;
-	String userId;
-	String lon;
-	String lat;
-	String logTime;
-	String status;
-	String urlParams;
+    String runId;
+    String userId;
+    String username;
+    String lon;
+    String lat;
+    String logTime;
+    String status;
+    String urlParams;
+    int test;
 
-	//constructor for status change
-	public AnyBackground(Context ctx, String runId, String userId, String status) {
-		this.ctx = ctx;
-		this.runId = runId;
-		this.userId = userId;
-		this.status = status;
-		urlParams = "action=update-status&user-id=" + userId + "&run-id=" + runId
-                    + "&status=" + status;
-		}
-	
-	//contructor for location change
-    public AnyBackground(Context ctx, Tracker tracker, String runId, String userId, 
-	String lon, String lat, String logtime)
+    //constructor for status change
+    public AnyBackground(Context ctx, String runId, String userId, String status) {
+        this.ctx = ctx;
+        this.runId = runId;
+        this.userId = userId;
+        this.status = status;
+        test = 0;
+        urlParams = "action=update-status&user-id=" + userId + "&run-id=" + runId
+                + "&status=" + status;
+    }
+
+    //contructor for location change
+    public AnyBackground(Context ctx, Tracker tracker, String runId, String userId,
+                         String lon, String lat, String logtime)
     {
         this.ctx = ctx;
         this.tracker = tracker;
-		this.runId = runId;
-		this.userId = userId;
-		this.lon = lon;
-		this.lat = lat;
-		this.logtime = logtime;
-		urlParams = "action=update-location&run-id=" + runId + "&user-id=" + userId
-                    + "&lon=" + lon + "&lat=" + lat + "&log-time=" + logTime;
-		
+        this.runId = runId;
+        this.userId = userId;
+        this.lon = lon;
+        this.lat = lat;
+        this.logTime = logtime;
+        test = 0;
+        urlParams = "action=update-location&run-id=" + runId + "&user-id=" + userId
+                + "&lon=" + lon + "&lat=" + lat + "&log-time=" + logTime;
+
     }
-	
-	//constructor for main activity
-	public AnyBackground(Context ctx, Class nextClass, String runId, String userId) {
-		this.ctx = ctx;
-		this.nextClass = nextClass;
-		this.runId = runId;
-		this.userId = userId;
-		urlParams = "action=log-in&run-code=" + runCode + "&username=" + username;
-		}
+
+    //constructor for main activity
+    public AnyBackground(Context ctx, String runId, String username, String userId, String blank) {
+        this.ctx = ctx;
+        this.runId = runId;
+        this.userId = userId;
+        this.username = username;
+        blank = "";
+        test = 1;
+        urlParams = "action=log-in&run-code=" + runId + "&username=" + username;
+    }
 
     @Override
     protected String doInBackground(String... params)
     {
-		//delete later
-        //runId = params[0];
-        //userId = params[1];
-        //lon = params[2];
-        //lat = params[3];
-        //logTime = params[4];
 
         try
         {
             URL url = new URL("http://ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php");
             // delete later
-			//String urlParams = "action=update-location&run-id=" + runId + "&user-id=" + userId
+            //String urlParams = "action=update-location&run-id=" + runId + "&user-id=" + userId
             //        + "&lon=" + lon + "&lat=" + lat + "&log-time=" + logTime;
 
             //System.out.print(urlParams);
@@ -143,109 +145,99 @@ public class AnyBackground extends AsyncTask<String, String, String>
     }
 
     @Override
-    protected void onPostExecute(String response)
-    {
-		//onPostExecute for the main activity
-		onPostMainActivity();
-	}
-	else 
-	{
-		//onPostExecute for status change or location change
-		onPostOthers();
-	}
-	
-	private void onPostMainActivity() {
-	String err = null;
+    protected void onPostExecute(String response) {
+        if (test == 1) {
+            //onPostExecute for the main activity
+            onPostMainActivity(response);
+        } else {
+            //onPostExecute for status change or location change
+            onPostOthers(response);
+        }
+    }
 
-            try
+    private void onPostMainActivity(String response) {
+
+        try
+        {
+            JSONObject myResponse = new JSONObject(response.toString());
+
+            //Check if run exists, or if name is taken
+            if (myResponse.getBoolean("error"))
             {
-                JSONObject myResponse = new JSONObject(response.toString());
+                Toast.makeText(ctx, myResponse.getString("error-msg"), Toast.LENGTH_SHORT).show();
+                System.out.println("Not working");
+            }
+            else
+            {
 
-                //Check if run exists, or if name is taken
-                if (myResponse.getBoolean("error"))
-                {
-                    Toast.makeText(ctx, myResponse.getString("error-msg"), Toast.LENGTH_SHORT).show();
-                    System.out.println("Not working");
-                }
-                else
-                {
-                    
-                    JSONObject user_data = myResponse.getJSONObject("data");
+                JSONObject user_data = myResponse.getJSONObject("data");
 
-                    run = user_data.getString("run-id");
-                    username = user;
-                    user = user_data.getString("user-id");
+                runId = user_data.getString("run-id");
+                userId = user_data.getString("user-id");
 
-                    File sessionFile = new File(ctx.getFilesDir(), "session");
-                    FileOutputStream outputStream;
+                File sessionFile = new File(ctx.getFilesDir(), "session");
+                FileOutputStream outputStream;
 
-                    try {
-                        outputStream = new FileOutputStream(sessionFile);
-                        ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream);
-                        ArrayList<String> varData = new ArrayList<String>();
-                        varData.add(run);
-                        varData.add(user);
-                        varData.add(userName.getText().toString());
-                        objectOutputStream.writeObject(varData);
-                        outputStream.close();
-                    } catch (Exception e) {
-                        System.err.println("Error occurs when saving state");
-                        e.printStackTrace();
-                    }
-
-                    runID.setText("");
-                    userName.setText("");
-
-                   launchTracker();
+                try {
+                    outputStream = new FileOutputStream(sessionFile);
+                    ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream);
+                    ArrayList<String> varData = new ArrayList<String>();
+                    varData.add(runId);
+                    varData.add(userId);
+                    varData.add(username);
+                    objectOutputStream.writeObject(varData);
+                    outputStream.close();
+                } catch (Exception e) {
+                    System.err.println("Error occurs when saving state");
+                    e.printStackTrace();
                 }
             }
-            catch (JSONException e)
+        }
+        catch (JSONException e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+    private void onPostOthers(String response) {
+
+        try
+        {
+            JSONObject myResponse = new JSONObject(response.toString());
+
+            //Check if run exists, or if name is taken
+            if (myResponse.getBoolean("error"))
             {
-                e.printStackTrace();
-                err = "Exception: "+e.getMessage();
+                Toast.makeText(ctx, myResponse.getString("error-msg"), Toast.LENGTH_SHORT).show();
             }
-		}
-		
-		private void onPostOthers() {
-		String err = null;
+            else {
+                JSONObject user_data = myResponse.getJSONObject("data");
+                boolean isActive = user_data.getBoolean("is-active");
 
-			try
-			{
-				JSONObject myResponse = new JSONObject(response.toString());
+                if (!isActive) {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
+                    // Add the buttons
+                    builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            File sessionFile = new File(ctx.getFilesDir(), "session");
+                            sessionFile.delete();
+                            tracker.finish();
+                        }
+                    });
+                    builder.setCancelable(false);
+                    builder.setMessage("You will return to log in screen")
+                            .setTitle("RUN NO LONGER ACTIVE");
+                    builder.show();
+                }
 
-				//Check if run exists, or if name is taken
-				if (myResponse.getBoolean("error"))
-				{
-					Toast.makeText(ctx, myResponse.getString("error-msg"), Toast.LENGTH_SHORT).show();
-				}
-				else
-				{
-					JSONObject user_data = myResponse.getJSONObject("data");
-					boolean isActive = user_data.getBoolean("is-active");
-              
-					if (!isActive)
-					{
-						AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
-						// Add the buttons
-						builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-							public void onClick(DialogInterface dialog, int id) {
-								File sessionFile = new File(ctx.getFilesDir(), "session");
-								sessionFile.delete();
-								tracker.finish();
-							}
-						});
-						builder.setCancelable(false);
-						builder.setMessage("You will return to log in screen")
-								.setTitle("RUN NO LONGER ACTIVE");
-						builder.show();
-						AlertDialog dialog = builder.create();
-					}
-				}
-			catch (JSONException e)
-			{
-				e.printStackTrace();
-				err = "Exception: "+e.getMessage();
-			}
-		}
-		}
+                //tracker.setLeader(isLeader);
+            }
+        }
+
+        catch (JSONException e)
+        {
+            e.printStackTrace();
+        }
+
+    }
 }
