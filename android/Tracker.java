@@ -161,10 +161,10 @@ public class Tracker extends AppCompatActivity {
         }
 
         if (counter == 0) {
-            LocationBackground b = new LocationBackground(this, RunOver.class,this);
             Long time = (new Timestamp(System.currentTimeMillis())).getTime() / 1000;
-            b.execute(runId, userId, Double.toString(longitude), Double.toString(latitude),
-                    Long.toString(time));
+            AnyBackground b = new AnyBackground(this, this, runId, userId, Double.toString(longitude), 
+                                                          Double.toString(latitude), Long.toString(time));
+            b.execute();
             counter = 5;
         }
 
@@ -179,8 +179,8 @@ public class Tracker extends AppCompatActivity {
      */
     public void changeStatus(int status)
     {
-        StatusBackground s = new StatusBackground(this, RunOver.class);
-        s.execute(runId, userId, Integer.toString(status));
+        AnyBackground s = new AnyBackground(this, this, runId, userId, Integer.toString(status));
+        s.execute();
     }
 
     public void setEmergency(boolean emergency) {
