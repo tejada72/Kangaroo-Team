@@ -6,6 +6,28 @@
     android:layout_height="match_parent"
     tools:context="teamkangaroo.areamonitoringtool.Tracker">
 
+    <TextView
+        android:id="@+id/locationX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="0.0"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/locationXtxt"
+        app:layout_constraintTop_toBottomOf="@+id/locationXtxt" />
+
+    <TextView
+        android:id="@+id/locationY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="0.0"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/locationYtxt"
+        app:layout_constraintTop_toBottomOf="@+id/locationYtxt" />
+
     <Button
         android:id="@+id/locationSwitchbtn"
         android:layout_width="wrap_content"
@@ -36,24 +58,30 @@
         app:layout_constraintTop_toBottomOf="@+id/locationSwitchbtn" />
 
     <TextView
+        android:id="@+id/locationYtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Latitude"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/locationSwitchbtn"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/locationXtxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Longitude:"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/locationSwitchbtn"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/locationYtxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Latitude:"
+        android:text="Longitude"
         android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.851"
         app:layout_constraintStart_toEndOf="@+id/locationSwitchbtn"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,4 +107,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnEmergency" />
+
+    <TextView
+        android:id="@+id/lblIsLeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Team Member"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="@+id/locationYtxt"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
