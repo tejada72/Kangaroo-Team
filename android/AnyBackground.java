@@ -198,6 +198,13 @@ public class AnyBackground extends AsyncTask<String, String, String>
             e.printStackTrace();
         }
     }
+    
+    public String getMainActivityrunid() {
+        return runId;
+        }
+    public String getMainActivityruserid() {
+        return userId;
+        }
 
     private void onPostOthers(String response) {
 
