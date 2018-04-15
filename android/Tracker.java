@@ -158,17 +158,17 @@ public class Tracker extends AppCompatActivity {
 
             if (!text.getText().equals("Location is being transmitted"))
                 text.setText("Location is being transmitted");
-        }
+        //} moved this parenthesis lower to embed b.execute inside the if statement
 
-        if (counter == 0) {
-            LocationBackground b = new LocationBackground(this, RunOver.class,this);
-            Long time = (new Timestamp(System.currentTimeMillis())).getTime() / 1000;
-            b.execute(runId, userId, Double.toString(longitude), Double.toString(latitude),
-                    Long.toString(time));
-            counter = 5;
-        }
-
-        counter--;
+            if (counter == 0) {
+                LocationBackground b = new LocationBackground(this, RunOver.class,this);
+                Long time = (new Timestamp(System.currentTimeMillis())).getTime() / 1000;
+                b.execute(runId, userId, Double.toString(longitude), Double.toString(latitude),
+                        Long.toString(time));
+                counter = 5;
+            }
+            counter--;
+        } //added parentheis
     }
 
     /**
