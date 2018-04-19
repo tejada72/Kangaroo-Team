@@ -91,12 +91,8 @@ public class GPSHandler implements GoogleApiClient.ConnectionCallbacks, GoogleAp
                 .addOnConnectionFailedListener(this).build();
         googleApiClient.connect();
 
-        LocationRequest locationRequest = LocationRequest.create();
-        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-        locationRequest.setInterval(5 * 1000);
-        locationRequest.setFastestInterval(2 * 1000);
         LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder()
-                .addLocationRequest(locationRequest);
+                .addLocationRequest(mLocationRequest);
 
         //**************************
         builder.setAlwaysShow(true); //this is the key ingredient
@@ -132,6 +128,10 @@ public class GPSHandler implements GoogleApiClient.ConnectionCallbacks, GoogleAp
                 }
             }
         });
+    }
+
+    public void endUpdates() {
+        locationClient.removeLocationUpdates(mLocationCallback);
     }
 
     @Override
