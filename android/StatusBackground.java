@@ -1,7 +1,8 @@
 package teamkangaroo.areamonitoringtool;
 
+import android.app.AlertDialog;
 import android.content.Context;
-import android.content.Intent;
+import android.content.DialogInterface;
 import android.os.AsyncTask;
 import android.widget.Toast;
 
@@ -9,6 +10,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -28,11 +30,13 @@ public class StatusBackground extends AsyncTask<String, String, String>
 {
     private Context ctx;
     private Class nextClass;
+    Tracker tracker;
 
-    public StatusBackground(Context ctx, Class nextClass)
+    public StatusBackground(Context ctx, Class nextClass, Tracker tracker)
     {
         this.ctx = ctx;
         this.nextClass = nextClass;
+        this.tracker = tracker;
     }
 
     @Override
@@ -41,9 +45,6 @@ public class StatusBackground extends AsyncTask<String, String, String>
         String runId = params[0];
         String userId = params[1];
         String status = params[2];
-        /*String lon = params[2];
-        String lat = params[3];
-        String logTime = params[4];*/
 
         try
         {
@@ -86,7 +87,7 @@ public class StatusBackground extends AsyncTask<String, String, String>
         {
             e.printStackTrace();
 
-            //Allows Toast to be made in tracker
+            //Allows Toast to be made in Tracker (see onProgressUpdate)
             publishProgress();
             return "Exception: "+e.getMessage();
         }
@@ -101,6 +102,7 @@ public class StatusBackground extends AsyncTask<String, String, String>
     //This is what publishProgress() calls.
     protected void onProgressUpdate(String... values)
     {
+        //Notifies user when connection to database is lost
         Toast.makeText(ctx, "Lost connection to server.\nAttempting to reconnect...",
                 Toast.LENGTH_SHORT).show();
     }
@@ -124,27 +126,28 @@ public class StatusBackground extends AsyncTask<String, String, String>
                 //JSONObject root = new JSONObject(response);
                 JSONObject user_data = myResponse.getJSONObject("data");
                 boolean isActive = user_data.getBoolean("is-active");
-
-                /*File sessionFile = new File(ctx.getFilesDir(), "session");
-                FileOutputStream outputStream;
-                try {
-                    outputStream = new FileOutputStream(sessionFile);
-                    ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream);
-                    ArrayList<String> varData = new ArrayList<String>();
-                    varData.add(run);
-                    varData.add(user);
-                    objectOutputStream.writeObject(varData);
-                    outputStream.close();
-                } catch (Exception e) {
-                    System.err.println("Error occurs when saving state");
-                    e.printStackTrace();
-                }*/
+                boolean isLeader = user_data.getBoolean("is-leader");
 
                 if (!isActive)
                 {
-                    Intent i = new Intent(ctx, nextClass);
-                    ctx.startActivity(i);
+                    //Intent i = new Intent(ctx, nextClass);
+                    //ctx.startActivity(i);
+                    AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
+                    // Add the buttons
+                    builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            File sessionFile = new File(ctx.getFilesDir(), "session");
+                            sessionFile.delete();
+                            tracker.finish();
+                        }
+                    });
+                    builder.setMessage("You will return to log in screen")
+                            .setTitle("RUN NO LONGER ACTIVE");
+                    builder.show();
+                    AlertDialog dialog = builder.create();
                 }
+
+                tracker.setLeader(isLeader);
             }
         }
         catch (JSONException e)
