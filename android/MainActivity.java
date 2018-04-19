@@ -18,9 +18,7 @@ import java.io.*;
 import java.util.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
-import java.net.ProtocolException;
 import java.net.URL;
-import java.net.URLEncoder;
 
 public class MainActivity extends AppCompatActivity {
 //Get the MAC Address for user login to the operator.
