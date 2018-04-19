@@ -22,9 +22,11 @@ public class Tracker extends AppCompatActivity {
     TextView xLabel;    //TextView for X coordinates
     TextView yLabel;    //TextView for Y coordinates
     TextView lblEmergency; //TextView for emergency Status
+    TextView lblIsLeader;
 
     int buttonStatus = 1;
     boolean emergency = false;
+    boolean isLeader = false;
     String userId;
     String runId;
     String username;
@@ -49,6 +51,7 @@ public class Tracker extends AppCompatActivity {
         xLabel = (TextView) findViewById(R.id.locationX);
         yLabel = (TextView) findViewById(R.id.locationY);
         lblEmergency = (TextView) findViewById(R.id.lblEmergency);
+        lblIsLeader = (TextView) findViewById(R.id.lblIsLeader);
 
         //Creates the new GPS handler
         gps = new GPSHandler(this);
@@ -158,7 +161,6 @@ public class Tracker extends AppCompatActivity {
 
             if (!text.getText().equals("Location is being transmitted"))
                 text.setText("Location is being transmitted");
-        //} moved this parenthesis lower to embed b.execute inside the if statement
 
             if (counter == 0) {
                 LocationBackground b = new LocationBackground(this, RunOver.class,this);
@@ -167,8 +169,11 @@ public class Tracker extends AppCompatActivity {
                         Long.toString(time));
                 counter = 5;
             }
+
             counter--;
-        } //added parentheis
+        }
+
+
     }
 
     /**
@@ -179,7 +184,7 @@ public class Tracker extends AppCompatActivity {
      */
     public void changeStatus(int status)
     {
-        StatusBackground s = new StatusBackground(this, RunOver.class);
+        StatusBackground s = new StatusBackground(this, RunOver.class, this);
         s.execute(runId, userId, Integer.toString(status));
     }
 
@@ -204,6 +209,18 @@ public class Tracker extends AppCompatActivity {
         }
     }
 
+    public void setLeader(boolean isLeader)
+    {
+        this.isLeader = isLeader;
+
+        if(isLeader)
+        {
+            lblIsLeader.setText("Team Leader");
+        }
+        else
+            lblIsLeader.setText("Team Member");
+    }
+
     /**
      * Sets the longitude whenever a new location is found by the GPSHandler class.
      *
@@ -222,6 +239,7 @@ public class Tracker extends AppCompatActivity {
         this.latitude = latitude;
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         final MenuItem item1 = item;
@@ -229,24 +247,7 @@ public class Tracker extends AppCompatActivity {
         switch (item.getItemId()) {
             // Respond to the action bar's Up/Home button
             case android.R.id.home:
-                AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
-                // Add the buttons
-                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        File sessionFile = new File(ctx.getFilesDir(), "session");
-                        sessionFile.delete();
-                        finish();
-                    }
-                });
-                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-
-                    }
-                });
-                builder.setMessage("Are you sure?")
-                        .setTitle("Log out from " + username);
-                builder.show();
-                AlertDialog dialog = builder.create();
+                logOut();
         }
 
         return true;
@@ -254,12 +255,17 @@ public class Tracker extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+        logOut();
+    }
+
+    private void logOut() {
         AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
         // Add the buttons
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
                 File sessionFile = new File(ctx.getFilesDir(), "session");
                 sessionFile.delete();
+                gps.endUpdates();
                 finish();
             }
         });
@@ -273,5 +279,4 @@ public class Tracker extends AppCompatActivity {
         builder.show();
         AlertDialog dialog = builder.create();
     }
-
 }
