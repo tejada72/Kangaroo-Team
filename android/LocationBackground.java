@@ -3,7 +3,6 @@ package teamkangaroo.areamonitoringtool;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.widget.Toast;
 
@@ -84,27 +83,11 @@ public class LocationBackground extends AsyncTask<String, String, String>
             e.printStackTrace();
             return "Exception: "+e.getMessage();
         }
-        catch (ConnectException e)
-        {
-            e.printStackTrace();
-
-            //Allows Toast to be made in Tracker
-            publishProgress();
-            return "Exception: "+e.getMessage();
-        }
         catch (IOException e)
         {
             e.printStackTrace();
             return "Exception: "+e.getMessage();
         }
-    }
-
-    @Override
-    //This is what publishProgress() calls.
-    protected void onProgressUpdate(String... values)
-    {
-        Toast.makeText(ctx, "Lost connection to server.\nAttempting to reconnect...",
-                Toast.LENGTH_SHORT).show();
     }
 
     @Override
