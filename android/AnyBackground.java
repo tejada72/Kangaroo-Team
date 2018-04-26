@@ -39,6 +39,7 @@ public class AnyBackground extends AsyncTask<String, String, String>
     String logTime;
     String status;
     String urlParams;
+    String msg;
 
     //constructor for status change
     public AnyBackground(Context ctx, String runId, String userId, String status) {
@@ -64,6 +65,22 @@ public class AnyBackground extends AsyncTask<String, String, String>
         urlParams = "action=update-location&run-id=" + runId + "&user-id=" + userId
                 + "&lon=" + lon + "&lat=" + lat + "&log-time=" + logTime;
 
+    }
+    
+    //constructor for flag marking
+    public AnyBackground(Context ctx, Tracker tracker, String runId, String userId,
+                         String lon, String lat, String logtime, String msg)
+    {
+        this.ctx = ctx;
+        this.tracker = tracker;
+        this.runId = runId;
+        this.userId = userId;
+        this.lon = lon;
+        this.lat = lat;
+        this.logTime = logtime;
+        this.msg = msg;
+        urlParams = "action=set-flag&run-id=" + runId + "&user-id=" + userId
+                    + "&lon=" + lon + "&lat=" + lat + "&log-time=" + logTime + "&msg=" + msg;
     }
 
     @Override
@@ -125,8 +142,7 @@ public class AnyBackground extends AsyncTask<String, String, String>
 
     @Override
     protected void onPostExecute(String response) {
-            //onPostExecute for status change or location change
-            onPost(response);
+                        onPost(response);
         }
     }
     
