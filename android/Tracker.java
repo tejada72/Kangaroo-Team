@@ -6,11 +6,14 @@ import android.content.DialogInterface;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.InputFilter;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.location.Location;
+import android.widget.Toast;
 
 import java.io.File;
 import java.sql.Timestamp;
@@ -18,6 +21,7 @@ import java.sql.Timestamp;
 public class Tracker extends AppCompatActivity {
     Button btnLocation;      //Button for on/off btnLocation
     Button btnEmergency;    //Button for Emergency state
+    Button btnFlag;         //Button for Place Flag button
     TextView text;      //TextView for the Button Message
     TextView xLabel;    //TextView for X coordinates
     TextView yLabel;    //TextView for Y coordinates
@@ -47,6 +51,7 @@ public class Tracker extends AppCompatActivity {
 
         btnLocation = (Button) findViewById(R.id.locationSwitchbtn);
         btnEmergency = (Button) findViewById(R.id.btnEmergency);
+        btnFlag = (Button) findViewById(R.id.btnFlag);
         text = (TextView) findViewById(R.id.locationSwitchlbl);
         xLabel = (TextView) findViewById(R.id.locationX);
         yLabel = (TextView) findViewById(R.id.locationY);
@@ -143,6 +148,44 @@ public class Tracker extends AppCompatActivity {
                     setEmergency(!emergency); //Reverse the state of emergency
             }
         });
+
+        btnFlag.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final String lat = Double.toString(latitude);
+                final String lon = Double.toString(longitude);
+                int maxLength = 255;
+
+                AlertDialog.Builder alert = new AlertDialog.Builder(ctx);
+                final EditText edittext = new EditText(ctx);
+                edittext.setFilters(new InputFilter[] {
+                        new InputFilter.LengthFilter(maxLength)
+                });
+                alert.setMessage("Flagged Location:\nLatitude: " + lat +
+                        "\nLongitude: " + lon + "\nCharacter limit: " + maxLength);
+                alert.setTitle("Flag Message");
+
+                alert.setView(edittext);
+
+                alert.setPositiveButton("Set Flag", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        String flagMessage = edittext.getText().toString();
+                        setFlag(lat, lon, flagMessage);
+                        Toast.makeText(ctx, "Flag has been placed!",
+                                Toast.LENGTH_SHORT).show();
+                        System.out.println("Flag has been placed!");
+                    }
+                });
+
+                alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        // Do nothing
+                    }
+                });
+
+                alert.show();
+            }
+        });
     }
 
     /**
@@ -163,10 +206,11 @@ public class Tracker extends AppCompatActivity {
                 text.setText("Location is being transmitted");
 
             if (counter == 0) {
-                LocationBackground b = new LocationBackground(this, RunOver.class,this);
+
                 Long time = (new Timestamp(System.currentTimeMillis())).getTime() / 1000;
-                b.execute(runId, userId, Double.toString(longitude), Double.toString(latitude),
-                        Long.toString(time));
+                AnyBackground b = new AnyBackground(this, this, runId, userId,
+                        Double.toString(longitude), Double.toString(latitude), Long.toString(time) );
+                b.execute();
                 counter = 5;
             }
 
@@ -184,8 +228,22 @@ public class Tracker extends AppCompatActivity {
      */
     public void changeStatus(int status)
     {
-        StatusBackground s = new StatusBackground(this, RunOver.class, this);
-        s.execute(runId, userId, Integer.toString(status));
+        AnyBackground s = new AnyBackground(this, runId, userId, Integer.toString(status));
+        s.execute();
+    }
+
+    /**
+     * Sets the flag so the operator can view the flag on his/her map.
+     * @param lat
+     * @param lon
+     * @param flagMessage
+     */
+    public void setFlag(String lat, String lon, String flagMessage)
+    {
+        Long time = (new Timestamp(System.currentTimeMillis())).getTime() / 1000;
+        AnyBackground f = new AnyBackground(ctx,  this, runId, userId,
+                 lon, lat, time.toString(), flagMessage);
+        f.execute();
     }
 
     public void setEmergency(boolean emergency) {
@@ -279,4 +337,5 @@ public class Tracker extends AppCompatActivity {
         builder.show();
         AlertDialog dialog = builder.create();
     }
+
 }
