@@ -19,6 +19,8 @@ header {
   padding: 0;
   background: #0055DD;
   color: white;
+  /*position: fixed;
+  top: 0;*/
 }
 
 header h1 {
@@ -64,7 +66,7 @@ footer {
   /*padding: 10px 20px;*/
   background: #0055DD;
   color: white;
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
 
@@ -166,7 +168,7 @@ main {
   width: 700px;
   max-width: 95%;
   min-height: 50%;
-  margin: 10px auto;
+  margin: 10px auto 60px;
   padding: 30px;
   background: #f9f4ec;
   border-radius: 10px;
@@ -230,7 +232,7 @@ main {
   width: 20%;
   height: 100%;
   margin: 0 10px;
-  padding: 20px; 
+  padding: 20px;
   background: #f9f4ec;
   border-radius: 10px;
   float: left;
@@ -241,8 +243,71 @@ main {
   width: calc(80% - 45px);
   height: 100%;
   margin: 0 10px;
-  padding: 20px; 
+  padding: 20px;
   background: #f9f4ec;
   border-radius: 10px;
   float: right;
+}
+
+ul#user-list {
+  list-style: none;
+  padding: 0;
+  height: calc(100% - 350px);
+  overflow: auto;
+}
+
+#user-list li {
+  display: block;
+  background: #eee;
+  padding: 8px;
+  margin: 4px 0;
+  border-radius: 6px;
+  position: relative;
+}
+
+#user-list li:hover {
+  background: #d0d0d0;
+}
+
+#user-list li input {
+  position: absolute;
+  right: 5px;
+}
+
+#user-list .circle {
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin: 0 7px 0 0;
+  border-radius: 50%;
+  /* background-color: red; */
+}
+
+#user-list + div {
+  display: block;
+  background: #606060;
+  color: #eee;
+  padding: 8px;
+  margin: 4px 0;
+  border-radius: 6px;
+  position: relative;
+  text-align: right;
+}
+
+#user-list + div span {
+  position: relative;
+  right: 25px;
+}
+
+#user-list + div input {
+  position: absolute;
+  right: 5px;
+}
+
+.info-bar {
+  margin-left: 10px;
+}
+
+.inactive, .sos {
+	display: none;
 }

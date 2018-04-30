@@ -2,7 +2,7 @@
 <html>
 <?php
 	session_start();
-	
+
 	//set up database connection
 	$servername = "127.0.0.1";
         $username = "root";
@@ -21,19 +21,39 @@
 		// not logged in
 		header('Location: /login.php');
 	}
-	
+
 	if(!isset($_GET['code'])) {
 		// no run is selected
 		header('Location: runs.php');
 	}
-	
+
 	$runCode = $_GET['code'];
+	
+	
+	//get username for runCode
+	/*$sql = "SELECT user_id FROM Runs WHERE run_code = '" . $_POST['run-code']  . "';";
+	$result = $conn->query($sql);
+	while($row = $result->fetch_assoc()) {
+		$run_id = $row['run_id'];
+	}*/
+	
+	
+	// go to download if run is over
+	$sql = "Select is_active FROM Runs WHERE run_code = '" . $runCode . "';";
+	$result = $conn->query($sql);
+	while($row = $result->fetch_assoc()) {
+		$isActive = $row['is_active'];
+	}
+	
+	if (intval($isActive) == 0) {
+		header('Location: kml.php?code=' . $runCode);
+	}
 
 	// end the run after user clicks on button
 	// then go to the runs page
 	if (isset($_GET['end']) && $_GET['end'] == 'true') {
 		endRun($runCode);
-		header('Location: runs.php');
+		header('Location: kml.php?code=' . $runCode);
 	}
 
 	function endRun($runCode) {
@@ -67,11 +87,8 @@
 	<header>
 	<h1>Area Monitoring Tool: Map</h1>
 	</header>
-	<?php
-		if(isset($_SESSION['username'])) {	
-			echo "<p>Logged in as  " . $_SESSION['username']  . ".</p>";
-		}
-	?>
+	
+	<p class = 'info-bar'>Logged in as <?php echo $_SESSION['username']; ?> • <a href="../logout.php">Log out</a> • <a href='runs.php'>Runs</a></p>
 
 	<div class='container'>
 		<section id='map-sidebar'>
@@ -79,7 +96,14 @@
 			<div id='code-box'>
 				<span><?php echo $runCode;?></span>
 			</div>
-			<?php echo "<a href='map.php?code=" . $runCode  . "&end=true' id='end-run-button'>END RUN</a>"; ?>
+			<a href='#' id='end-run-button' onclick='endRun("<?php echo $runCode ?>");'>END RUN</a>
+
+			<h2>Users:</h2>
+			
+			<ul id='user-list'>
+			</ul>
+			<div><span>no team leader</span><input type="radio" name="leader_radios" value="-1" checked onclick='radioLeaderUpdate(this)' /></div>
+			
 		</section>
 		<section id='map-main'>
 			<div id="map"></div>
@@ -87,7 +111,7 @@
 	</div>
 
 
-	<script>
+	<!--<script>
 	      /*
 		function initMap() {
 	        // Create a map object and specify the DOM element for display.
@@ -98,7 +122,7 @@
 	      }
 	      */
 
-	</script>
+	</script> -->
 	<script
 		src="https://code.jquery.com/jquery-3.3.1.min.js"
 		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -109,4 +133,3 @@
     async defer></script>
   </body>
 </html>
-

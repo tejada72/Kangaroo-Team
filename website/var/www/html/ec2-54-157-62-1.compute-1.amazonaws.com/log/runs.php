@@ -85,12 +85,7 @@
 	<header>
 		<h1>Area Monitoring Tool: Runs</h1>
 	</header>	
-	<!--<?php
-		if(isset($_SESSION['username'])) {	
-			echo "<p>Hello " . $_SESSION['username']  . "!</p>";
-		}
-	?>-->
-	
+	<p class = 'info-bar'>Logged in as <?php echo $_SESSION['username']; ?> • <a href="../logout.php">Log out</a></p>
 	<main class='center-text'>
 		<a href="runs.php?create=true" id="create-run-button">CREATE RUN</a>
 		<h2>Past Runs</h2>
