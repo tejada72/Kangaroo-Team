@@ -1,5 +1,5 @@
-439:049039b3a5dcd7dc31b188e984ddb5363498fda6
-77
+439:cb43e3b025722c9b2a84a9b9e7abf6bb719dd8e2
+76
 aws-cli
 noarch
 0
@@ -165,11 +165,6 @@ x86_64
 0
 4.9.76
 3.78.amzn1
-kernel
-x86_64
-0
-4.9.77
-31.58.amzn1
 kernel
 x86_64
 0

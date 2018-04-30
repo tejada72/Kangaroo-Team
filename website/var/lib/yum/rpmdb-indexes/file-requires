@@ -1,5 +1,5 @@
-439:049039b3a5dcd7dc31b188e984ddb5363498fda6
-287
+439:cb43e3b025722c9b2a84a9b9e7abf6bb719dd8e2
+286
 acpid
 x86_64
 0
@@ -671,12 +671,6 @@ x86_64
 /bin/sh
 /etc/mime.types
 /usr/sbin/useradd
-hwdata
-noarch
-0
-0.233
-14.1.19.amzn1
-0
 info
 x86_64
 0
@@ -742,8 +736,8 @@ x86_64
 java-1.7.0-openjdk
 x86_64
 1
-1.7.0.161
-2.6.12.0.75.amzn1
+1.7.0.171
+2.6.13.0.76.amzn1
 2
 /bin/sh
 /usr/sbin/alternatives
@@ -1359,12 +1353,6 @@ x86_64
 2
 /bin/cat
 /bin/sh
-mysql-config
-x86_64
-0
-5.5.59
-1.20.amzn1
-0
 mysql55
 x86_64
 0
@@ -1497,7 +1485,7 @@ ntp
 x86_64
 0
 4.2.6p5
-44.34.amzn1
+44.36.amzn1
 4
 /bin/bash
 /bin/sh
@@ -1507,7 +1495,7 @@ ntpdate
 x86_64
 0
 4.2.6p5
-44.34.amzn1
+44.36.amzn1
 4
 /bin/bash
 /bin/sh
@@ -1820,6 +1808,12 @@ noarch
 2
 /bin/sh
 /usr/bin/python2.7
+python27-crypto
+x86_64
+0
+2.6.1
+1.15.amzn1
+0
 python27-devel
 x86_64
 0
