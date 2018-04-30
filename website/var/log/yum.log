@@ -62,3 +62,7 @@ Mar 17 16:35:29 Updated: mysql55-server-5.5.59-1.20.amzn1.x86_64
 Mar 17 16:35:31 Updated: hwdata-0.233-14.1.19.amzn1.noarch
 Mar 17 16:35:36 Installed: kernel-4.9.85-38.58.amzn1.x86_64
 Mar 17 16:35:37 Updated: kernel-tools-4.9.85-38.58.amzn1.x86_64
+Apr 04 19:54:04 Updated: ntpdate-4.2.6p5-44.36.amzn1.x86_64
+Apr 04 19:54:04 Updated: ntp-4.2.6p5-44.36.amzn1.x86_64
+Apr 04 19:54:06 Updated: 1:java-1.7.0-openjdk-1.7.0.171-2.6.13.0.76.amzn1.x86_64
+Apr 04 19:54:06 Updated: python27-crypto-2.6.1-1.15.amzn1.x86_64

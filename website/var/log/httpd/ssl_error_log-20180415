@@ -1,0 +1,28 @@
+[Sun Apr 08 03:46:01 2018] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Apr 08 03:46:01 2018] [warn] RSA server certificate CommonName (CN) `ip-172-31-9-209' does NOT match server name!?
+[Sun Apr 08 14:04:19 2018] [error] [client 216.218.206.68] Directory index forbidden by Options directive: /var/www/html/
+[Mon Apr 09 13:49:57 2018] [error] [client 216.218.206.69] Directory index forbidden by Options directive: /var/www/html/
+[Mon Apr 09 18:11:01 2018] [error] [client 164.132.91.13] Directory index forbidden by Options directive: /var/www/html/
+[Tue Apr 10 03:55:38 2018] [error] [client 54.245.21.175] Directory index forbidden by Options directive: /var/www/html/
+[Tue Apr 10 15:03:46 2018] [error] [client 184.105.139.68] Directory index forbidden by Options directive: /var/www/html/
+[Tue Apr 10 16:22:32 2018] [error] [client 95.211.226.185] File does not exist: /var/www/html/recordings
+[Tue Apr 10 16:22:34 2018] [error] [client 95.211.226.185] File does not exist: /var/www/html/admin
+[Tue Apr 10 16:55:31 2018] [error] [client 139.162.116.133] Directory index forbidden by Options directive: /var/www/html/
+[Tue Apr 10 18:50:33 2018] [error] [client 178.73.215.171] Directory index forbidden by Options directive: /var/www/html/
+[Tue Apr 10 19:34:04 2018] [error] [client 107.170.193.209] Directory index forbidden by Options directive: /var/www/html/
+[Tue Apr 10 21:21:55 2018] [error] [client 46.161.55.108] File does not exist: /var/www/html/_asterisk
+[Wed Apr 11 02:24:43 2018] [error] [client 164.52.6.150] Directory index forbidden by Options directive: /var/www/html/
+[Wed Apr 11 02:51:36 2018] [error] [client 209.126.136.7] Directory index forbidden by Options directive: /var/www/html/
+[Wed Apr 11 08:27:48 2018] [error] [client 77.72.85.108] Directory index forbidden by Options directive: /var/www/html/
+[Wed Apr 11 14:54:35 2018] [error] [client 184.105.139.69] Directory index forbidden by Options directive: /var/www/html/
+[Thu Apr 12 05:19:49 2018] [error] [client 114.221.125.218] File does not exist: /var/www/html/currentsetting.htm
+[Thu Apr 12 05:20:20 2018] [error] [client 139.162.253.76] rejecting client initiated renegotiation
+[Thu Apr 12 08:49:28 2018] [error] [client 95.213.130.90] File does not exist: /var/www/html/_asterisk
+[Thu Apr 12 14:46:51 2018] [error] [client 216.218.206.67] Directory index forbidden by Options directive: /var/www/html/
+[Thu Apr 12 21:42:36 2018] [error] [client 139.162.113.204] Directory index forbidden by Options directive: /var/www/html/
+[Thu Apr 12 23:35:29 2018] [error] [client 62.4.14.198] Directory index forbidden by Options directive: /var/www/html/
+[Fri Apr 13 15:34:59 2018] [error] [client 216.218.206.66] Directory index forbidden by Options directive: /var/www/html/
+[Sat Apr 14 02:46:38 2018] [error] [client 109.236.91.21] Directory index forbidden by Options directive: /var/www/html/
+[Sat Apr 14 07:03:46 2018] [error] [client 139.162.116.133] Directory index forbidden by Options directive: /var/www/html/
+[Sat Apr 14 10:09:01 2018] [error] [client 107.170.193.11] Directory index forbidden by Options directive: /var/www/html/
+[Sat Apr 14 13:32:27 2018] [error] [client 74.82.47.2] Directory index forbidden by Options directive: /var/www/html/

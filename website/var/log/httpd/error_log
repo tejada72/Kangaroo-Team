@@ -1,37 +1,123 @@
-[Sun Mar 18 03:39:02 2018] [notice] Digest: generating secret for digest authentication ...
-[Sun Mar 18 03:39:02 2018] [notice] Digest: done
-[Sun Mar 18 03:39:02 2018] [notice] Apache/2.2.34 (Unix) DAV/2 PHP/5.3.29 mod_ssl/2.2.34 OpenSSL/1.0.2k-fips configured -- resuming normal operations
-[Sun Mar 18 04:30:21 2018] [error] [client 172.31.9.209] PHP Notice:  Use of undefined constant runId - assumed 'runId' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 48
-[Sun Mar 18 04:30:21 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 50
-[Sun Mar 18 04:30:45 2018] [error] [client 172.31.9.209] PHP Notice:  Use of undefined constant runId - assumed 'runId' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 48
-[Sun Mar 18 04:30:45 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 50
-[Sun Mar 18 04:30:58 2018] [error] [client 172.31.9.209] PHP Notice:  Use of undefined constant runId - assumed 'runId' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 48
-[Sun Mar 18 04:30:58 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 50
-[Sun Mar 18 04:31:37 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined index: run-code in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 34
-[Sun Mar 18 04:31:37 2018] [error] [client 172.31.9.209] PHP Notice:  Use of undefined constant runId - assumed 'runId' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 48
-[Sun Mar 18 04:31:37 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 50
-[Sun Mar 18 04:35:44 2018] [error] [client 172.31.9.209] PHP Notice:  Use of undefined constant runId - assumed 'runId' in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 48
-[Sun Mar 18 04:35:44 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 50
-[Sun Mar 18 04:43:38 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined variable: runId in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 48
-[Sun Mar 18 04:43:38 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 50
-[Sun Mar 18 04:47:42 2018] [error] [client 172.31.9.209] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 51
-[Sun Mar 18 04:55:28 2018] [error] [client 172.31.9.209] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 37
-[Sun Mar 18 14:10:41 2018] [error] [client 66.70.218.233] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/vendor
-[Sun Mar 18 14:56:45 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php
-[Sun Mar 18 14:56:45 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php5
-[Sun Mar 18 14:56:45 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php-cgi
-[Sun Mar 18 14:56:45 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php.cgi
-[Sun Mar 18 14:56:46 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php4
-[Sun Mar 18 14:56:46 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/php5-cli
-[Sun Mar 18 14:56:46 2018] [error] [client 85.118.206.11] script not found or unable to stat: /var/www/cgi-bin/test.cgi
-[Sun Mar 18 14:56:46 2018] [error] [client 85.118.206.11] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/cgi-sys
-[Sun Mar 18 15:16:52 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined index: log-time in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 149
-[Sun Mar 18 15:16:52 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined variable: newUserResult in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 153
-[Sun Mar 18 15:19:26 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined index: log-time in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 149
-[Sun Mar 18 15:19:26 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined variable: newUserResult in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 153
-[Sun Mar 18 15:19:56 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined index: log-time in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 149
-[Sun Mar 18 15:19:56 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined variable: newUserResult in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 153
-[Sun Mar 18 15:28:20 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined index: log-time in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 149
-[Sun Mar 18 17:04:09 2018] [error] [client 172.31.9.209] PHP Notice:  Undefined variable: runActiveResult in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 108
-[Sun Mar 18 17:04:09 2018] [error] [client 172.31.9.209] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 108
-[Sun Mar 18 17:11:47 2018] [error] [client 172.31.9.209] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/mobile.php on line 108
+[Sun Apr 29 07:28:01 2018] [notice] Digest: generating secret for digest authentication ...
+[Sun Apr 29 07:28:01 2018] [notice] Digest: done
+[Sun Apr 29 07:28:01 2018] [notice] Apache/2.2.34 (Unix) DAV/2 PHP/5.3.29 mod_ssl/2.2.34 OpenSSL/1.0.2k-fips configured -- resuming normal operations
+[Sun Apr 29 03:54:57 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wls-wsat
+[Sun Apr 29 03:54:58 2018] [error] [client 103.85.224.196] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/index.php' not found or unable to stat
+[Sun Apr 29 03:54:58 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Sun Apr 29 03:54:59 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin
+[Sun Apr 29 03:54:59 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pmd
+[Sun Apr 29 03:55:00 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Sun Apr 29 03:55:00 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA
+[Sun Apr 29 03:55:01 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2
+[Sun Apr 29 03:55:01 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pmamy
+[Sun Apr 29 03:55:02 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pmamy2
+[Sun Apr 29 03:55:02 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Sun Apr 29 03:55:03 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 03:55:03 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Sun Apr 29 03:55:04 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/dbadmin
+[Sun Apr 29 03:55:04 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/web
+[Sun Apr 29 03:55:05 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 03:55:05 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 03:55:06 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 03:55:06 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 03:55:07 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 03:55:07 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 03:55:07 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 03:55:08 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysqladmin
+[Sun Apr 29 03:55:08 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql-admin
+[Sun Apr 29 03:55:09 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpadmin
+[Sun Apr 29 03:55:09 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin0
+[Sun Apr 29 03:55:10 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin1
+[Sun Apr 29 03:55:10 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2
+[Sun Apr 29 03:55:11 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/myadmin
+[Sun Apr 29 03:55:11 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/myadmin2
+[Sun Apr 29 03:55:12 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/xampp
+[Sun Apr 29 03:55:12 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyadmin_bak
+[Sun Apr 29 03:55:13 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/www
+[Sun Apr 29 03:55:13 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/tools
+[Sun Apr 29 03:55:14 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin-old
+[Sun Apr 29 03:55:14 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdminold
+[Sun Apr 29 03:55:15 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma-old
+[Sun Apr 29 03:55:15 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/claroline
+[Sun Apr 29 03:55:16 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/typo3
+[Sun Apr 29 03:55:16 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpma
+[Sun Apr 29 03:55:17 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Sun Apr 29 03:55:17 2018] [error] [client 103.85.224.196] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin
+[Sun Apr 29 04:19:50 2018] [error] [client 177.87.3.104] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wls-wsat
+[Sun Apr 29 04:19:50 2018] [error] [client 177.87.3.104] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/user
+[Sun Apr 29 04:20:50 2018] [error] [client 177.87.3.104] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/jmx-console
+[Sun Apr 29 04:45:42 2018] [error] [client 111.121.193.195] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/index.action
+[Sun Apr 29 06:44:08 2018] [error] [client 171.232.55.194] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/jmx-console
+[Sun Apr 29 07:30:07 2018] [error] [client 115.76.157.85] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/jmx-console
+[Sun Apr 29 08:09:28 2018] [error] [client 92.87.242.17] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Sun Apr 29 08:09:28 2018] [error] [client 92.87.242.17] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/dbadmin
+[Sun Apr 29 08:09:29 2018] [error] [client 92.87.242.17] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Sun Apr 29 08:09:29 2018] [error] [client 92.87.242.17] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Sun Apr 29 08:56:56 2018] [error] [client 115.231.218.195] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/manager
+[Sun Apr 29 09:06:02 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wls-wsat
+[Sun Apr 29 09:06:03 2018] [error] [client 69.172.85.21] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/index.php' not found or unable to stat
+[Sun Apr 29 09:06:03 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Sun Apr 29 09:06:04 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin
+[Sun Apr 29 09:06:04 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pmd
+[Sun Apr 29 09:06:05 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Sun Apr 29 09:06:05 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA
+[Sun Apr 29 09:06:06 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2
+[Sun Apr 29 09:06:06 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pmamy
+[Sun Apr 29 09:06:07 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pmamy2
+[Sun Apr 29 09:06:07 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 09:06:08 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Sun Apr 29 09:06:08 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/dbadmin
+[Sun Apr 29 09:06:09 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/web
+[Sun Apr 29 09:06:10 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 09:06:11 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 09:06:11 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 09:06:12 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 09:06:12 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 09:06:13 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sun Apr 29 09:06:13 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysqladmin
+[Sun Apr 29 09:06:14 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql-admin
+[Sun Apr 29 09:06:14 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpadmin
+[Sun Apr 29 09:06:15 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin0
+[Sun Apr 29 09:06:15 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2
+[Sun Apr 29 09:06:16 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/myadmin
+[Sun Apr 29 09:06:16 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/myadmin2
+[Sun Apr 29 09:06:17 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/xampp
+[Sun Apr 29 09:06:19 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyadmin_bak
+[Sun Apr 29 09:06:19 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/tools
+[Sun Apr 29 09:06:20 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin-old
+[Sun Apr 29 09:06:20 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdminold
+[Sun Apr 29 09:06:21 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma-old
+[Sun Apr 29 09:06:21 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/claroline
+[Sun Apr 29 09:06:22 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/typo3
+[Sun Apr 29 09:06:22 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpma
+[Sun Apr 29 09:06:23 2018] [error] [client 69.172.85.21] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Sun Apr 29 10:06:19 2018] [error] [client 104.215.5.88] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/manager
+[Sun Apr 29 11:01:17 2018] [error] [client 35.205.60.118] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin.php' not found or unable to stat
+[Sun Apr 29 11:45:09 2018] [error] [client 179.60.146.12] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/themes
+[Sun Apr 29 11:50:38 2018] [error] [client 171.250.73.181] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/jmx-console
+[Sun Apr 29 11:57:27 2018] [error] [client 179.60.146.12] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/themes
+[Sun Apr 29 12:07:31 2018] [error] [client 93.174.95.106] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/robots.txt
+[Sun Apr 29 12:07:33 2018] [error] [client 93.174.95.106] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sitemap.xml
+[Sun Apr 29 12:07:35 2018] [error] [client 93.174.95.106] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/.well-known
+[Sun Apr 29 12:48:23 2018] [error] [client 171.235.45.127] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/jmx-console
+[Sun Apr 29 13:06:09 2018] [error] [client 80.249.171.86] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Sun Apr 29 13:06:09 2018] [error] [client 80.249.171.86] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/dbadmin
+[Sun Apr 29 13:06:10 2018] [error] [client 80.249.171.86] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Sun Apr 29 13:06:10 2018] [error] [client 80.249.171.86] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Sun Apr 29 15:59:34 2018] [error] [client 94.32.66.122] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Sun Apr 29 15:59:34 2018] [error] [client 94.32.66.122] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/dbadmin
+[Sun Apr 29 15:59:35 2018] [error] [client 94.32.66.122] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Sun Apr 29 15:59:35 2018] [error] [client 94.32.66.122] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Sun Apr 29 16:08:20 2018] [error] [client 167.99.173.22] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Sun Apr 29 16:08:20 2018] [error] [client 167.99.173.22] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/dbadmin
+[Sun Apr 29 16:08:20 2018] [error] [client 167.99.173.22] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Sun Apr 29 16:08:20 2018] [error] [client 167.99.173.22] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Sun Apr 29 17:19:48 2018] [error] [client 104.44.140.123] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Sun Apr 29 17:19:48 2018] [error] [client 104.44.140.123] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/dbadmin
+[Sun Apr 29 17:19:48 2018] [error] [client 104.44.140.123] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Sun Apr 29 17:19:48 2018] [error] [client 104.44.140.123] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Sun Apr 29 17:43:28 2018] [error] [client 188.166.167.247] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Sun Apr 29 17:43:28 2018] [error] [client 188.166.167.247] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/dbadmin
+[Sun Apr 29 17:43:28 2018] [error] [client 188.166.167.247] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Sun Apr 29 17:43:28 2018] [error] [client 188.166.167.247] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Sun Apr 29 20:37:06 2018] [error] [client 27.78.43.138] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/jmx-console

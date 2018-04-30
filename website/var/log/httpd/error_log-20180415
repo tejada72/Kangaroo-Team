@@ -1,0 +1,303 @@
+[Sun Apr 08 03:46:01 2018] [notice] Digest: generating secret for digest authentication ...
+[Sun Apr 08 03:46:01 2018] [notice] Digest: done
+[Sun Apr 08 03:46:01 2018] [notice] Apache/2.2.34 (Unix) DAV/2 PHP/5.3.29 mod_ssl/2.2.34 OpenSSL/1.0.2k-fips configured -- resuming normal operations
+[Sun Apr 08 09:56:35 2018] [error] [client 107.0.121.20] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wls-wsat
+[Mon Apr 09 04:20:58 2018] [error] [client 154.16.114.176] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Mon Apr 09 04:20:58 2018] [error] [client 154.16.114.176] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/dbadmin
+[Mon Apr 09 04:20:58 2018] [error] [client 154.16.114.176] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Mon Apr 09 04:20:58 2018] [error] [client 154.16.114.176] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:02 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Apr 10 01:11:02 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Apr 10 01:11:02 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Apr 10 01:11:03 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Apr 10 01:11:03 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Tue Apr 10 01:11:03 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyadmin
+[Tue Apr 10 01:11:03 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin
+[Tue Apr 10 01:11:03 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyAdmin
+[Tue Apr 10 01:11:04 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2
+[Tue Apr 10 01:11:04 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin3
+[Tue Apr 10 01:11:04 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin4
+[Tue Apr 10 01:11:04 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/2phpmyadmin
+[Tue Apr 10 01:11:04 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wp-content
+[Tue Apr 10 01:11:05 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmy
+[Tue Apr 10 01:11:05 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phppma
+[Tue Apr 10 01:11:05 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/myadmin
+[Tue Apr 10 01:11:05 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/shopdb
+[Tue Apr 10 01:11:06 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/MyAdmin
+[Tue Apr 10 01:11:06 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/program
+[Tue Apr 10 01:11:06 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA
+[Tue Apr 10 01:11:06 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/dbadmin
+[Tue Apr 10 01:11:06 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Tue Apr 10 01:11:07 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:07 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Apr 10 01:11:07 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Apr 10 01:11:07 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/database
+[Tue Apr 10 01:11:07 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:08 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:08 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sqlmanager
+[Tue Apr 10 01:11:08 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysqlmanager
+[Tue Apr 10 01:11:08 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/php-myadmin
+[Tue Apr 10 01:11:08 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmy-admin
+[Tue Apr 10 01:11:09 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysqladmin
+[Tue Apr 10 01:11:09 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql-admin
+[Tue Apr 10 01:11:09 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Apr 10 01:11:09 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Apr 10 01:11:10 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Apr 10 01:11:10 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Apr 10 01:11:10 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Apr 10 01:11:10 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Apr 10 01:11:10 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Tue Apr 10 01:11:11 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Apr 10 01:11:11 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Apr 10 01:11:11 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Apr 10 01:11:11 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Tue Apr 10 01:11:12 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:12 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:12 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:12 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:12 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:13 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:13 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:13 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:13 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:13 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:14 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:14 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:14 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:14 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sql
+[Tue Apr 10 01:11:14 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:15 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:15 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:15 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:15 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:16 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:16 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:16 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:16 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:16 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Tue Apr 10 01:11:17 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Apr 10 01:11:17 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Apr 10 01:11:17 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Apr 10 01:11:17 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Apr 10 01:11:17 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Apr 10 01:11:18 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Apr 10 01:11:18 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/administrator
+[Tue Apr 10 01:11:18 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin2
+[Tue Apr 10 01:11:18 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin3
+[Tue Apr 10 01:11:19 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin4
+[Tue Apr 10 01:11:19 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin-3
+[Tue Apr 10 01:11:19 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/php-my-admin
+[Tue Apr 10 01:11:19 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2011
+[Tue Apr 10 01:11:19 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2012
+[Tue Apr 10 01:11:20 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2013
+[Tue Apr 10 01:11:20 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2014
+[Tue Apr 10 01:11:20 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2015
+[Tue Apr 10 01:11:20 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2016
+[Tue Apr 10 01:11:20 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2017
+[Tue Apr 10 01:11:21 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/PMA2018
+[Tue Apr 10 01:11:21 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2011
+[Tue Apr 10 01:11:21 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2012
+[Tue Apr 10 01:11:21 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2013
+[Tue Apr 10 01:11:21 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2014
+[Tue Apr 10 01:11:22 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2015
+[Tue Apr 10 01:11:22 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2016
+[Tue Apr 10 01:11:22 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2017
+[Tue Apr 10 01:11:22 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma2018
+[Tue Apr 10 01:11:22 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2011
+[Tue Apr 10 01:11:23 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2012
+[Tue Apr 10 01:11:23 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2013
+[Tue Apr 10 01:11:23 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2014
+[Tue Apr 10 01:11:23 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2015
+[Tue Apr 10 01:11:23 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2016
+[Tue Apr 10 01:11:24 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2017
+[Tue Apr 10 01:11:24 2018] [error] [client 173.249.16.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin2018
+[Tue Apr 10 08:48:11 2018] [error] [client 36.233.67.229] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/index.action
+[Tue Apr 10 09:23:06 2018] [error] [client 115.231.218.136] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/manager
+[Tue Apr 10 17:27:36 2018] [error] [client 113.107.215.23] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wls-wsat
+[Wed Apr 11 05:08:33 2018] [error] [client 61.188.184.12] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/scripts
+[Wed Apr 11 17:05:22 2018] [error] [client 217.61.106.155] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/w00tw00t.at.blackhats.romanian.anti-sec:)
+[Wed Apr 11 17:05:22 2018] [error] [client 217.61.106.155] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin
+[Wed Apr 11 17:05:22 2018] [error] [client 217.61.106.155] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Wed Apr 11 17:05:22 2018] [error] [client 217.61.106.155] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Wed Apr 11 17:05:23 2018] [error] [client 217.61.106.155] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/myadmin
+[Wed Apr 11 17:05:23 2018] [error] [client 217.61.106.155] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/MyAdmin
+[Wed Apr 11 19:50:31 2018] [error] [client 61.160.45.109] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wls-wsat
+[Wed Apr 11 21:02:09 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:02:16 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:02:23 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:02:27 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:02:34 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:02:41 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:02:48 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:02:55 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:03:02 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:03:09 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:03:16 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:03:23 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:03:30 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:03:37 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:03:44 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:03:51 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:03:58 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:04:05 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:04:12 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:04:19 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:04:26 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:04:33 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:04:40 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:04:47 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:04:54 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:05:01 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:05:09 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:05:15 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:05:22 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:05:30 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:05:37 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:05:44 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:05:51 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:05:58 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:06:05 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:06:12 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:06:19 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:06:26 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:06:33 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:06:40 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:06:47 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:06:54 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:07:01 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:07:08 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:07:15 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:07:22 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:07:30 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:07:36 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:07:43 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:07:50 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:07:57 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:08:04 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:08:11 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:08:18 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:08:25 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:08:32 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:08:39 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:08:46 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:08:53 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:09:00 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:09:07 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:09:14 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:09:21 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:09:28 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:09:36 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:09:42 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:09:49 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:09:56 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:10:03 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:10:10 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:10:17 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:10:24 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:10:31 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:10:38 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:10:45 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Wed Apr 11 21:10:52 2018] [error] [client 150.250.5.30] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/api/map-info.php on line 34, referer: http://ec2-54-157-62-1.compute-1.amazonaws.com/log/map.php?code=yq4xnt
+[Thu Apr 12 04:43:23 2018] [error] [client 192.228.100.250] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/user
+[Thu Apr 12 05:19:49 2018] [error] [client 114.221.125.218] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/currentsetting.htm
+[Thu Apr 12 07:43:59 2018] [error] [client 58.218.200.2] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/script
+[Thu Apr 12 08:08:19 2018] [error] [client 24.173.98.44] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Thu Apr 12 08:08:19 2018] [error] [client 24.173.98.44] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/dbadmin
+[Thu Apr 12 08:08:19 2018] [error] [client 24.173.98.44] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Thu Apr 12 08:08:19 2018] [error] [client 24.173.98.44] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Thu Apr 12 09:14:05 2018] [error] [client 46.243.189.99] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/w00tw00t.at.blackhats.romanian.anti-sec:)
+[Thu Apr 12 09:14:05 2018] [error] [client 46.243.189.99] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin
+[Thu Apr 12 09:14:05 2018] [error] [client 46.243.189.99] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Thu Apr 12 09:14:05 2018] [error] [client 46.243.189.99] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Thu Apr 12 09:14:06 2018] [error] [client 46.243.189.99] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/myadmin
+[Thu Apr 12 09:14:06 2018] [error] [client 46.243.189.99] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/MyAdmin
+[Thu Apr 12 09:37:35 2018] [error] [client 5.36.24.84] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wls-wsat
+[Thu Apr 12 14:13:27 2018] [error] [client 115.231.218.136] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/manager
+[Fri Apr 13 01:27:47 2018] [error] [client 179.210.40.176] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/hndUnblock.cgi
+[Fri Apr 13 01:27:47 2018] [error] [client 179.210.40.176] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/tmUnblock.cgi
+[Fri Apr 13 01:27:47 2018] [error] [client 179.210.40.176] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/moo
+[Fri Apr 13 01:27:48 2018] [error] [client 179.210.40.176] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/getcfg.php' not found or unable to stat
+[Fri Apr 13 01:27:48 2018] [error] [client 179.210.40.176] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/getcfg.php' not found or unable to stat
+[Fri Apr 13 05:26:18 2018] [error] [client 124.95.37.2] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/wls-wsat
+[Fri Apr 13 05:54:54 2018] [error] [client 107.170.6.56] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/w00tw00t.at.blackhats.romanian.anti-sec:)
+[Fri Apr 13 05:54:54 2018] [error] [client 107.170.6.56] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin
+[Fri Apr 13 05:54:55 2018] [error] [client 107.170.6.56] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Fri Apr 13 05:54:55 2018] [error] [client 107.170.6.56] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Fri Apr 13 05:54:55 2018] [error] [client 107.170.6.56] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/myadmin
+[Fri Apr 13 05:54:55 2018] [error] [client 107.170.6.56] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/MyAdmin
+[Fri Apr 13 06:23:27 2018] [error] [client 43.225.157.236] script not found or unable to stat: /var/www/cgi-bin/textenv.pl
+[Fri Apr 13 14:14:25 2018] [error] [client 71.6.202.198] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/ccvv
+[Fri Apr 13 16:17:44 2018] [error] [client 183.131.83.88] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/manager
+[Fri Apr 13 19:49:39 2018] [error] [client 220.189.249.99] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/manager
+[Fri Apr 13 20:58:35 2018] [error] [client 34.237.186.221] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Fri Apr 13 20:58:35 2018] [error] [client 34.237.186.221] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 00:29:02 2018] [error] [client 188.165.171.114] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 00:29:02 2018] [error] [client 188.165.171.114] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 00:30:21 2018] [error] [client 190.94.141.51] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 00:30:22 2018] [error] [client 190.94.141.51] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 02:03:42 2018] [error] [client 162.213.11.194] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/user
+[Sat Apr 14 06:25:05 2018] [error] [client 145.128.189.206] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 06:25:05 2018] [error] [client 145.128.189.206] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 07:18:31 2018] [error] [client 13.126.193.85] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 07:18:31 2018] [error] [client 13.126.193.85] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 08:04:54 2018] [error] [client 190.94.144.210] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 08:04:54 2018] [error] [client 190.94.144.210] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 08:50:51 2018] [error] [client 178.79.128.75] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 08:50:51 2018] [error] [client 178.79.128.75] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 09:22:18 2018] [error] [client 190.94.139.246] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 09:22:18 2018] [error] [client 190.94.139.246] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 09:55:20 2018] [error] [client 190.94.144.219] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 09:55:20 2018] [error] [client 190.94.144.219] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 11:25:46 2018] [error] [client 45.55.187.204] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 11:25:46 2018] [error] [client 45.55.187.204] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 11:49:08 2018] [error] [client 134.101.24.200] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 11:49:08 2018] [error] [client 134.101.24.200] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 13:03:22 2018] [error] [client 190.94.135.229] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 13:03:22 2018] [error] [client 190.94.135.229] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 14:18:21 2018] [error] [client 84.88.159.13] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 14:18:21 2018] [error] [client 84.88.159.13] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 14:31:56 2018] [error] [client 146.185.181.52] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 14:31:56 2018] [error] [client 146.185.181.52] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 15:00:39 2018] [error] [client 190.94.138.59] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 15:00:41 2018] [error] [client 190.94.138.59] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 16:03:14 2018] [error] [client 103.251.59.82] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/user
+[Sat Apr 14 16:42:49 2018] [error] [client 202.216.19.72] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/user
+[Sat Apr 14 16:58:30 2018] [error] [client 156.67.214.64] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 16:58:31 2018] [error] [client 156.67.214.64] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 17:01:28 2018] [error] [client 93.157.1.178] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 17:01:28 2018] [error] [client 93.157.1.178] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 17:10:23 2018] [error] [client 193.205.61.151] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/user
+[Sat Apr 14 17:28:26 2018] [error] [client 12.34.160.18] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/user
+[Sat Apr 14 18:23:40 2018] [error] [client 190.94.149.64] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sat Apr 14 18:23:40 2018] [error] [client 190.94.149.64] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/t6nv
+[Sat Apr 14 18:26:41 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/w00tw00t.at.blackhats.romanian.anti-sec:)
+[Sat Apr 14 18:26:41 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpmyadmin
+[Sat Apr 14 18:26:41 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/scripts
+[Sat Apr 14 18:26:42 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/db
+[Sat Apr 14 18:26:42 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/myadmin
+[Sat Apr 14 18:26:42 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysql
+[Sat Apr 14 18:26:42 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpMyAdmin2
+[Sat Apr 14 18:26:43 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sat Apr 14 18:26:43 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sat Apr 14 18:26:43 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/admin
+[Sat Apr 14 18:26:43 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/sqladmin
+[Sat Apr 14 18:26:43 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/mysqladmin
+[Sat Apr 14 18:26:44 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/phpadmin
+[Sat Apr 14 18:26:44 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/blog
+[Sat Apr 14 18:26:44 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/web
+[Sat Apr 14 18:26:44 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/dbadmin
+[Sat Apr 14 18:26:44 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/pma
+[Sat Apr 14 18:26:45 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/database
+[Sat Apr 14 18:26:45 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/php
+[Sat Apr 14 18:26:45 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/web
+[Sat Apr 14 18:26:45 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/php
+[Sat Apr 14 18:26:45 2018] [error] [client 185.172.110.202] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/_phpmyadmin
+[Sat Apr 14 21:19:08 2018] [error] [client 52.40.134.27] File does not exist: /var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/user
+[Sun Apr 15 00:30:51 2018] [error] [client 54.164.99.52] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sun Apr 15 00:37:59 2018] [error] [client 18.194.21.51] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sun Apr 15 00:38:09 2018] [error] [client 104.236.43.5] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sun Apr 15 00:47:59 2018] [error] [client 54.246.198.109] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sun Apr 15 01:16:31 2018] [error] [client 85.27.160.49] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sun Apr 15 01:52:06 2018] [error] [client 159.89.179.205] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sun Apr 15 02:07:19 2018] [error] [client 81.248.28.61] script '/var/www/html/ec2-54-157-62-1.compute-1.amazonaws.com/rss.php' not found or unable to stat
+[Sun Apr 15 03:15:01 2018] [notice] SIGHUP received.  Attempting to restart
