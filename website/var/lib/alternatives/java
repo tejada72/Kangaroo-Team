@@ -1,9 +1,5 @@
 auto
 /usr/bin/java
-jre
-/usr/lib/jvm/jre
-jre_exports
-/usr/lib/jvm-exports/jre
 keytool
 /usr/bin/keytool
 orbd
@@ -20,6 +16,10 @@ tnameserv
 /usr/bin/tnameserv
 unpack200
 /usr/bin/unpack200
+jre_exports
+/usr/lib/jvm-exports/jre
+jre
+/usr/lib/jvm/jre
 java.1.gz
 /usr/share/man/man1/java.1.gz
 keytool.1.gz
@@ -41,8 +41,6 @@ unpack200.1.gz
 
 /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java
 17000
-/usr/lib/jvm/jre-1.7.0-openjdk.x86_64
-/usr/lib/jvm-exports/jre-1.7.0-openjdk.x86_64
 /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/keytool
 /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/orbd
 /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/pack200
@@ -51,6 +49,8 @@ unpack200.1.gz
 /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/servertool
 /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/tnameserv
 /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/unpack200
+/usr/lib/jvm-exports/jre-1.7.0-openjdk.x86_64
+/usr/lib/jvm/jre-1.7.0-openjdk.x86_64
 /usr/share/man/man1/java-java-1.7.0-openjdk.1.gz
 /usr/share/man/man1/keytool-java-1.7.0-openjdk.1.gz
 /usr/share/man/man1/orbd-java-1.7.0-openjdk.1.gz
