@@ -4,3 +4,6 @@
       ___|\___|___|
 
 https://aws.amazon.com/amazon-linux-ami/2017.09-release-notes/
+14 package(s) needed for security, out of 20 available
+Run "sudo yum update" to apply all updates.
+Amazon Linux version 2018.03 is available.
